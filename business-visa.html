@@ -401,7 +401,7 @@ function applyLang(lang){
   document.querySelectorAll("[data-f]").forEach(el=>{ if(FOOT[lang][el.dataset.f]) el.textContent = FOOT[lang][el.dataset.f]; });
   document.querySelectorAll(".lang-switch button").forEach(b=>b.classList.toggle("active", b.dataset.lang === lang));
 }
-document.querySelectorAll(".lang-switch button").forEach(b=>b.addEventListener("click", ()=>applyLang(b.dataset.lang)));
+document.querySelectorAll(".lang-switch button").forEach(b=>b.addEventListener("click", ()=>{ applyLang(b.dataset.lang); try{localStorage.setItem("mv_lang", b.dataset.lang)}catch(e){} }));
 
 
 document.getElementById("year").textContent = new Date().getFullYear();
@@ -424,7 +424,7 @@ document.querySelectorAll(".acc").forEach(group=>{
   });
 });
 
-applyLang("en");
+applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||s==="en") return s; }catch(e){} return "en"; })());
 </script>
 </body>
 </html>
