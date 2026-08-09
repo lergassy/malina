@@ -113,9 +113,11 @@ img,video,canvas{display:block;max-width:100%}
 .mobile-nav{
   position:fixed;inset:0;z-index:75;background:rgba(8,9,11,.96);backdrop-filter:blur(20px);
   display:none;flex-direction:column;justify-content:flex-start;gap:8px;padding:104px 32px 70px;
-  overflow-y:auto;-webkit-overflow-scrolling:touch;
+  overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
 }
 .mobile-nav.open{display:flex}
+body.nav-lock{overflow:hidden;touch-action:none}
+body.nav-lock .mobile-nav{touch-action:pan-y}
 .mobile-nav a{font-size:32px;font-weight:700;letter-spacing:-.02em;padding:10px 0;color:var(--text)}
 
 .nav-drop{position:relative}
@@ -794,8 +796,13 @@ document.getElementById("chatToggle").addEventListener("click", ()=>{
 
 const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
-burger.addEventListener("click", ()=>mobileNav.classList.toggle("open"));
-mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobileNav.classList.remove("open")));
+function setNav(open){
+  mobileNav.classList.toggle("open", open);
+  document.body.classList.toggle("nav-lock", open);
+  if (typeof lenis !== "undefined" && lenis) { open ? lenis.stop() : lenis.start(); }
+}
+burger.addEventListener("click", ()=>setNav(!mobileNav.classList.contains("open")));
+mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>setNav(false)));
 
 /* ---------- grain ---------- */
 (function grain(){

@@ -92,8 +92,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .lang-switch button.active{background:var(--glass-strong);color:var(--text)}
 .burger{display:none;flex-direction:column;gap:5px;padding:8px}
 .burger span{width:22px;height:2px;background:var(--text);border-radius:2px}
-.mobile-nav{position:fixed;inset:0;z-index:75;background:rgba(8,9,11,.97);backdrop-filter:blur(20px);display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:104px 32px 70px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.mobile-nav{position:fixed;inset:0;z-index:75;background:rgba(8,9,11,.97);backdrop-filter:blur(20px);display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:104px 32px 70px;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .mobile-nav.open{display:flex}
+body.nav-lock{overflow:hidden;touch-action:none}
+body.nav-lock .mobile-nav{touch-action:pan-y}
 .mobile-nav a{font-size:26px;font-weight:700;letter-spacing:-.02em;padding:8px 0}
 .mobile-nav .sub{font-size:17px;font-weight:500;color:var(--muted);padding:6px 0 6px 18px}
 
@@ -408,8 +410,13 @@ document.getElementById("chatToggle").addEventListener("click", ()=>{
 });
 const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
-burger.addEventListener("click", ()=>mobileNav.classList.toggle("open"));
-mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobileNav.classList.remove("open")));
+function setNav(open){
+  mobileNav.classList.toggle("open", open);
+  document.body.classList.toggle("nav-lock", open);
+  if (typeof lenis !== "undefined" && lenis) { open ? lenis.stop() : lenis.start(); }
+}
+burger.addEventListener("click", ()=>setNav(!mobileNav.classList.contains("open")));
+mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>setNav(false)));
 
 /* аккордеоны: открытие одного закрывает соседей в группе */
 document.querySelectorAll(".acc").forEach(group=>{
