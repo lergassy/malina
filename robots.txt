@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-# TODO при запуске: добавить строку Sitemap: https://ВАШ-ДОМЕН/sitemap.xml
+
+Sitemap: https://malinavisa.com/sitemap.xml
