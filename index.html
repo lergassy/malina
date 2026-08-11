@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="v13-jsscroll">
+<meta name="build" content="v16-contacts">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -112,9 +112,9 @@ img,video,canvas{display:block;max-width:100%}
 .lang-switch button.active{background:var(--glass-strong);color:var(--text)}
 .burger{display:none;flex-direction:column;gap:5px;padding:8px}
 .burger span{width:22px;height:2px;background:var(--text);border-radius:2px;transition:.3s}
-.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:8px;padding:104px 32px 80px;overflow-y:auto}
+.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:8px;padding:92px 32px 36px;overflow-y:auto}
 .mobile-nav.open{display:flex}
-.mobile-nav a{font-size:32px;font-weight:700;letter-spacing:-.02em;padding:10px 0;color:var(--text)}
+.mobile-nav a{font-size:24px;font-weight:700;letter-spacing:-.02em;padding:6px 0;color:var(--text)}
 
 .nav-drop{position:relative}
 .nav-drop>button{color:var(--muted);transition:color .3s;display:flex;align-items:center;gap:6px;font-size:14.5px;font-weight:500}
@@ -132,7 +132,7 @@ img,video,canvas{display:block;max-width:100%}
 .drop-menu a{display:block;padding:11px 14px;border-radius:10px;font-size:14px;color:var(--muted);transition:.25s}
 .drop-menu a:hover{background:var(--glass-strong);color:var(--text)}
 .drop-menu .drop-all{margin-top:6px;border-top:1px solid var(--line);padding-top:12px;color:var(--gold);font-weight:600}
-.mobile-nav a.sub{font-size:19px;font-weight:500;color:var(--muted);padding:6px 0 6px 18px}
+.mobile-nav a.sub{font-size:15px;font-weight:500;color:var(--muted);padding:4px 0 4px 18px}
 /* ---------- film (hero + intro scroll-scrub) ---------- */
 .film{position:relative;height:520vh}
 .film-stage{position:sticky;top:0;height:100vh;overflow:hidden}
@@ -379,6 +379,7 @@ img,video,canvas{display:block;max-width:100%}
         </div>
       </div>
       <a href="#about" data-i18n="nav_about">About Us</a>
+      <a href="contacts.html" data-i18n="nav_contacts">Contacts</a>
     </nav>
     <div class="header-right">
       <div class="lang-switch" role="group" aria-label="Language">
@@ -403,6 +404,7 @@ img,video,canvas{display:block;max-width:100%}
   <a class="sub" href="multiple-visa.html" data-i18n="dm_multiple">Multiple D1 / D2</a>
   <a class="sub" href="kitas-kitap.html" data-i18n="dm_kitas">KITAS &amp; KITAP</a>
   <a href="#about" data-i18n="nav_about">About Us</a>
+  <a href="contacts.html" data-i18n="nav_contacts">Contacts</a>
 </div>
 
 <!-- ======= FILM: HERO + INTRO (scroll-scrubbed drone footage) ======= -->
@@ -584,7 +586,7 @@ img,video,canvas{display:block;max-width:100%}
         <h4 data-i18n="f_col2">Company</h4>
         <a href="#about" data-i18n="nav_about">About Us</a>
         <a href="#about" data-i18n="rev_title_short">Reviews</a>
-        <a href="mailto:visaprimabali@gmail.com" data-i18n="f_contacts">Contacts</a>
+        <a href="contacts.html" data-i18n="f_contacts">Contacts</a>
         <a href="privacy-policy.html" data-i18n="f_priv">Privacy Policy</a>
       </div>
       <div class="footer-col">
@@ -592,7 +594,7 @@ img,video,canvas{display:block;max-width:100%}
         <a href="mailto:visaprimabali@gmail.com">visaprimabali@gmail.com</a>
         <a href="https://wa.me/6287842255781" target="_blank" rel="noopener">WhatsApp +62 878-4225-5781</a>
         <a href="https://t.me/mstatham1" target="_blank" rel="noopener">Telegram @mstatham1</a>
-        <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener" data-i18n="f_addr">Kuta, Badung Regency, Bali, Indonesia</a><!-- TODO: точный адрес офиса -->
+        <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener" data-i18n="f_addr">Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362</a><!-- TODO: точный адрес офиса -->
       </div>
     </div>
     <div class="footer-bottom">
@@ -656,7 +658,7 @@ const TRUST = { score:"5.0", count:"98" };
 /* ---------- i18n ---------- */
 const I18N = {
   en: {
-    nav_business:"Business Services", nav_acc:"Accounting", bm_setup:"Company Registration", bm_pma:"PT PMA Company", bm_local:"Local PT (PMDN)", bm_close:"Company Closure", bm_all:"All business services →", nav_legal:"Legal Services", nav_visas:"Visas", nav_about:"About Us",
+    nav_business:"Business Services", nav_acc:"Accounting", bm_setup:"Company Registration", bm_pma:"PT PMA Company", bm_local:"Local PT (PMDN)", bm_close:"Company Closure", bm_all:"All business services →", nav_legal:"Legal Services", nav_visas:"Visas", nav_about:"About Us", nav_contacts:"Contacts",
     dm_tourist:"Tourist Visa C1 (211A)", dm_voa:"Visa on Arrival (VOA)", dm_family:"Family KITAS",
     dm_work:"Work KITAS", dm_business:"Business Visa C2", dm_multiple:"Multiple-entry D1 / D2", dm_d12:"Pre-Investment D12", dm_c18:"Candidate Visa C18", dm_kitas:"KITAS & KITAP", dm_all:"All visa types →",
     hero_l1:"Every Indonesian visa.", hero_l2:"Handled end to end.",
@@ -694,11 +696,11 @@ const I18N = {
     footer_tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
     f_col1:"Services", f_col2:"Company", f_col3:"Contact",
     f_payment:"Payment Methods", f_contacts:"Contacts", f_priv:"Privacy Policy",
-    f_addr:"Kuta, Badung Regency, Bali, Indonesia",
+    f_addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362",
     f_rights:"All rights reserved", chat_cta:"Chat with us"
   },
   ru: {
-    nav_business:"Бизнес-услуги", nav_acc:"Бухгалтерия", bm_setup:"Регистрация компаний", bm_pma:"Компания PT PMA", bm_local:"Local PT (PMDN)", bm_close:"Закрытие компании", bm_all:"Все бизнес-услуги →", nav_legal:"Юридические услуги", nav_visas:"Визы", nav_about:"О нас",
+    nav_business:"Бизнес-услуги", nav_acc:"Бухгалтерия", bm_setup:"Регистрация компаний", bm_pma:"Компания PT PMA", bm_local:"Local PT (PMDN)", bm_close:"Закрытие компании", bm_all:"Все бизнес-услуги →", nav_legal:"Юридические услуги", nav_visas:"Визы", nav_about:"О нас", nav_contacts:"Контакты",
     dm_tourist:"Туристическая виза C1 (211A)", dm_voa:"Виза по прибытии (VOA)", dm_family:"Семейный КИТАС",
     dm_work:"Рабочий КИТАС", dm_business:"Бизнес-виза C2", dm_multiple:"Многократная D1 / D2", dm_d12:"Pre-Investment D12", dm_c18:"Виза кандидата C18", dm_kitas:"KITAS и KITAP", dm_all:"Все типы виз →",
     hero_l1:"Любая виза в Индонезию.", hero_l2:"Под ключ, от и до.",
@@ -736,7 +738,7 @@ const I18N = {
     footer_tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
     f_col1:"Услуги", f_col2:"Компания", f_col3:"Контакты",
     f_payment:"Способы оплаты", f_contacts:"Контакты", f_priv:"Политика конфиденциальности",
-    f_addr:"Кута, округ Бадунг, Бали, Индонезия",
+    f_addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362",
     f_rights:"Все права защищены", chat_cta:"Напишите нам"
   }
 };
@@ -792,17 +794,23 @@ document.getElementById("chatToggle").addEventListener("click", ()=>{
 
 const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
-burger.addEventListener("click", ()=>mobileNav.classList.toggle("open"));
-mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobileNav.classList.remove("open")));
+burger.addEventListener("click", ()=>{
+  const open = mobileNav.classList.toggle("open");
+  if (typeof lenis !== "undefined" && lenis) { open ? lenis.stop() : lenis.start(); }
+});
+mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>{
+  mobileNav.classList.remove("open");
+  if (typeof lenis !== "undefined" && lenis) lenis.start();
+}));
 /* прокрутка меню своими руками — не зависит от жестов браузера */
 (function(){
   let sy = 0, st = 0;
   mobileNav.addEventListener("touchstart", function(e){
-    sy = e.touches[0].clientY; st = mobileNav.scrollTop;
+    sy = e.touches[0].clientY; st = mobileNav.scrollTop; e.stopPropagation();
   }, {passive:true});
   mobileNav.addEventListener("touchmove", function(e){
     mobileNav.scrollTop = st + (sy - e.touches[0].clientY);
-    e.preventDefault();
+    e.preventDefault(); e.stopPropagation();
   }, {passive:false});
 })();
 

@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="v13-jsscroll">
+<meta name="build" content="v16-contacts">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -94,10 +94,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .lang-switch button.active{background:var(--glass-strong);color:var(--text)}
 .burger{display:none;flex-direction:column;gap:5px;padding:8px}
 .burger span{width:22px;height:2px;background:var(--text);border-radius:2px}
-.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:104px 32px 80px;overflow-y:auto}
+.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:92px 32px 36px;overflow-y:auto}
 .mobile-nav.open{display:flex}
-.mobile-nav a{font-size:26px;font-weight:700;letter-spacing:-.02em;padding:8px 0}
-.mobile-nav .sub{font-size:17px;font-weight:500;color:var(--muted);padding:6px 0 6px 18px}
+.mobile-nav a{font-size:22px;font-weight:700;letter-spacing:-.02em;padding:5px 0}
+.mobile-nav .sub{font-size:15px;font-weight:500;color:var(--muted);padding:4px 0 4px 18px}
 
 /* page hero */
 .page-hero{padding:150px 0 56px;background:
@@ -245,6 +245,7 @@ body.lang-en main.en{display:block}
         </div>
       </div>
       <a href="index.html#about" data-nav="about">About Us</a>
+      <a href="contacts.html" data-nav="contacts">Contacts</a>
     </nav>
     <div class="header-right">
       <div class="lang-switch" role="group" aria-label="Language">
@@ -271,6 +272,7 @@ body.lang-en main.en{display:block}
   <a class="sub" href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
   <a class="sub" href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="index.html#about" data-nav="about">About Us</a>
+  <a href="contacts.html" data-nav="contacts">Contacts</a>
 </div>
 
 <main class="ru" lang="ru">
@@ -347,7 +349,7 @@ body.lang-en main.en{display:block}
         <h4 data-f="c2">Company</h4>
         <a href="index.html#about" data-f="about">About Us</a>
         <a href="index.html#about" data-f="reviews">Reviews</a>
-        <a href="mailto:visaprimabali@gmail.com" data-f="contacts">Contacts</a>
+        <a href="contacts.html" data-f="contacts">Contacts</a>
         <a href="privacy-policy.html" data-f="priv">Privacy Policy</a>
       </div>
       <div class="footer-col">
@@ -355,7 +357,7 @@ body.lang-en main.en{display:block}
         <a href="mailto:visaprimabali@gmail.com">visaprimabali@gmail.com</a>
         <a href="https://wa.me/6287842255781" target="_blank" rel="noopener">WhatsApp +62 878-4225-5781</a>
         <a href="https://t.me/mstatham1" target="_blank" rel="noopener">Telegram @mstatham1</a>
-        <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener" data-f="addr">Kuta, Badung Regency, Bali, Indonesia</a>
+        <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener" data-f="addr">Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -380,11 +382,11 @@ body.lang-en main.en{display:block}
 <script>
 /* язык: показываем main.ru или main.en, переводим шапку/футер */
 const NAV = {
-  en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us",
+  en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", contacts:"Contacts",
         d_tourist:"Tourist Visa C1 (211A)", d_voa:"Visa on Arrival (VOA)", d_business:"Business Visa C2",
         d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18",
         d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
-  ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас",
+  ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", contacts:"Контакты",
         d_tourist:"Туристическая виза C1 (211A)", d_voa:"Виза по прибытии (VOA)", d_business:"Бизнес-виза C2",
         d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18",
         d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
@@ -392,12 +394,12 @@ const NAV = {
 const FOOT = {
   en: { tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
         c1:"Services", c2:"Company", c3:"Contact", business:"Business Services", visas:"Visas", acc:"Accounting", setup:"Company Registration",
-        legal:"Legal Services", payment:"Payment Methods", about:"About Us", reviews:"Reviews",
-        contacts:"Contacts", priv:"Privacy Policy", addr:"Kuta, Badung Regency, Bali, Indonesia", rights:"All rights reserved", chat:"Chat with us" },
+        legal:"Legal Services", payment:"Payment Methods", about:"About Us", contacts:"Contacts", reviews:"Reviews",
+        contacts:"Contacts", priv:"Privacy Policy", addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362", rights:"All rights reserved", chat:"Chat with us" },
   ru: { tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
         c1:"Услуги", c2:"Компания", c3:"Контакты", business:"Бизнес-услуги", visas:"Визы", acc:"Бухгалтерия", setup:"Регистрация компаний",
-        legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", reviews:"Отзывы",
-        contacts:"Контакты", priv:"Политика конфиденциальности", addr:"Кута, округ Бадунг, Бали, Индонезия", rights:"Все права защищены", chat:"Напишите нам" }
+        legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", contacts:"Контакты", reviews:"Отзывы",
+        contacts:"Контакты", priv:"Политика конфиденциальности", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
 };
 const PAGE_TITLES = {
   ru: "КИТАС артиста в Индонезии — легальные выступления | Malina Visa",
@@ -428,11 +430,11 @@ mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobil
 (function(){
   let sy = 0, st = 0;
   mobileNav.addEventListener("touchstart", function(e){
-    sy = e.touches[0].clientY; st = mobileNav.scrollTop;
+    sy = e.touches[0].clientY; st = mobileNav.scrollTop; e.stopPropagation();
   }, {passive:true});
   mobileNav.addEventListener("touchmove", function(e){
     mobileNav.scrollTop = st + (sy - e.touches[0].clientY);
-    e.preventDefault();
+    e.preventDefault(); e.stopPropagation();
   }, {passive:false});
 })();
 
