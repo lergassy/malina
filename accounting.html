@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="v12-minimal">
+<meta name="build" content="v13-jsscroll">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -413,6 +413,17 @@ const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
 burger.addEventListener("click", ()=>mobileNav.classList.toggle("open"));
 mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobileNav.classList.remove("open")));
+/* прокрутка меню своими руками — не зависит от жестов браузера */
+(function(){
+  let sy = 0, st = 0;
+  mobileNav.addEventListener("touchstart", function(e){
+    sy = e.touches[0].clientY; st = mobileNav.scrollTop;
+  }, {passive:true});
+  mobileNav.addEventListener("touchmove", function(e){
+    mobileNav.scrollTop = st + (sy - e.touches[0].clientY);
+    e.preventDefault();
+  }, {passive:false});
+})();
 
 /* аккордеоны: открытие одного закрывает соседей в группе */
 document.querySelectorAll(".acc").forEach(group=>{
