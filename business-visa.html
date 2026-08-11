@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
+<meta name="build" content="v12-minimal">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -93,9 +94,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .lang-switch button.active{background:var(--glass-strong);color:var(--text)}
 .burger{display:none;flex-direction:column;gap:5px;padding:8px}
 .burger span{width:22px;height:2px;background:var(--text);border-radius:2px}
-.mobile-nav{position:fixed;inset:0;z-index:75;background:rgba(8,9,11,.97);backdrop-filter:blur(20px);display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:104px 32px 70px;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;height:100dvh;max-height:100dvh}
+.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:104px 32px 80px;overflow-y:auto}
 .mobile-nav.open{display:flex}
-body.nav-lock{overflow:hidden}
 .mobile-nav a{font-size:26px;font-weight:700;letter-spacing:-.02em;padding:8px 0}
 .mobile-nav .sub{font-size:17px;font-weight:500;color:var(--muted);padding:6px 0 6px 18px}
 
@@ -418,13 +418,8 @@ document.getElementById("chatToggle").addEventListener("click", ()=>{
 });
 const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
-function setNav(open){
-  mobileNav.classList.toggle("open", open);
-  document.body.classList.toggle("nav-lock", open);
-  if (typeof lenis !== "undefined" && lenis) { open ? lenis.stop() : lenis.start(); }
-}
-burger.addEventListener("click", ()=>setNav(!mobileNav.classList.contains("open")));
-mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>setNav(false)));
+burger.addEventListener("click", ()=>mobileNav.classList.toggle("open"));
+mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobileNav.classList.remove("open")));
 
 /* аккордеоны: открытие одного закрывает соседей в группе */
 document.querySelectorAll(".acc").forEach(group=>{
