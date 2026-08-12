@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v17-gsc">
+<meta name="build" content="v20-perf">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -32,7 +32,9 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22favGold%22%20x1%3D%228%22%20y1%3D%228%22%20x2%3D%2256%22%20y2%3D%2256%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ecd5a4%22/%3E%3Cstop%20offset%3D%22.6%22%20stop-color%3D%22%23d2a45c%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23a97c3c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d%3D%22M32.5%2012.5c2.4-4.2%207.8-4.8%2010.8-3.1-1%204.1-5.8%206.2-10.8%203.1z%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M33%2013c-.5-2.9%200-4.8%201.4-6.5%22%20stroke%3D%22url%28%23favGold%29%22%20stroke-width%3D%222.2%22%20stroke-linecap%3D%22round%22%20fill%3D%22none%22/%3E%3Cg%20stroke%3D%22%2308090b%22%20stroke-width%3D%221.6%22%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2229%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3C/g%3E%3Cpath%20d%3D%22M28.5%2042.5%2028%2048M35.5%2042.5%2036.5%2048%22%20stroke%3D%22%23f5f1e7%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22/%3E%3Cg%20transform%3D%22rotate%28-8%2032%2051.5%29%22%3E%3Crect%20x%3D%228%22%20y%3D%2248%22%20width%3D%2248%22%20height%3D%227%22%20rx%3D%223.5%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M14%2051.5h36%22%20stroke%3D%22%23a97c3c%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.6%22/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 <style>
 :root{
   --ink:#08090b;
@@ -92,12 +94,7 @@ img,video,canvas{display:block;max-width:100%}
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;letter-spacing:-.02em}
 .logo-mark{width:30px;height:30px;border-radius:9px;background:var(--grad);display:grid;place-items:center;color:var(--ink);font-size:15px;font-weight:700}
 .logo-badge{flex:0 0 auto;display:block}
-.logo-img{
-  width:42px;height:42px;flex:0 0 auto;
-  background:url("https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_075043_c7038069-c750-48ae-8dd8-264f28da0bfc.png") no-repeat;
-  /* кадр по знаку: малина + доска, без текстовой части */
-  background-size:192%;background-position:50% 33%;
-}
+.logo-img{width:42px;height:42px;flex:0 0 auto;background:url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22favGold%22%20x1%3D%228%22%20y1%3D%228%22%20x2%3D%2256%22%20y2%3D%2256%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ecd5a4%22/%3E%3Cstop%20offset%3D%22.6%22%20stop-color%3D%22%23d2a45c%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23a97c3c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d%3D%22M32.5%2012.5c2.4-4.2%207.8-4.8%2010.8-3.1-1%204.1-5.8%206.2-10.8%203.1z%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M33%2013c-.5-2.9%200-4.8%201.4-6.5%22%20stroke%3D%22url%28%23favGold%29%22%20stroke-width%3D%222.2%22%20stroke-linecap%3D%22round%22%20fill%3D%22none%22/%3E%3Cg%20stroke%3D%22%2308090b%22%20stroke-width%3D%221.6%22%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2229%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3C/g%3E%3Cpath%20d%3D%22M28.5%2042.5%2028%2048M35.5%2042.5%2036.5%2048%22%20stroke%3D%22%23f5f1e7%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22/%3E%3Cg%20transform%3D%22rotate%28-8%2032%2051.5%29%22%3E%3Crect%20x%3D%228%22%20y%3D%2248%22%20width%3D%2248%22%20height%3D%227%22%20rx%3D%223.5%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M14%2051.5h36%22%20stroke%3D%22%23a97c3c%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.6%22/%3E%3C/g%3E%3C/svg%3E") no-repeat center/contain}
 .logo .lw b{color:var(--text);font-weight:700}
 .logo .lw i{font-style:normal;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 
@@ -617,10 +614,11 @@ img,video,canvas{display:block;max-width:100%}
     <span data-i18n="chat_cta">Chat with us</span>
   </button>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
 <script>
+window.addEventListener("DOMContentLoaded", function(){
 /* =========================================================
    VIDEO_SOURCES — вставить URL сгенерированных клипов Seedance
    (Higgsfield CDN). Пока пусто — работает кинематографичный
@@ -946,6 +944,8 @@ function initReviewAnim(){
 renderReviews();
 applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||s==="en") return s; }catch(e){} try{ var langs=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||""]); for(var i=0;i<langs.length;i++){ if(String(langs[i]).toLowerCase().indexOf("ru")===0) return "ru"; } }catch(e){} return "en"; })());
 window.addEventListener("load", ()=>ScrollTrigger.refresh());
+
+});
 </script>
 </body>
 </html>
