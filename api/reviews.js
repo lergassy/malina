@@ -1,4 +1,8 @@
-// Malina Visa — живая лента Google-отзывов + диагностика.
+// Malina Visa — лента Google-отзывов.
+// Ключ читается из переменной окружения Vercel GOOGLE_PLACES_KEY.
+// Пока биллинг Google не активен — тихо показываются запасные отзывы.
+// Как только биллинг заработает — лента сама начнёт брать свежие из Google.
+
 const PLACE_ID = 'ChIJfbRP-49F0i0Rc0Hik27Qxd0';
 
 const FALLBACK = {
@@ -26,26 +30,11 @@ function fmtDate(iso, lang) {
   catch (e) { return ''; }
 }
 
-async function selfTest(key) {
-  var out = { keyTail: key ? ('...' + key.slice(-6)) : null, keyLen: key ? key.length : 0 };
-  try {
-    var r1 = await fetch('https://places.googleapis.com/v1/places/' + PLACE_ID + '?languageCode=en',
-      { headers: { 'X-Goog-Api-Key': key, 'X-Goog-FieldMask': 'id,displayName' } });
-    out.newStatus = r1.status; out.newBody = (await r1.text()).slice(0, 260);
-  } catch (e) { out.newErr = String(e); }
-  try {
-    var r2 = await fetch('https://maps.googleapis.com/maps/api/place/details/json?place_id=' + PLACE_ID + '&fields=name&key=' + key);
-    var j2 = await r2.json(); out.legacyStatus = j2.status; out.legacyMsg = j2.error_message || '';
-  } catch (e) { out.legacyErr = String(e); }
-  return out;
-}
-
 async function fetchNew(key, lang) {
   const r = await fetch('https://places.googleapis.com/v1/places/' + PLACE_ID + '?languageCode=' + lang,
     { headers: { 'X-Goog-Api-Key': key, 'X-Goog-FieldMask': 'rating,userRatingCount,reviews' } });
-  const body = await r.text();
   if (!r.ok) throw new Error('new:' + r.status);
-  const d = JSON.parse(body);
+  const d = await r.json();
   const reviews = (d.reviews || []).filter(x => (x.rating || 0) >= 4 && x.text && x.text.text).map(x => ({
     n: (x.authorAttribution && x.authorAttribution.displayName) || 'Google user',
     a: (x.authorAttribution && x.authorAttribution.photoUri) || '',
@@ -56,17 +45,12 @@ async function fetchNew(key, lang) {
 
 module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-store');
+  res.setHeader('Cache-Control', 's-maxage=21600, stale-while-revalidate=86400');
   const key = process.env.GOOGLE_PLACES_KEY;
-
-  if (req.url && req.url.indexOf('debug=1') !== -1) {
-    return res.status(200).json({ diag: await selfTest(key) });
-  }
   if (!key) return res.status(200).json(FALLBACK);
   try {
     const [ru, en] = await Promise.all([fetchNew(key, 'ru'), fetchNew(key, 'en')]);
     if (!ru.reviews.length && !en.reviews.length) return res.status(200).json(FALLBACK);
-    res.setHeader('Cache-Control', 's-maxage=21600, stale-while-revalidate=86400');
     return res.status(200).json({
       source: 'google', rating: ru.rating || 5.0, total: ru.total || 101,
       reviews: { ru: ru.reviews.length ? ru.reviews : FALLBACK.reviews.ru, en: en.reviews.length ? en.reviews : FALLBACK.reviews.en }
