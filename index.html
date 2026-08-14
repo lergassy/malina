@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v20-perf">
+<meta name="build" content="v21-butler">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -18,13 +18,14 @@
 <!-- /Yandex.Metrika counter -->
 <meta name="theme-color" content="#08090b">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Malina Visa — Visa & Legal-Business Agency in Bali, Indonesia</title>
-<meta name="description" content="Malina Visa handles every kind of Indonesian visa end to end, plus company setup, legal, tax and accounting support across Bali and Indonesia.">
-<!-- TODO: remove before production launch -->
+<title>Визы и бизнес в Индонезии — Malina Visa | Бали</title>
+<meta name="description" content="Malina Visa — визовое агентство на Бали: визы, ВНЖ (КИТАС) и открытие бизнеса в Индонезии под ключ. Рейтинг 5.0 в Google. Контроль сроков и напоминания — ничего не просрочится.">
+<!-- TODO: заменить на index,follow при запуске -->
+<link rel="canonical" href="https://malinavisa.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://malinavisa.com/">
-<meta property="og:title" content="Malina Visa — Visa &amp; Legal-Business Agency in Bali, Indonesia">
-<meta property="og:description" content="Every Indonesian visa handled end to end — plus company setup, legal, tax and accounting support across Bali and Indonesia.">
+<meta property="og:title" content="Malina Visa — визы и бизнес в Индонезии">
+<meta property="og:description" content="Визы, КИТАС и открытие бизнеса на Бали под ключ. Рейтинг 5.0 в Google.">
 <meta property="og:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_074627_c049f5e4-20b6-4d2a-be46-74d3566c341d.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_074627_c049f5e4-20b6-4d2a-be46-74d3566c341d.png">
@@ -37,86 +38,40 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 <style>
 :root{
-  --ink:#08090b;
-  --ink-2:#0d0e11;
-  --glass:rgba(255,255,255,.045);
-  --glass-strong:rgba(255,255,255,.07);
+  --ink:#08090b; --ink-2:#0d0e11;
+  --glass:rgba(255,255,255,.045); --glass-strong:rgba(255,255,255,.07);
   --line:rgba(255,255,255,.09);
-  --text:#f5f1e7;
-  --muted:#97938a;
-  --gold:#d2a45c;
-  --sand:#ecd5a4;
+  --text:#f5f1e7; --muted:#97938a;
+  --gold:#d2a45c; --sand:#ecd5a4;
   --grad:linear-gradient(105deg,var(--sand),var(--gold) 60%,#a97c3c);
   --ease:cubic-bezier(.19,1,.22,1);
-  --container:1240px;
+  --container:1080px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-html.lenis,html.lenis body{height:auto}
-.lenis.lenis-smooth{scroll-behavior:auto!important}
-body{
-  background:var(--ink);color:var(--text);
-  font-family:'Inter',-apple-system,BlinkMacSystemFont,'SF Pro Display',system-ui,sans-serif;
-  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;
-}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--ink);color:var(--text);font-family:'Inter',-apple-system,system-ui,sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
-img,video,canvas{display:block;max-width:100%}
 .container{width:min(var(--container),calc(100% - 48px));margin-inline:auto}
 ::selection{background:var(--gold);color:var(--ink)}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-
-/* ---------- type ---------- */
-.eyebrow{
-  font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
-  color:var(--gold);
-}
-.h-display{
-  font-weight:700;letter-spacing:-.035em;line-height:1.02;
-  font-size:clamp(44px,7.4vw,108px);text-wrap:balance;
-}
-.h-section{
-  font-weight:700;letter-spacing:-.03em;line-height:1.05;
-  font-size:clamp(34px,4.6vw,64px);text-wrap:balance;
-}
-.lead{font-size:clamp(17px,1.35vw,21px);line-height:1.65;color:var(--muted);text-wrap:pretty}
-.lead strong{color:var(--text);font-weight:500}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
 .gold-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 
-/* ---------- header ---------- */
-.site-header{
-  position:fixed;inset:0 0 auto 0;z-index:80;
-  transition:background .5s var(--ease),border-color .5s var(--ease);
-  border-bottom:1px solid transparent;
-}
-.site-header.solid{background:rgba(8,9,11,.72);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-color:var(--line)}
+/* header (общий с главной) */
+.site-header{position:fixed;inset:0 0 auto 0;z-index:80;background:rgba(8,9,11,.72);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:76px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;letter-spacing:-.02em}
 .logo-mark{width:30px;height:30px;border-radius:9px;background:var(--grad);display:grid;place-items:center;color:var(--ink);font-size:15px;font-weight:700}
 .logo-badge{flex:0 0 auto;display:block}
-.logo-img{width:42px;height:42px;flex:0 0 auto;background:url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22favGold%22%20x1%3D%228%22%20y1%3D%228%22%20x2%3D%2256%22%20y2%3D%2256%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ecd5a4%22/%3E%3Cstop%20offset%3D%22.6%22%20stop-color%3D%22%23d2a45c%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23a97c3c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d%3D%22M32.5%2012.5c2.4-4.2%207.8-4.8%2010.8-3.1-1%204.1-5.8%206.2-10.8%203.1z%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M33%2013c-.5-2.9%200-4.8%201.4-6.5%22%20stroke%3D%22url%28%23favGold%29%22%20stroke-width%3D%222.2%22%20stroke-linecap%3D%22round%22%20fill%3D%22none%22/%3E%3Cg%20stroke%3D%22%2308090b%22%20stroke-width%3D%221.6%22%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2229%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3C/g%3E%3Cpath%20d%3D%22M28.5%2042.5%2028%2048M35.5%2042.5%2036.5%2048%22%20stroke%3D%22%23f5f1e7%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22/%3E%3Cg%20transform%3D%22rotate%28-8%2032%2051.5%29%22%3E%3Crect%20x%3D%228%22%20y%3D%2248%22%20width%3D%2248%22%20height%3D%227%22%20rx%3D%223.5%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M14%2051.5h36%22%20stroke%3D%22%23a97c3c%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.6%22/%3E%3C/g%3E%3C/svg%3E") no-repeat center/contain}
+.logo-img{width:44px;height:44px;flex:0 0 auto;background:url("logo-surf.png") no-repeat center/contain}
 .logo .lw b{color:var(--text);font-weight:700}
 .logo .lw i{font-style:normal;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 
 .nav{display:flex;gap:34px;font-size:14.5px;font-weight:500}
-.nav a{color:var(--muted);transition:color .3s}
-.nav a:hover{color:var(--text)}
-.header-right{display:flex;align-items:center;gap:18px}
-.lang-switch{
-  display:flex;border:1px solid var(--line);border-radius:99px;overflow:hidden;
-  font-size:12.5px;font-weight:600;letter-spacing:.06em;
-}
-.lang-switch button{padding:7px 14px;color:var(--muted);transition:.3s}
-.lang-switch button.active{background:var(--glass-strong);color:var(--text)}
-.burger{display:none;flex-direction:column;gap:5px;padding:8px}
-.burger span{width:22px;height:2px;background:var(--text);border-radius:2px;transition:.3s}
-.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:8px;padding:92px 32px 36px;overflow-y:auto}
-.mobile-nav.open{display:flex}
-.mobile-nav a{font-size:24px;font-weight:700;letter-spacing:-.02em;padding:6px 0;color:var(--text)}
-
+.nav>a,.nav .nav-drop>button{color:var(--muted);transition:color .3s;display:flex;align-items:center;gap:6px}
+.nav>a:hover,.nav .nav-drop:hover>button{color:var(--text)}
 .nav-drop{position:relative}
-.nav-drop>button{color:var(--muted);transition:color .3s;display:flex;align-items:center;gap:6px;font-size:14.5px;font-weight:500}
-.nav-drop:hover>button{color:var(--text)}
 .nav-drop svg{transition:transform .3s}
 .nav-drop:hover svg{transform:rotate(180deg)}
 .drop-menu{
@@ -129,255 +84,252 @@ img,video,canvas{display:block;max-width:100%}
 .nav-drop:hover .drop-menu,.nav-drop:focus-within .drop-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
 .drop-menu a{display:block;padding:11px 14px;border-radius:10px;font-size:14px;color:var(--muted);transition:.25s}
 .drop-menu a:hover{background:var(--glass-strong);color:var(--text)}
+.drop-menu a.current{color:var(--sand)}
 .drop-menu .drop-all{margin-top:6px;border-top:1px solid var(--line);padding-top:12px;color:var(--gold);font-weight:600}
-.mobile-nav a.sub{font-size:15px;font-weight:500;color:var(--muted);padding:4px 0 4px 18px}
-/* ---------- film (hero + intro scroll-scrub) ---------- */
-.film{position:relative;height:520vh}
-.film-stage{position:sticky;top:0;height:100vh;overflow:hidden}
-.film-media{position:absolute;inset:0}
-.film-media video,.film-media canvas{
-  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-  opacity:0;transition:none;will-change:opacity,filter;
-  filter:saturate(1) brightness(1); /* слой фильтра активен сразу — без скачка при старте затемнения */
-}
-.film-media .visible{opacity:1}
-.film-fallback{position:absolute;inset:0;filter:saturate(1) brightness(1);background:
-  radial-gradient(120% 90% at 70% 20%,#3a2c17 0%,#1c1610 42%,#0a0a0c 100%)}
-.film-fallback::after{content:"";position:absolute;inset:0;background:
-  radial-gradient(60% 45% at 68% 30%,rgba(236,213,164,.28),transparent 70%);
-  mix-blend-mode:screen}
-.film-shade{position:absolute;inset:0;background:
-  linear-gradient(180deg,rgba(8,9,11,.55) 0%,rgba(8,9,11,.12) 34%,rgba(8,9,11,.3) 72%,rgba(8,9,11,.88) 100%)}
-.film-black{position:absolute;inset:0;background:var(--ink);opacity:0;will-change:opacity}
-.grain{position:absolute;inset:0;opacity:.5;pointer-events:none;mix-blend-mode:overlay}
+.header-right{display:flex;align-items:center;gap:18px}
+.lang-switch{display:flex;border:1px solid var(--line);border-radius:99px;overflow:hidden;font-size:12.5px;font-weight:600;letter-spacing:.06em}
+.lang-switch button{padding:7px 14px;color:var(--muted);transition:.3s}
+.lang-switch button.active{background:var(--glass-strong);color:var(--text)}
+.burger{display:none;flex-direction:column;gap:5px;padding:8px}
+.burger span{width:22px;height:2px;background:var(--text);border-radius:2px}
+.mobile-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:75;background:#0a0b0e;display:none;flex-direction:column;justify-content:flex-start;gap:4px;padding:92px 32px 36px;overflow-y:auto}
+.mobile-nav.open{display:flex}
+.mobile-nav a{font-size:22px;font-weight:700;letter-spacing:-.02em;padding:5px 0}
+.mobile-nav .sub{font-size:15px;font-weight:500;color:var(--muted);padding:4px 0 4px 18px}
 
-.film-copy{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:0 24px}
-.film-copy .inner{max-width:1040px;will-change:transform,opacity}
-.hero-title-line{display:block;overflow:hidden}
-.hero-title-line span{display:inline-block;transform:translateY(110%);will-change:transform}
-.hero-sub{margin-top:26px;font-size:clamp(16px,1.3vw,19px);color:rgba(245,241,231,.82);font-weight:400;max-width:620px;margin-inline:auto}
-.scroll-cue{
-  position:absolute;left:50%;bottom:34px;transform:translateX(-50%);
-  display:flex;flex-direction:column;align-items:center;gap:10px;
-  font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:rgba(245,241,231,.6);
-}
-.scroll-cue::after{
-  content:"";width:1px;height:44px;background:linear-gradient(180deg,var(--sand),transparent);
-  animation:cue 2.2s var(--ease) infinite;
-}
-@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+/* page hero */
+.page-hero{padding:150px 0 56px;background:
+  radial-gradient(90% 70% at 80% 0%,rgba(210,164,92,.14),transparent 60%),var(--ink)}
+.crumbs{display:flex;gap:8px;font-size:13px;color:var(--muted);margin-bottom:26px;flex-wrap:wrap}
+.crumbs a:hover{color:var(--text)}
+h1{font-weight:700;letter-spacing:-.03em;line-height:1.06;font-size:clamp(34px,5vw,58px);max-width:820px}
+.hero-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
+.chip{padding:22px 24px;border:1px solid var(--line);border-radius:18px;background:var(--glass)}
+.chip b{display:block;font-size:16.5px;margin-bottom:6px}
+.chip span{font-size:14px;color:var(--muted)}
+.chip i{font-style:normal;display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
 
-.intro-copy{position:absolute;inset:0;display:grid;place-items:center;padding:0 24px;opacity:0;will-change:opacity,transform}
-.intro-copy .inner{max-width:880px;text-align:center}
-.intro-copy .lead{margin-top:28px;color:rgba(245,241,231,.78)}
+/* content */
+.page{padding:26px 0 90px}
+.section-block{margin-top:64px}
+h2{font-weight:700;letter-spacing:-.025em;line-height:1.12;font-size:clamp(25px,3vw,36px);margin-bottom:22px}
+.page p{color:rgba(245,241,231,.85);max-width:760px;margin-bottom:14px}
+.page p.dim{color:var(--muted);font-size:14.5px}
+.tick-list{list-style:none;max-width:760px}
+.tick-list li{position:relative;padding:10px 0 10px 34px;color:rgba(245,241,231,.88);border-bottom:1px solid rgba(255,255,255,.05)}
+.tick-list li::before{content:"";position:absolute;left:0;top:16px;width:18px;height:18px;border-radius:50%;
+  background:rgba(210,164,92,.14) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="%23d2a45c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>') center/10px no-repeat}
+.note{margin-top:18px;padding:16px 20px;border-left:2px solid var(--gold);background:var(--glass);border-radius:0 14px 14px 0;font-size:14.5px;color:rgba(245,241,231,.85);max-width:760px}
+.note b{color:var(--sand)}
 
-/* секция виз наезжает поверх гаснущего видео */
-#visas{
-  position:relative;z-index:2;margin-top:-100vh;
-  padding-top:72vh; /* текст входит в кадр чуть раньше, на финале затемнения */
-  background:linear-gradient(180deg,rgba(8,9,11,0) 0,rgba(8,9,11,.45) 45vh,rgba(8,9,11,.85) 80vh,var(--ink) 104vh);
-}
-/* ---------- generic sections ---------- */
-.section{position:relative;padding:clamp(110px,14vh,180px) 0;background:var(--ink)}
-.section-head{max-width:820px;margin-bottom:clamp(48px,6vw,84px)}
-.section-head .eyebrow{display:block;margin-bottom:20px}
-.section-head p{margin-top:24px}
-.reveal{opacity:0;transform:translateY(46px)}
+/* pricing */
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:820px}
+.price-card{padding:32px 30px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(215deg,var(--glass-strong),rgba(255,255,255,.02));display:flex;flex-direction:column}
+.price-card.featured{border-color:rgba(210,164,92,.45)}
+.price-card .p-name{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.price-card .p-sum{font-size:clamp(26px,2.6vw,34px);font-weight:700;letter-spacing:-.02em}
+.price-card .p-term{font-size:13.5px;color:var(--muted);margin:6px 0 20px}
+.price-card ul{list-style:none;font-size:14px;color:rgba(245,241,231,.85);margin-bottom:8px}
+.price-card ul li{padding:6px 0 6px 24px;position:relative}
+.price-card ul li::before{content:"—";position:absolute;left:0;color:var(--gold)}
 
-/* ---------- visa panels ---------- */
-.visa-panels{display:flex;gap:14px;min-height:520px}
-.visa-panel{
-  position:relative;flex:1;display:flex;flex-direction:column;justify-content:flex-end;
-  padding:38px 32px;border:1px solid var(--line);border-radius:22px;overflow:hidden;
-  background:linear-gradient(200deg,var(--glass) 0%,rgba(255,255,255,.015) 100%);
-  transition:flex 1s var(--ease),border-color .6s,background .6s;cursor:pointer;
-}
-.visa-panel::before{
-  content:"";position:absolute;inset:0;opacity:0;transition:opacity .8s var(--ease);
-  background:radial-gradient(90% 70% at 50% 100%,rgba(210,164,92,.16),transparent 70%);
-}
-.visa-panel:hover,.visa-panel.expanded{flex:2.4;border-color:rgba(210,164,92,.4)}
-.visa-panel:hover::before,.visa-panel.expanded::before{opacity:1}
-.visa-tag{font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:auto}
-.visa-name{font-size:clamp(24px,2.2vw,34px);font-weight:700;letter-spacing:-.025em;line-height:1.1;margin-bottom:14px}
-.visa-desc{
-  font-size:15px;color:var(--muted);line-height:1.6;max-width:340px;
-  max-height:0;opacity:0;overflow:hidden;transition:max-height 1s var(--ease),opacity .7s .1s;
-}
-.visa-panel:hover .visa-desc,.visa-panel.expanded .visa-desc{max-height:200px;opacity:1}
-.visa-link{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-size:14px;font-weight:600;color:var(--sand)}
-.visa-link svg{transition:transform .4s var(--ease)}
-.visa-panel:hover .visa-link svg{transform:translateX(5px)}
-.visa-all{margin-top:34px;display:flex;justify-content:center}
+/* steps */
+.steps{counter-reset:step;max-width:760px}
+.step{position:relative;padding:22px 0 22px 64px;border-bottom:1px solid rgba(255,255,255,.05)}
+.step::before{counter-increment:step;content:counter(step);position:absolute;left:0;top:20px;width:40px;height:40px;border-radius:12px;
+  display:grid;place-items:center;font-weight:700;color:var(--ink);background:var(--grad);font-size:16px}
+.step b{display:block;margin-bottom:6px;font-size:16.5px}
+.step p{font-size:14.5px;color:var(--muted);margin:0;max-width:640px}
 
-/* ---------- buttons ---------- */
-.btn{
-  display:inline-flex;align-items:center;gap:10px;padding:16px 30px;border-radius:99px;
-  font-size:15px;font-weight:600;letter-spacing:.01em;transition:.45s var(--ease);
+/* accordions — «выпадающие списки» как на референсе */
+.acc{max-width:820px;border-top:1px solid var(--line)}
+.acc-item{border-bottom:1px solid var(--line)}
+.acc-item summary{
+  list-style:none;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  padding:20px 4px;cursor:pointer;font-weight:600;font-size:16.5px;transition:color .3s;
 }
+.acc-item summary::-webkit-details-marker{display:none}
+.acc-item summary:hover{color:var(--sand)}
+.acc-item summary .acc-ico{flex:0 0 auto;width:28px;height:28px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--gold);transition:transform .4s var(--ease),background .3s}
+.acc-item[open] summary .acc-ico{transform:rotate(45deg);background:rgba(210,164,92,.14)}
+.acc-body{padding:2px 4px 24px;color:rgba(245,241,231,.82);font-size:15px;max-width:740px}
+.acc-body p{margin-bottom:10px}
+.acc-body ul{list-style:none;margin:8px 0}
+.acc-body ul li{padding:5px 0 5px 22px;position:relative}
+.acc-body ul li::before{content:"—";position:absolute;left:0;color:var(--gold)}
+
+/* other visas */
+.other-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.other-card{padding:26px 24px;border:1px solid var(--line);border-radius:18px;background:var(--glass);transition:.4s var(--ease);display:flex;flex-direction:column;gap:10px}
+.other-card:hover{border-color:rgba(210,164,92,.4);transform:translateY(-4px)}
+.other-card b{font-size:16.5px}
+.other-card span{font-size:13.5px;color:var(--muted);line-height:1.55}
+.other-card .oc-tag{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+
+/* CTA */
+.cta{margin-top:80px;padding:52px 46px;border-radius:26px;border:1px solid rgba(210,164,92,.3);
+  background:radial-gradient(120% 130% at 85% 0%,rgba(210,164,92,.16),transparent 55%),var(--ink-2);
+  display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+.cta h2{margin:0;max-width:520px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 30px;border-radius:99px;font-size:15px;font-weight:600;transition:.45s var(--ease)}
 .btn-gold{background:var(--grad);color:#161006}
 .btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 44px -12px rgba(210,164,92,.55)}
-.btn-ghost{border:1px solid var(--line);color:var(--text);background:var(--glass)}
-.btn-ghost:hover{border-color:rgba(210,164,92,.5);background:var(--glass-strong)}
 
-/* ---------- legal section ---------- */
-.legal-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,110px);align-items:center}
-.legal-visual{
-  position:relative;aspect-ratio:4/4.6;border-radius:26px;overflow:hidden;border:1px solid var(--line);
-  background:
-    radial-gradient(85% 60% at 30% 15%,rgba(210,164,92,.18),transparent 60%),
-    linear-gradient(210deg,#15161a,#0b0c0f);
-}
-.legal-visual .rule{position:absolute;left:32px;right:32px;height:1px;background:var(--line)}
-.legal-visual .stat{position:absolute;left:32px;color:var(--text)}
-.legal-visual .stat b{display:block;font-size:clamp(40px,4vw,58px);font-weight:700;letter-spacing:-.03em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-.legal-visual .stat i{font-style:normal;font-size:13.5px;color:var(--muted)}
-.legal-copy .lead{margin:26px 0 36px}
-
-/* ---------- partner carousel (scroll-driven) ---------- */
-.partner{height:340vh;position:relative}
-.partner-stage{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.partner-head{margin-bottom:clamp(36px,5vh,64px)}
-.partner-track{display:flex;gap:22px;padding-left:max(24px,calc((100vw - var(--container))/2));will-change:transform}
-.p-card{
-  flex:0 0 clamp(300px,26vw,400px);padding:40px 34px;min-height:400px;
-  border:1px solid var(--line);border-radius:24px;
-  background:linear-gradient(215deg,var(--glass-strong),rgba(255,255,255,.02));
-  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
-  display:flex;flex-direction:column;
-}
-.p-card .p-ico{
-  width:52px;height:52px;border-radius:16px;background:rgba(210,164,92,.12);
-  display:grid;place-items:center;margin-bottom:auto;color:var(--gold);
-}
-.p-card h3{font-size:22px;font-weight:700;letter-spacing:-.02em;margin:26px 0 14px}
-.p-card p{font-size:15px;line-height:1.65;color:var(--muted)}
-
-/* ---------- reviews ---------- */
-.reviews{padding-bottom:60px}
-.reviews-field{position:relative;min-height:1280px}
-.r-card{
-  position:absolute;width:min(360px,86vw);padding:28px 26px;border-radius:20px;
-  border:1px solid var(--line);
-  background:linear-gradient(215deg,rgba(255,255,255,.06),rgba(255,255,255,.02));
-  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  box-shadow:0 30px 80px -30px rgba(0,0,0,.7);
-  opacity:0;transform:translateY(60px) scale(.96);
-}
-.r-stars{color:var(--gold);letter-spacing:3px;font-size:14px;margin-bottom:14px}
-.r-text{font-size:14.5px;line-height:1.65;color:rgba(245,241,231,.86)}
-.r-meta{display:flex;justify-content:space-between;margin-top:18px;font-size:12.5px;color:var(--muted)}
-.r-meta b{color:var(--text);font-weight:600}
-.placeholder-note{
-  margin-top:26px;font-size:12.5px;color:var(--muted);border:1px dashed rgba(210,164,92,.35);
-  border-radius:12px;padding:12px 16px;max-width:560px;
-}
-
-/* ---------- trust badge ---------- */
-.trust{display:flex;justify-content:center}
-.trust-badge{
-  display:flex;align-items:center;gap:22px;padding:26px 34px;border-radius:20px;
-  border:1px solid var(--line);background:var(--glass);
-  transition:.5s var(--ease);
-}
-.trust-badge:hover{border-color:rgba(210,164,92,.45);transform:translateY(-3px)}
-.g-mark{width:46px;height:46px;border-radius:12px;background:#fff;display:grid;place-items:center}
-.trust-badge .score{font-size:30px;font-weight:700;letter-spacing:-.02em}
-.trust-badge .stars{color:var(--gold);letter-spacing:2px}
-.trust-badge .count{font-size:13.5px;color:var(--muted)}
-.trust-badge .arrow{color:var(--gold);margin-left:8px}
-
-/* ---------- footer ---------- */
-.site-footer{border-top:1px solid var(--line);padding:80px 0 42px;background:var(--ink-2)}
-.footer-grid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:48px;margin-bottom:64px}
+/* footer + chat (общие с главной) */
+.site-footer{border-top:1px solid var(--line);padding:70px 0 40px;background:var(--ink-2)}
+.footer-grid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:44px;margin-bottom:56px}
 .footer-brand p{margin-top:16px;font-size:14.5px;color:var(--muted);max-width:300px}
 .footer-col h4{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
 .footer-col a{display:block;padding:7px 0;font-size:14.5px;color:var(--muted);transition:color .3s}
 .footer-col a:hover{color:var(--text)}
-.footer-bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:30px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
-
-/* ---------- messenger widget ---------- */
+.footer-bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:28px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 .chat-widget{position:fixed;right:22px;bottom:26px;z-index:90;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
 .chat-links{display:flex;flex-direction:column;gap:10px;opacity:0;transform:translateY(14px);pointer-events:none;transition:.45s var(--ease)}
 .chat-widget.open .chat-links{opacity:1;transform:none;pointer-events:auto}
-.chat-ico{
-  width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#fff;
-  box-shadow:0 12px 34px -10px rgba(0,0,0,.6);transition:transform .35s var(--ease);
-}
+.chat-ico{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#fff;box-shadow:0 12px 34px -10px rgba(0,0,0,.6);transition:transform .35s var(--ease)}
 .chat-ico:hover{transform:scale(1.08)}
-.chat-ico.tg{background:#2aabee}
-.chat-ico.wa{background:#25d366}
+.chat-ico.tg{background:#2aabee}.chat-ico.wa{background:#25d366}
 .chat-ico.em{background:linear-gradient(135deg,#d2a45c,#a97c3c)}
-.chat-toggle{
-  display:flex;align-items:center;gap:10px;padding:15px 22px;border-radius:99px;
-  background:var(--grad);color:#161006;font-weight:600;font-size:14.5px;
-  box-shadow:0 16px 44px -12px rgba(210,164,92,.6);transition:transform .35s var(--ease);
-}
+.chat-toggle{display:flex;align-items:center;gap:10px;padding:15px 22px;border-radius:99px;background:var(--grad);color:#161006;font-weight:600;font-size:14.5px;box-shadow:0 16px 44px -12px rgba(210,164,92,.6);transition:transform .35s var(--ease)}
 .chat-toggle:hover{transform:translateY(-2px)}
 
-/* ---------- responsive ---------- */
+/* язык: RU-контент показан по умолчанию, EN включается классом на body */
+main.en{display:none}
+body.lang-en main.ru{display:none}
+body.lang-en main.en{display:block}
+
 @media(max-width:1000px){
-.film{height:230vh}
-#visas{padding-top:46vh}
-  .nav{display:none}
-  .burger{display:flex}
-  .visa-panels{flex-direction:column;min-height:0}
-  .visa-panel{padding:30px 26px;min-height:150px}
-  .visa-panel .visa-tag{margin-bottom:18px}
-  .visa-panel:hover,.visa-panel.expanded{flex:1}
-  .visa-desc{max-width:none}
-  .legal-grid{grid-template-columns:1fr}
-  .legal-visual{aspect-ratio:auto;order:2;display:flex;flex-direction:column;gap:26px;padding:30px 26px}.legal-visual .rule{display:none}.legal-visual .stat{position:static!important;left:auto;top:auto}
+  .nav{display:none}.burger{display:flex}
+  .hero-chips,.price-grid,.other-grid{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr 1fr}
-  .partner{height:auto}
-  .partner-stage{position:static;height:auto;display:block;padding:0}
-  .partner-track{overflow-x:auto;padding:6px 24px 26px;scroll-snap-type:x mandatory;transform:none!important}
-  .p-card{scroll-snap-align:start;min-height:340px}
-  .reviews-field{min-height:0;display:flex;flex-direction:column;gap:18px}
-  .r-card{position:static;width:100%}
+  .cta{padding:36px 26px}
 }
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.001s!important;transition-duration:.001s!important}
+@media(prefers-reduced-motion:reduce){*{transition-duration:.001s!important}}
+
+/* ===== главная v21 ===== */
+.hh{padding:150px 0 70px;position:relative}
+.hh h1{font-size:clamp(40px,6.2vw,78px);line-height:1.04;letter-spacing:-.03em;max-width:940px}
+.hh .sub{max-width:640px;color:var(--muted);font-size:clamp(16px,1.6vw,19px);margin-top:22px;line-height:1.6}
+.hh-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.g-badge{display:inline-flex;align-items:center;gap:10px;margin-top:30px;padding:10px 16px;border:1px solid var(--line);border-radius:999px;background:var(--glass);font-size:14.5px;color:var(--muted)}
+.g-badge b{color:var(--text)}
+.g-badge .st{color:#f4b400;letter-spacing:2px}
+.btn-line{border:1px solid var(--line);color:var(--text)}
+.btn-line:hover{border-color:var(--gold);color:var(--sand)}
+.dir-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+.dir-card{position:relative;border:1px solid var(--line);border-radius:22px;padding:34px 28px 30px;background:linear-gradient(215deg,var(--glass-strong),rgba(255,255,255,.02));display:flex;flex-direction:column;gap:14px;transition:.4s var(--ease)}
+.dir-card:hover{transform:translateY(-6px);border-color:rgba(210,164,92,.55)}
+.dir-num{font-size:13px;letter-spacing:.2em;color:var(--gold);font-weight:700}
+.dir-card h3{font-size:clamp(21px,2vw,26px);letter-spacing:-.01em}
+.dir-card p{color:var(--muted);font-size:15.5px;line-height:1.6;flex:1}
+.dir-go{color:var(--sand);font-weight:600;font-size:15px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.why-it{border:1px solid var(--line);border-radius:18px;padding:26px 24px;background:var(--glass)}
+.why-it .wi{width:44px;height:44px;border-radius:13px;background:rgba(210,164,92,.12);display:grid;place-items:center;color:var(--gold);margin-bottom:16px}
+.why-it b{display:block;font-size:17.5px;margin-bottom:8px}
+.why-it p{color:var(--muted);font-size:14.5px;line-height:1.6}
+/* CRM */
+.crm-split{display:grid;grid-template-columns:1fr 1.1fr;gap:44px;align-items:center;margin-top:40px}
+.crm-feats{display:flex;flex-direction:column;gap:16px;margin-top:24px}
+.crm-feat{display:flex;gap:14px;align-items:flex-start}
+.crm-feat .ck{flex:0 0 26px;height:26px;border-radius:50%;background:rgba(210,164,92,.15);color:var(--gold);display:grid;place-items:center;font-size:14px;font-weight:700}
+.crm-feat p{color:var(--muted);font-size:15.5px;line-height:1.55}
+.crm-feat p b{color:var(--text)}
+.crm-win{border:1px solid var(--line);border-radius:20px;background:#101216;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.crm-bar{display:flex;align-items:center;gap:8px;padding:13px 18px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.03)}
+.crm-dot{width:11px;height:11px;border-radius:50%}
+.crm-title{margin-left:10px;font-size:13px;color:var(--muted);letter-spacing:.06em}
+.crm-body{padding:20px 18px;display:flex;flex-direction:column;gap:12px}
+.crm-row{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:rgba(255,255,255,.02)}
+.crm-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.crm-top b{font-size:15px}
+.crm-chip{font-size:11.5px;letter-spacing:.06em;padding:5px 10px;border-radius:999px;white-space:nowrap}
+.chip-gold{background:rgba(210,164,92,.15);color:var(--sand);border:1px solid rgba(210,164,92,.35)}
+.chip-ok{background:rgba(80,200,120,.12);color:#7ad39b;border:1px solid rgba(80,200,120,.3)}
+.crm-sub{color:var(--muted);font-size:13px;margin-top:6px}
+.crm-track{height:6px;border-radius:99px;background:rgba(255,255,255,.07);margin-top:10px;overflow:hidden}
+.crm-fill{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--sand))}
+/* Instagram */
+.ig-band{border:1px solid rgba(210,164,92,.4);border-radius:24px;padding:40px 36px;background:
+  radial-gradient(600px 300px at 85% 0%, rgba(210,164,92,.14), transparent 70%), var(--glass-strong);
+  display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;margin-top:40px}
+.ig-band h3{font-size:clamp(22px,2.4vw,30px);letter-spacing:-.01em}
+.ig-band p{color:var(--muted);margin-top:10px;max-width:520px;line-height:1.6}
+/* Google reviews */
+.g-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:26px 0 22px}
+.g-score{font-size:44px;font-weight:700;letter-spacing:-.03em}
+.g-stars{color:#f4b400;font-size:20px;letter-spacing:3px}
+.g-cnt{color:var(--muted);font-size:15px}
+.g-cnt a{text-decoration:underline;color:var(--sand)}
+.g-cards{display:grid;grid-auto-flow:column;grid-auto-columns:min(360px,84vw);gap:16px;overflow-x:auto;padding:4px 4px 14px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.g-card{scroll-snap-align:start;border:1px solid var(--line);border-radius:18px;background:var(--glass);padding:22px 22px 18px;display:flex;flex-direction:column;gap:12px}
+.g-card .st{color:#f4b400;letter-spacing:2px;font-size:15px}
+.g-card p{color:var(--text);font-size:14.8px;line-height:1.6;flex:1;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.g-meta{display:flex;align-items:center;gap:12px}
+.g-ava{width:40px;height:40px;border-radius:50%;background:rgba(210,164,92,.2);color:var(--sand);display:grid;place-items:center;font-weight:700;overflow:hidden;flex:0 0 40px}
+.g-ava img{width:100%;height:100%;object-fit:cover}
+.g-meta b{font-size:14.5px;display:block}
+.g-meta span{color:var(--muted);font-size:12.5px}
+.g-link{margin-left:auto;font-size:12.5px;color:var(--muted)}
+.g-link:hover{color:var(--sand)}
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.on{opacity:1;transform:none}
+@media(max-width:1000px){
+.hh{padding:126px 0 50px}
+.dir-grid{grid-template-columns:1fr}
+.why-grid{grid-template-columns:1fr}
+.crm-split{grid-template-columns:1fr;gap:30px}
+.ig-band{padding:30px 24px}
 }
+
+/* hero video */
+.hh{position:relative;overflow:hidden;isolation:isolate}
+.hh-video{position:absolute;inset:0;z-index:-2;overflow:hidden}
+.hh-video video{width:100%;height:100%;object-fit:cover;filter:saturate(1.05)}
+.hh-video::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(90deg, rgba(8,9,11,.94) 0%, rgba(8,9,11,.82) 42%, rgba(8,9,11,.55) 100%),
+  linear-gradient(180deg, rgba(8,9,11,.9) 0%, rgba(8,9,11,.2) 30%, rgba(8,9,11,.96) 100%)}
+@media(max-width:1000px){.hh-video::after{background:linear-gradient(180deg,rgba(8,9,11,.88) 0%,rgba(8,9,11,.72) 40%,rgba(8,9,11,.97) 100%)}}
+@media(prefers-reduced-motion:reduce){.hh-video video{display:none}}
 </style>
 </head>
 <body>
 
-<!-- ======= HEADER ======= -->
-<header class="site-header" id="header">
+<header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="#top"><span class="logo-badge logo-img" role="img" aria-label="Malina Visa"></span><span class="lw"><b>Malina</b>&nbsp;<i>Visa</i></span></a>
+    <a class="logo" href="index.html"><span class="logo-badge logo-img" role="img" aria-label="Malina Visa"></span><span class="lw"><b>Malina</b>&nbsp;<i>Visa</i></span></a>
     <nav class="nav">
       <div class="nav-drop">
-        <button type="button" aria-haspopup="true"><span data-i18n="nav_business">Business Services</span>
+        <button type="button" aria-haspopup="true"><span data-nav="business">Business Services</span>
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div class="drop-menu">
-          <a href="company-setup.html" data-i18n="bm_setup">Company Registration</a>
-          <a href="pt-pma.html" data-i18n="bm_pma">PT PMA Company</a>
-          <a href="local-pt.html" data-i18n="bm_local">Local PT (PMDN)</a>
-          <a href="accounting.html" data-i18n="nav_acc">Accounting</a>
-          <a href="company-closure.html" data-i18n="bm_close">Company Closure</a>
-          <a href="business.html" class="drop-all" data-i18n="bm_all">All business services →</a>
+          <a href="company-setup.html" data-nav="b_setup">Company Registration</a>
+          <a href="pt-pma.html" data-nav="b_pma">PT PMA Company</a>
+          <a href="local-pt.html" data-nav="b_local">Local PT (PMDN)</a>
+          <a href="accounting.html" data-nav="acc">Accounting</a>
+          <a href="company-closure.html" data-nav="b_close">Company Closure</a>
+          <a href="business.html" class="drop-all" data-nav="b_all">All business services →</a>
         </div>
       </div>
       <div class="nav-drop">
-        <button type="button" aria-haspopup="true"><span data-i18n="nav_visas">Visas</span>
+        <button type="button" aria-haspopup="true"><span data-nav="visas">Visas</span>
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div class="drop-menu">
-          <a href="tourist-visa.html" data-i18n="dm_tourist">Tourist Visa C1 (211A)</a>
-          <a href="visa-on-arrival.html" data-i18n="dm_voa">Visa on Arrival (VOA)</a>
-          <a href="business-visa.html" data-i18n="dm_business">Business Visa C2</a>
-          <a href="multiple-visa.html" data-i18n="dm_multiple">Multiple-entry D1 / D2</a>
-          <a href="pre-investment-d12.html" data-i18n="dm_d12">Pre-Investment D12</a>
-          <a href="c18-visa.html" data-i18n="dm_c18">Candidate Visa C18</a>
-          <a href="kitas-kitap.html" data-i18n="dm_kitas">KITAS &amp; KITAP</a>
-          <a href="visas.html" class="drop-all" data-i18n="dm_all">All visa types →</a>
+          <a href="tourist-visa.html" data-nav="d_tourist">Tourist Visa C1 (211A)</a>
+          <a href="visa-on-arrival.html" data-nav="d_voa">Visa on Arrival (VOA)</a>
+          <a href="business-visa.html" data-nav="d_business">Business Visa C2</a>
+          <a href="multiple-visa.html" data-nav="d_multiple">Multiple-entry D1 / D2</a>
+          <a href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
+          <a href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+          <a href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
+          <a href="visas.html" class="drop-all" data-nav="d_all">All visa types →</a>
         </div>
       </div>
-      <a href="#about" data-i18n="nav_about">About Us</a>
-      <a href="contacts.html" data-i18n="nav_contacts">Contacts</a>
+      <a href="index.html#about" data-nav="about">About Us</a>
+      <a href="contacts.html" data-nav="contacts">Contacts</a>
     </nav>
     <div class="header-right">
       <div class="lang-switch" role="group" aria-label="Language">
@@ -389,220 +341,244 @@ img,video,canvas{display:block;max-width:100%}
   </div>
 </header>
 <div class="mobile-nav" id="mobileNav">
-  <a href="business.html" data-i18n="nav_business">Business Services</a>
-  <a class="sub" href="company-setup.html" data-i18n="bm_setup">Company Registration</a>
-  <a class="sub" href="pt-pma.html" data-i18n="bm_pma">PT PMA Company</a>
-  <a class="sub" href="local-pt.html" data-i18n="bm_local">Local PT (PMDN)</a>
-  <a class="sub" href="accounting.html" data-i18n="nav_acc">Accounting</a>
-  <a class="sub" href="company-closure.html" data-i18n="bm_close">Company Closure</a>
-  <a href="visas.html" data-i18n="nav_visas">Visas</a>
-  <a class="sub" href="tourist-visa.html" data-i18n="dm_tourist">Tourist Visa C1 (211A)</a>
-  <a class="sub" href="visa-on-arrival.html" data-i18n="dm_voa">Visa on Arrival (VOA)</a>
-  <a class="sub" href="business-visa.html" data-i18n="dm_business">Business Visa C2</a>
-  <a class="sub" href="multiple-visa.html" data-i18n="dm_multiple">Multiple D1 / D2</a>
-  <a class="sub" href="kitas-kitap.html" data-i18n="dm_kitas">KITAS &amp; KITAP</a>
-  <a href="#about" data-i18n="nav_about">About Us</a>
-  <a href="contacts.html" data-i18n="nav_contacts">Contacts</a>
+  <a href="business.html" data-nav="business">Business Services</a>
+  <a class="sub" href="company-setup.html" data-nav="b_setup">Company Registration</a>
+  <a class="sub" href="pt-pma.html" data-nav="b_pma">PT PMA Company</a>
+  <a class="sub" href="local-pt.html" data-nav="b_local">Local PT (PMDN)</a>
+  <a class="sub" href="accounting.html" data-nav="acc">Accounting</a>
+  <a class="sub" href="company-closure.html" data-nav="b_close">Company Closure</a>
+  <a href="visas.html" data-nav="visas">Visas</a>
+  <a class="sub" href="tourist-visa.html" data-nav="d_tourist">Tourist Visa C1 (211A)</a>
+  <a class="sub" href="visa-on-arrival.html" data-nav="d_voa">Visa on Arrival (VOA)</a>
+  <a class="sub" href="business-visa.html" data-nav="d_business">Business Visa C2</a>
+  <a class="sub" href="multiple-visa.html" data-nav="d_multiple">Multiple D1 / D2</a>
+  <a class="sub" href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
+  <a class="sub" href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+  <a class="sub" href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
+  <a href="index.html#about" data-nav="about">About Us</a>
+  <a href="contacts.html" data-nav="contacts">Contacts</a>
 </div>
 
-<!-- ======= FILM: HERO + INTRO (scroll-scrubbed drone footage) ======= -->
-<div class="film" id="top">
-  <div class="film-stage">
-    <div class="film-media" id="filmMedia">
-      <div class="film-fallback" id="filmFallback"></div>
-      <!-- Video sources are injected from VIDEO_SOURCES config below -->
-      <video id="clip1" muted playsinline preload="auto"></video>
-      <video id="clip2" muted playsinline preload="auto"></video>
-      <video id="clip3" muted playsinline preload="auto"></video>
-      <div class="film-shade"></div>
-      <div class="film-black" id="filmBlack"></div>
-      <canvas class="grain" id="grain"></canvas>
+<main class="ru" lang="ru">
+  <!-- 1. HERO -->
+  <section class="hh"><div class="hh-video" aria-hidden="true"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_065215_0384d401-d42c-4010-b3a5-02deaaaf307c.mp4" autoplay muted loop playsinline preload="metadata"></video></div><div class="container">
+    <span class="eyebrow rv">Визовое агентство · Бали</span>
+    <h1 class="rv" style="margin-top:20px">Нам доверяют <span class="gold-text">предприниматели</span> и клиенты</h1>
+    <p class="sub rv">Визы, ВНЖ и открытие бизнеса в Индонезии — под ключ. Берём процесс на себя: от первого вопроса до штампа, и остаёмся рядом на весь срок действия визы.</p>
+    <div class="hh-cta rv">
+      <a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Написать в WhatsApp</a>
+      <a class="btn btn-line" href="https://t.me/mstatham1" target="_blank" rel="noopener">Telegram</a>
     </div>
+    <a class="g-badge rv" href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span><b>5.0</b> <span class="st">★★★★★</span> · <span class="jsTotal">100+</span> отзывов в Google</span></a>
+  </div></section>
 
-    <div class="film-copy" id="heroCopy">
-      <div class="inner">
-        <h1 class="h-display" id="heroTitle">
-          <span class="hero-title-line"><span data-i18n="hero_l1">Every Indonesian visa.</span></span>
-          <span class="hero-title-line"><span class="gold-text" data-i18n="hero_l2">Handled end to end.</span></span>
-        </h1>
-        <p class="hero-sub" data-i18n="hero_sub">Trusted by a growing base of clients across Bali and Indonesia — from a 30-day stay to KITAS, business and legal support.</p>
-      </div>
-      <div class="scroll-cue" data-i18n="scroll_cue">Scroll</div>
+  <!-- 2. НАПРАВЛЕНИЯ -->
+  <section class="page container" style="padding-top:10px"><div class="section-block rv">
+    <h2>Чем мы занимаемся</h2>
+    <div class="dir-grid">
+      <a class="dir-card" href="visas.html"><span class="dir-num">01</span><h3>Визы и релокация</h3><p>От туристической до КИТАС и КИТАП: подберём статус под вашу ситуацию, оформим и продлим вовремя. Остаёмся на связи весь срок действия визы.</p><span class="dir-go">Все визы →</span></a>
+      <a class="dir-card" href="business.html"><span class="dir-num">02</span><h3>Открытие бизнеса</h3><p>PT PMA и Local PT: структура, KBLI, лицензии, счёт в банке и бухгалтерия на абонентке. Один подрядчик на всё — без субподряда.</p><span class="dir-go">Бизнес-услуги →</span></a>
+      <a class="dir-card" href="business.html"><span class="dir-num">03</span><h3>Юридическое сопровождение</h3><p>Договоры, статусы владельцев, корректное закрытие компаний и сопровождение проверок — юридическая сторона жизни и бизнеса в Индонезии.</p><span class="dir-go">Подробнее →</span></a>
     </div>
+  </div></section>
 
-    <div class="intro-copy" id="introCopy">
-      <div class="inner">
-        <span class="eyebrow" data-i18n="intro_eyebrow">Malina Visa</span>
-        <h2 class="h-section" style="margin-top:22px" data-i18n="intro_title">Comprehensive business and legal services in Indonesia</h2>
-        <p class="lead" data-i18n="intro_text">We register companies and support businesses across Bali and the whole of Indonesia — from PT and PMA incorporation to corporate legal counsel, licensing, accounting, tax compliance and professional HR services. Our team stays with founders and investors at every step, and visa support is built into the same service, keeping owners and employees fully compliant.</p>
+  <!-- 3. ПОЧЕМУ ДОВЕРЯЮТ -->
+  <section class="page container" style="padding-top:0"><div class="section-block rv">
+    <h2>Почему нам доверяют</h2>
+    <div class="why-grid">
+      <div class="why-it"><span class="wi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span><b>Работаем в правовом поле</b><p>Только официальные процедуры и проверенные партнёры-спонсоры. Никаких «серых» схем, из-за которых визы аннулируют.</p></div>
+      <div class="why-it"><span class="wi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><b>Конфиденциальность</b><p>Паспорта и документы клиентов — закрытая информация. Работаем с предпринимателями и публичными людьми, которые это ценят.</p></div>
+      <div class="why-it"><span class="wi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></span><b>Скорость и честные сроки</b><p>Называем реальные сроки до оплаты и укладываемся в них. Если можно быстрее — сделаем быстрее.</p></div>
+    </div>
+  </div></section>
+
+  <!-- 4. CRM / АВТОКОНТРОЛЬ -->
+  <section class="page container" id="crm" style="padding-top:0"><div class="section-block rv">
+    <h2>Ничего не просрочится</h2>
+    <div class="crm-split">
+      <div>
+        <p style="color:var(--muted);line-height:1.65;font-size:16.5px">Каждая виза клиента ведётся в нашей CRM: сроки, продления, документы и этапы — под автоматическим контролем.</p>
+        <div class="crm-feats">
+          <div class="crm-feat"><span class="ck">✓</span><p><b>Следим за сроками</b> — система знает, когда истекает каждая виза, и не даёт нам забыть.</p></div>
+          <div class="crm-feat"><span class="ck">✓</span><p><b>Напоминаем заранее</b> — вы получаете уведомление о продлении заблаговременно, а не в последний день.</p></div>
+          <div class="crm-feat"><span class="ck">✓</span><p><b>Видно, на каком этапе процесс</b> — статус вашего оформления всегда известен: от подачи до штампа.</p></div>
+        </div>
       </div>
+      <div class="crm-win" aria-hidden="true"><div class="crm-bar">
+      <span class="crm-dot" style="background:#ff5f57"></span><span class="crm-dot" style="background:#febc2e"></span><span class="crm-dot" style="background:#28c840"></span>
+      <span class="crm-title">CRM · Malina Visa</span></div>
+      <div class="crm-body"><div class="crm-row"><div class="crm-top"><b>Анна К. — Виза C1</b><span class="crm-chip chip-gold">Напомним за 30 дней</span></div>
+        <div class="crm-sub">до 12.10.2026</div><div class="crm-track"><div class="crm-fill" style="width:68%"></div></div></div><div class="crm-row"><div class="crm-top"><b>Семья Морозовых — KITAS E31</b><span class="crm-chip chip-ok">Всё в порядке</span></div>
+        <div class="crm-sub">до 02.03.2027</div><div class="crm-track"><div class="crm-fill" style="width:34%"></div></div></div><div class="crm-row"><div class="crm-top"><b>Denis P. — E33G (удалёнщик)</b><span class="crm-chip chip-gold">Этап 2 из 4 · документы</span></div>
+        <div class="crm-sub">продление в работе</div><div class="crm-track"><div class="crm-fill" style="width:50%"></div></div></div><div class="crm-sub" style="margin-top:2px">Уведомления клиенту: WhatsApp · Telegram · E-mail</div></div></div>
+    </div>
+  </div></section>
+
+  <!-- 5. INSTAGRAM -->
+  <section class="page container" style="padding-top:0"><div class="rv">
+    <div class="ig-band">
+      <div><h3>Мы в Instagram — <span class="gold-text">@malinavisa</span></h3>
+      <p>Разборы виз простыми словами, балийские будни и настоящие кейсы клиентов — без канцелярита.</p></div>
+      <a class="btn btn-gold" href="https://www.instagram.com/malinavisa" target="_blank" rel="noopener">Подписаться</a>
+    </div>
+  </div></section>
+
+  <!-- 6. ВИЗЫ С ЦЕНАМИ -->
+  <section class="page container" style="padding-top:0"><div class="section-block rv">
+    <h2>Подберите свою визу</h2>
+    <div class="other-grid"><a class="other-card" href="tourist-visa.html"><span class="oc-tag">До 180 дней</span><b>Туристическая C1</b><span>60 дней с продлениями — от 2 500 000 IDR</span></a><a class="other-card" href="visa-on-arrival.html"><span class="oc-tag">30 + 30 дней</span><b>Виза по прибытии (VOA)</b><span>eVOA под ключ — 900 000 IDR, госпошлина включена</span></a><a class="other-card" href="business-visa.html"><span class="oc-tag">До 180 дней</span><b>Бизнес-виза C2</b><span>Переговоры и деловые задачи — от 4 200 000 IDR</span></a><a class="other-card" href="multiple-visa.html"><span class="oc-tag">1–2 года</span><b>Многократная D1/D2</b><span>Безлимитные въезды — от 3 700 000 IDR</span></a><a class="other-card" href="remote-worker-kitas.html"><span class="oc-tag">1 год</span><b>КИТАС удалёнщика E33G</b><span>ВНЖ для работающих на зарубежные компании — 12 000 000 IDR</span></a><a class="other-card" href="kitas-kitap.html"><span class="oc-tag">Гид</span><b>KITAS и KITAP</b><span>Все резидентские статусы: с чего начать</span></a></div>
+    <p style="margin-top:26px"><a class="btn btn-line" href="visas.html">Смотреть все 15 виз →</a></p>
+  </div></section>
+
+  <!-- 7. ОТЗЫВЫ GOOGLE -->
+  <section class="page container" id="reviews" style="padding-top:0"><div class="section-block rv">
+    <h2>Отзывы в Google</h2>
+    <div class="g-top">
+      <svg width="22" height="22" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>
+      <span class="g-score jsScore">5.0</span>
+      <span class="g-stars">★★★★★</span>
+      <span class="g-cnt"><span class="jsTotal">100+</span> отзывов · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">открыть в Google</a></span>
+    </div>
+    <div class="g-cards" data-grev="ru"></div>
+  </div></section>
+
+  <!-- 8. CTA -->
+  <div class="page container" style="padding-top:0">
+    <div class="cta rv"><h2>Расскажите о своей ситуации — подберём решение за один разговор</h2>
+      <a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Получить консультацию</a>
+      <a class="btn btn-line" href="contacts.html" style="margin-left:10px">Контакты и офис</a>
     </div>
   </div>
-</div>
+</main>
+<main class="en" lang="en">
+  <!-- 1. HERO -->
+  <section class="hh"><div class="hh-video" aria-hidden="true"><video src="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_065215_0384d401-d42c-4010-b3a5-02deaaaf307c.mp4" autoplay muted loop playsinline preload="metadata"></video></div><div class="container">
+    <span class="eyebrow rv">Visa agency · Bali</span>
+    <h1 class="rv" style="margin-top:20px">Trusted by <span class="gold-text">entrepreneurs</span> and clients</h1>
+    <p class="sub rv">Visas, residence and company setup in Indonesia — turnkey. We own the process from first question to stamp, and stay with you for the visa’s entire life.</p>
+    <div class="hh-cta rv">
+      <a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Message on WhatsApp</a>
+      <a class="btn btn-line" href="https://t.me/mstatham1" target="_blank" rel="noopener">Telegram</a>
+    </div>
+    <a class="g-badge rv" href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span><b>5.0</b> <span class="st">★★★★★</span> · <span class="jsTotal">100+</span> Google reviews</span></a>
+  </div></section>
 
-<!-- ======= 3. VISA SERVICES ======= -->
-<section class="section" id="visas">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="visa_eyebrow">Visa Service</span>
-      <h2 class="h-section" data-i18n="visa_title">Choose the type of visa that best suits your plans</h2>
-      <p class="lead" data-i18n="visa_sub">We make applying as fast and simple as it can be — and help you pick the visa that actually fits the purpose of your stay.</p>
+  <!-- 2. НАПРАВЛЕНИЯ -->
+  <section class="page container" style="padding-top:10px"><div class="section-block rv">
+    <h2>What we do</h2>
+    <div class="dir-grid">
+      <a class="dir-card" href="visas.html"><span class="dir-num">01</span><h3>Visas & Relocation</h3><p>From tourist visas to KITAS and KITAP: we match the status to your case, file it, and renew on time. In touch for the visa’s entire life.</p><span class="dir-go">All visas →</span></a>
+      <a class="dir-card" href="business.html"><span class="dir-num">02</span><h3>Company Setup</h3><p>PT PMA and Local PT: structure, KBLI, licences, banking and retainer accounting. One contractor for everything — no subcontracting.</p><span class="dir-go">Business services →</span></a>
+      <a class="dir-card" href="business.html"><span class="dir-num">03</span><h3>Legal Support</h3><p>Contracts, owners’ statuses, clean company wind-downs and inspection support — the legal side of life and business in Indonesia.</p><span class="dir-go">Learn more →</span></a>
     </div>
-    <div class="visa-panels" id="visaPanels">
-      <a class="visa-panel reveal" href="visa-on-arrival.html">
-        <span class="visa-tag" data-i18n="visa1_tag">Short stay</span>
-        <h3 class="visa-name" data-i18n="visa1_name">Visa on Arrival</h3>
-        <p class="visa-desc" data-i18n="visa1_desc">A fast entry option for tourism and short business trips, with a straightforward extension when 30 days isn't enough.</p>
-        <span class="visa-link"><span data-i18n="learn_more">Learn more</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-      <a class="visa-panel reveal" href="family-kitas.html">
-        <span class="visa-tag" data-i18n="visa2_tag">Family</span>
-        <h3 class="visa-name" data-i18n="visa2_name">Family KITAS</h3>
-        <p class="visa-desc" data-i18n="visa2_desc">A residence permit for spouses and children, so the whole family can live in Indonesia legally under one clear status.</p>
-        <span class="visa-link"><span data-i18n="learn_more">Learn more</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-      <a class="visa-panel reveal" href="work-kitas.html">
-        <span class="visa-tag" data-i18n="visa3_tag">Work</span>
-        <h3 class="visa-name" data-i18n="visa3_name">Work KITAS</h3>
-        <p class="visa-desc" data-i18n="visa3_desc">A work-and-stay permit for employment in Indonesia, prepared together with the employer's documents so nothing stalls.</p>
-        <span class="visa-link"><span data-i18n="learn_more">Learn more</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-      <a class="visa-panel reveal" href="business-visa.html">
-        <span class="visa-tag" data-i18n="visa4_tag">And more</span>
-        <h3 class="visa-name" data-i18n="visa4_name">Investor, business & other visas</h3>
-        <p class="visa-desc" data-i18n="visa4_desc">Investor KITAS, multiple-entry business visas, extensions and more — tell us your plans and we'll map the right route.</p>
-        <span class="visa-link"><span data-i18n="learn_more">Learn more</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-    </div>
-    <div class="visa-all reveal"><a class="btn btn-ghost" href="https://wa.me/6287842255781" target="_blank" rel="noopener" data-i18n="visa_all">Not sure which visa? Ask us</a></div>
-  </div>
-</section>
+  </div></section>
 
-<!-- ======= 4. LEGAL SERVICES ======= -->
-<section class="section" id="legal">
-  <div class="container legal-grid">
-    <div class="legal-copy reveal">
-      <span class="eyebrow" data-i18n="legal_eyebrow">Legal</span>
-      <h2 class="h-section" style="margin-top:20px" data-i18n="legal_title">Legal Services</h2>
-      <p class="lead" data-i18n="legal_text">Malina Visa provides legal support to private clients and companies throughout Indonesia, Bali included. We translate local regulation into clear next steps, prepare and review documentation, and stand behind our clients' rights and interests — in property deals, tax and employment matters, contracts, powers of attorney, due diligence and notarial work.</p>
-      <a class="btn btn-gold" href="business.html" data-i18n="legal_btn">Explore Legal Services</a>
+  <!-- 3. ПОЧЕМУ ДОВЕРЯЮТ -->
+  <section class="page container" style="padding-top:0"><div class="section-block rv">
+    <h2>Why clients trust us</h2>
+    <div class="why-grid">
+      <div class="why-it"><span class="wi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span><b>Fully legitimate</b><p>Official procedures and vetted sponsor partners only. No grey schemes that get visas revoked.</p></div>
+      <div class="why-it"><span class="wi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><b>Confidentiality</b><p>Client passports and papers stay private. We work with entrepreneurs and public figures who value that.</p></div>
+      <div class="why-it"><span class="wi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></span><b>Speed & honest deadlines</b><p>We quote real timelines before you pay — and meet them. When faster is possible, we go faster.</p></div>
     </div>
-    <div class="legal-visual reveal" aria-hidden="true">
-      <div class="rule" style="top:33%"></div>
-      <div class="rule" style="top:66%"></div>
-      <div class="stat" style="top:9%"><b>360°</b><i data-i18n="legal_s1">legal coverage for business and life in Indonesia</i></div>
-      <div class="stat" style="top:42%"><b>1&nbsp;team</b><i data-i18n="legal_s2">law, tax and accounting under one roof</i></div>
-      <div class="stat" style="top:75%"><b>0</b><i data-i18n="legal_s3">guesswork — every step documented and compliant</i></div>
+  </div></section>
+
+  <!-- 4. CRM / АВТОКОНТРОЛЬ -->
+  <section class="page container" id="crm" style="padding-top:0"><div class="section-block rv">
+    <h2>Nothing slips through</h2>
+    <div class="crm-split">
+      <div>
+        <p style="color:var(--muted);line-height:1.65;font-size:16.5px">Every client visa lives in our CRM: dates, renewals, documents and stages under automated control.</p>
+        <div class="crm-feats">
+          <div class="crm-feat"><span class="ck">✓</span><p><b>We track the dates</b> — the system knows when every visa expires and never lets us forget.</p></div>
+          <div class="crm-feat"><span class="ck">✓</span><p><b>We remind you early</b> — you get the renewal notice well ahead — not on the last day.</p></div>
+          <div class="crm-feat"><span class="ck">✓</span><p><b>You see the stage</b> — your case status is always known: from filing to stamp.</p></div>
+        </div>
+      </div>
+      <div class="crm-win" aria-hidden="true"><div class="crm-bar">
+      <span class="crm-dot" style="background:#ff5f57"></span><span class="crm-dot" style="background:#febc2e"></span><span class="crm-dot" style="background:#28c840"></span>
+      <span class="crm-title">CRM · Malina Visa</span></div>
+      <div class="crm-body"><div class="crm-row"><div class="crm-top"><b>Anna K. — C1 Visa</b><span class="crm-chip chip-gold">Reminder 30 days ahead</span></div>
+        <div class="crm-sub">valid till 12.10.2026</div><div class="crm-track"><div class="crm-fill" style="width:68%"></div></div></div><div class="crm-row"><div class="crm-top"><b>Morozov family — KITAS E31</b><span class="crm-chip chip-ok">All good</span></div>
+        <div class="crm-sub">valid till 02.03.2027</div><div class="crm-track"><div class="crm-fill" style="width:34%"></div></div></div><div class="crm-row"><div class="crm-top"><b>Denis P. — E33G (remote)</b><span class="crm-chip chip-gold">Stage 2 of 4 · documents</span></div>
+        <div class="crm-sub">extension in progress</div><div class="crm-track"><div class="crm-fill" style="width:50%"></div></div></div><div class="crm-sub" style="margin-top:2px">Client notifications: WhatsApp · Telegram · E-mail</div></div></div>
     </div>
-  </div>
-</section>
-<!-- ======= 5. TRUSTED BUSINESS PARTNER (scroll-driven carousel) ======= -->
-<section class="partner" id="business">
-  <div class="partner-stage">
-    <div class="container partner-head reveal">
-      <span class="eyebrow" data-i18n="partner_eyebrow">Why Malina Visa</span>
-      <h2 class="h-section" style="margin-top:20px" data-i18n="partner_title">Malina Visa: Your Trusted Business Partner</h2>
+  </div></section>
+
+  <!-- 5. INSTAGRAM -->
+  <section class="page container" style="padding-top:0"><div class="rv">
+    <div class="ig-band">
+      <div><h3>We’re on Instagram — <span class="gold-text">@malinavisa</span></h3>
+      <p>Visas explained in plain words, Bali everyday life and real client cases — zero legalese.</p></div>
+      <a class="btn btn-gold" href="https://www.instagram.com/malinavisa" target="_blank" rel="noopener">Follow</a>
     </div>
-    <div class="partner-track" id="partnerTrack">
-      <div class="p-card">
-        <div class="p-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
-        <h3 data-i18n="p1_t">Confidentiality</h3>
-        <p data-i18n="p1_d">Corporate, financial and personal data is handled under strict security standards — sensitive business information stays protected at every stage of the relationship.</p>
-      </div>
-      <div class="p-card">
-        <div class="p-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="M6 10.5V15c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.5"/></svg></div>
-        <h3 data-i18n="p2_t">Deep Expertise</h3>
-        <p data-i18n="p2_d">The team is made up of experienced legal, tax and accounting specialists who give clear, practical guidance tailored to each business.</p>
-      </div>
-      <div class="p-card">
-        <div class="p-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12Z"/></svg></div>
-        <h3 data-i18n="p3_t">Responsive Communication</h3>
-        <p data-i18n="p3_d">Business moves fast, so we stay reachable through convenient channels and respond quickly to operational and strategic questions alike.</p>
-      </div>
-      <div class="p-card">
-        <div class="p-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg></div>
-        <h3 data-i18n="p4_t">Proven Track Record</h3>
-        <p data-i18n="p4_d">Extensive hands-on experience supporting companies in Indonesia with registration, tax filing, accounting, HR and legal compliance — helping clients build a properly structured, compliant business.</p>
-      </div>
-      <div class="p-card">
-        <div class="p-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
-        <h3 data-i18n="p5_t">Clear Processes</h3>
-        <p data-i18n="p5_d">Structured, transparent workflows simplify complex regulatory procedures — saving time and reducing risk while staying compliant with Indonesian law.</p>
-      </div>
-      <div class="p-card">
-        <div class="p-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.6-9.5-9A5.5 5.5 0 0 1 12 6.3 5.5 5.5 0 0 1 21.5 12c-2.5 4.4-9.5 9-9.5 9Z"/></svg></div>
-        <h3 data-i18n="p6_t">Client-First Approach</h3>
-        <p data-i18n="p6_d">We build long-term partnerships focused on the growth and stability of each client's business, with solutions built around protecting their interests.</p>
-      </div>
+  </div></section>
+
+  <!-- 6. ВИЗЫ С ЦЕНАМИ -->
+  <section class="page container" style="padding-top:0"><div class="section-block rv">
+    <h2>Pick your visa</h2>
+    <div class="other-grid"><a class="other-card" href="tourist-visa.html"><span class="oc-tag">Up to 180 days</span><b>Tourist Visa C1</b><span>60 days with extensions — from IDR 2,500,000</span></a><a class="other-card" href="visa-on-arrival.html"><span class="oc-tag">30 + 30 days</span><b>Visa on Arrival</b><span>eVOA turnkey — IDR 900,000, state fee included</span></a><a class="other-card" href="business-visa.html"><span class="oc-tag">Up to 180 days</span><b>Business Visa C2</b><span>Meetings and business — from IDR 4,200,000</span></a><a class="other-card" href="multiple-visa.html"><span class="oc-tag">1–2 years</span><b>Multiple-entry D1/D2</b><span>Unlimited entries — from IDR 3,700,000</span></a><a class="other-card" href="remote-worker-kitas.html"><span class="oc-tag">1 year</span><b>Remote Worker KITAS E33G</b><span>Residence for remote employees — IDR 12,000,000</span></a><a class="other-card" href="kitas-kitap.html"><span class="oc-tag">Guide</span><b>KITAS & KITAP</b><span>Every residence status compared</span></a></div>
+    <p style="margin-top:26px"><a class="btn btn-line" href="visas.html">See all 15 visas →</a></p>
+  </div></section>
+
+  <!-- 7. ОТЗЫВЫ GOOGLE -->
+  <section class="page container" id="reviews" style="padding-top:0"><div class="section-block rv">
+    <h2>Google Reviews</h2>
+    <div class="g-top">
+      <svg width="22" height="22" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>
+      <span class="g-score jsScore">5.0</span>
+      <span class="g-stars">★★★★★</span>
+      <span class="g-cnt"><span class="jsTotal">100+</span> reviews · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">open in Google</a></span>
+    </div>
+    <div class="g-cards" data-grev="en"></div>
+  </div></section>
+
+  <!-- 8. CTA -->
+  <div class="page container" style="padding-top:0">
+    <div class="cta rv"><h2>Tell us your case — we’ll match a solution in one conversation</h2>
+      <a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Get a consultation</a>
+      <a class="btn btn-line" href="contacts.html" style="margin-left:10px">Contacts & office</a>
     </div>
   </div>
-</section>
-
-<!-- ======= 6. REVIEWS ======= -->
-<section class="section reviews" id="about">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="rev_eyebrow">Google Reviews</span>
-      <h2 class="h-section" data-i18n="rev_title">Reviews From Our Clients</h2>
-    </div>
-    <div class="reviews-field" id="reviewsField"></div>
-  </div>
-</section>
-
-<!-- ======= 7. TRUST BADGE ======= -->
-<section class="section" style="padding-top:0">
-  <div class="container trust reveal">
-    <a class="trust-badge" href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">
-      <span class="g-mark"><svg width="26" height="26" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg></span>
-      <span>
-        <span class="score" id="trustScore">5.0</span>
-        <span class="stars">★★★★★</span><br>
-        <span class="count"><span id="trustCount">—</span> <span data-i18n="trust_reviews">Google reviews</span> · <span data-i18n="trust_cta">We're trusted by clients</span></span>
-      </span>
-      <span class="arrow"><svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-    </a>
-  </div>
-</section>
-
-<!-- ======= FOOTER ======= -->
+</main>
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a class="logo" href="#top"><span class="logo-badge logo-img" role="img" aria-label="Malina Visa"></span><span class="lw"><b>Malina</b>&nbsp;<i>Visa</i></span></a>
-        <p data-i18n="footer_tag">Visas, business and legal support in Bali and across Indonesia — handled end to end.</p>
+        <a class="logo" href="index.html"><span class="logo-badge logo-img" role="img" aria-label="Malina Visa"></span><span class="lw"><b>Malina</b>&nbsp;<i>Visa</i></span></a>
+        <p data-f="tag">Visas, business and legal support in Bali and across Indonesia — handled end to end.</p>
       </div>
       <div class="footer-col">
-        <h4 data-i18n="f_col1">Services</h4>
-        <a href="business.html" data-i18n="nav_business">Business Services</a>
-        <a href="accounting.html" data-i18n="nav_acc">Accounting</a>
-        <a href="company-setup.html" data-i18n="bm_setup">Company Registration</a>
-        <a href="visas.html" data-i18n="nav_visas">Visas</a>
-          <a href="https://wa.me/6287842255781" target="_blank" rel="noopener" data-i18n="f_payment">Payment Methods</a>
+        <h4 data-f="c1">Services</h4>
+        <a href="business.html" data-f="business">Business Services</a>
+        <a href="visas.html" data-f="visas">Visas</a>
+        <a href="accounting.html" data-f="acc">Accounting</a>
+        <a href="company-setup.html" data-f="setup">Company Registration</a>
+        <a href="index.html#legal" data-f="legal">Legal Services</a>
+        <a href="https://wa.me/6287842255781" target="_blank" rel="noopener" data-f="payment">Payment Methods</a>
       </div>
       <div class="footer-col">
-        <h4 data-i18n="f_col2">Company</h4>
-        <a href="#about" data-i18n="nav_about">About Us</a>
-        <a href="#about" data-i18n="rev_title_short">Reviews</a>
-        <a href="contacts.html" data-i18n="f_contacts">Contacts</a>
-        <a href="privacy-policy.html" data-i18n="f_priv">Privacy Policy</a>
+        <h4 data-f="c2">Company</h4>
+        <a href="index.html#about" data-f="about">About Us</a>
+        <a href="index.html#about" data-f="reviews">Reviews</a>
+        <a href="contacts.html" data-f="contacts">Contacts</a>
+        <a href="privacy-policy.html" data-f="priv">Privacy Policy</a>
       </div>
       <div class="footer-col">
-        <h4 data-i18n="f_col3">Contact</h4>
+        <h4 data-f="c3">Contact</h4>
         <a href="mailto:visaprimabali@gmail.com">visaprimabali@gmail.com</a>
         <a href="https://wa.me/6287842255781" target="_blank" rel="noopener">WhatsApp +62 878-4225-5781</a>
         <a href="https://t.me/mstatham1" target="_blank" rel="noopener">Telegram @mstatham1</a>
-        <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener" data-i18n="f_addr">Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362</a><!-- TODO: точный адрес офиса -->
+        <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener" data-f="addr">Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362</a>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© <span id="year"></span> Malina Visa</span>
-      <span data-i18n="f_rights">All rights reserved</span>
+      <span data-f="rights">All rights reserved</span>
     </div>
   </div>
 </footer>
 
-<!-- ======= MESSENGER WIDGET ======= -->
 <div class="chat-widget" id="chatWidget">
   <div class="chat-links">
     <a class="chat-ico tg" href="https://t.me/mstatham1" target="_blank" rel="noopener" aria-label="Telegram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 2.7 11.7c-1 .4-1 1.9.1 2.2l4.8 1.5 1.8 5.6c.3 1 1.6 1.2 2.2.4l2.6-3.2 4.9 3.6c.8.6 2 .2 2.2-.8l3-15.3c.2-1.1-.9-2-2.4-1.4ZM8.5 14.9l9.4-6.8c.3-.2.6.2.4.5l-7.6 7.4-.3 3-1.9-4.1Z"/></svg></a>
@@ -611,196 +587,57 @@ img,video,canvas{display:block;max-width:100%}
   </div>
   <button class="chat-toggle" id="chatToggle" aria-expanded="false">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12Z"/></svg>
-    <span data-i18n="chat_cta">Chat with us</span>
+    <span data-f="chat">Chat with us</span>
   </button>
 </div>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+
 <script>
-window.addEventListener("DOMContentLoaded", function(){
-/* =========================================================
-   VIDEO_SOURCES — вставить URL сгенерированных клипов Seedance
-   (Higgsfield CDN). Пока пусто — работает кинематографичный
-   градиентный фолбэк, вся скролл-механика уже активна.
-   ========================================================= */
-const VIDEO_SOURCES = {
-  // Один непрерывный клип: храм Улувату -> отлёт -> орбита 360° (Seedance 2.0, 10s)
-  clip1: "https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_065215_0384d401-d42c-4010-b3a5-02deaaaf307c.mp4",
-  clip2: "",
-  clip3: ""
+/* язык: показываем main.ru или main.en, переводим шапку/футер */
+const NAV = {
+  en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", contacts:"Contacts",
+        d_tourist:"Tourist Visa C1 (211A)", d_voa:"Visa on Arrival (VOA)", d_business:"Business Visa C2",
+        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18",
+        d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
+  ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", contacts:"Контакты",
+        d_tourist:"Туристическая виза C1 (211A)", d_voa:"Виза по прибытии (VOA)", d_business:"Бизнес-виза C2",
+        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18",
+        d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
-
-/* ---------- REVIEWS (PLACEHOLDER — заменить реальными из Google Maps) ---------- */
-const REVIEWS = {
-  en: [
-    {n:"Sasha", d:"Jul 2026", t:"A visa request answered overnight: Matvey sorted everything fast, explained each step in detail, and arrival went without a single question. Reachable around the clock."},
-    {n:"Ivan", d:"Jun 2026", t:"Came in needing a visa \u201cyesterday\u201d, with almost no time before the trip \u2014 and the application still got done in time."},
-    {n:"Adil", d:"Mar 2026", t:"A one-month extension with zero hassle: sent the documents, paid, and had the visa back three days later."},
-    {n:"Miras", d:"Nov 2025", t:"Support from start to finish \u2014 Matvey stayed in touch the whole way and walked through the entire process, ending in a successful one-year visa."},
-    {n:"Radoslav", d:"Nov 2025", t:"Clear, fast and friendly communication throughout the KITAS process \u2014 professional, flexible, and smooth from beginning to end."},
-    {n:"Aleks", d:"Nov 2025", t:"Everything delivered exactly on schedule \u2014 no delays, no surprises."},
-    {n:"Yana", d:"Sep 2025", t:"Professional, quick and safe \u2014 the kind of service that saves both money and time. Fully recommended."}
-  ],
-  ru: [
-    {n:"\u0421\u0430\u0448\u0430", d:"\u0438\u044e\u043b\u044c 2026", t:"\u041e\u0442\u0432\u0435\u0442 \u043d\u0430 \u0432\u0438\u0437\u043e\u0432\u044b\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0440\u0438\u0448\u0451\u043b \u0437\u0430 \u043d\u043e\u0447\u044c: \u041c\u0430\u0442\u0432\u0435\u0439 \u0431\u044b\u0441\u0442\u0440\u043e \u0432\u0441\u0451 \u043e\u0444\u043e\u0440\u043c\u0438\u043b, \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e \u043e\u0431\u044a\u044f\u0441\u043d\u0438\u043b \u043a\u0430\u0436\u0434\u044b\u0439 \u0448\u0430\u0433, \u0430 \u043d\u0430 \u0432\u044a\u0435\u0437\u0434\u0435 \u043d\u0435 \u0432\u043e\u0437\u043d\u0438\u043a\u043b\u043e \u043d\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430. \u041d\u0430 \u0441\u0432\u044f\u0437\u0438 \u043a\u0440\u0443\u0433\u043b\u043e\u0441\u0443\u0442\u043e\u0447\u043d\u043e."},
-    {n:"\u0418\u0432\u0430\u043d", d:"\u0438\u044e\u043d\u044c 2026", t:"\u0412\u0438\u0437\u0430 \u0431\u044b\u043b\u0430 \u043d\u0443\u0436\u043d\u0430 \u00ab\u0432\u0447\u0435\u0440\u0430\u00bb, \u0434\u043e \u043f\u043e\u0435\u0437\u0434\u043a\u0438 \u043e\u0441\u0442\u0430\u0432\u0430\u043b\u0438\u0441\u044c \u0441\u0447\u0438\u0442\u0430\u043d\u043d\u044b\u0435 \u0434\u043d\u0438 \u2014 \u0438 \u0432\u0441\u0451 \u0440\u0430\u0432\u043d\u043e \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u043b\u0438 \u043e\u0444\u043e\u0440\u043c\u0438\u0442\u044c \u0432 \u0441\u0440\u043e\u043a."},
-    {n:"\u0410\u0434\u0438\u043b\u044c", d:"\u043c\u0430\u0440\u0442 2026", t:"\u041f\u0440\u043e\u0434\u043b\u0435\u043d\u0438\u0435 \u043d\u0430 \u043c\u0435\u0441\u044f\u0446 \u0431\u0435\u0437 \u0435\u0434\u0438\u043d\u043e\u0439 \u0437\u0430\u043c\u0438\u043d\u043a\u0438: \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u043b \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b, \u043e\u043f\u043b\u0430\u0442\u0438\u043b \u2014 \u0447\u0435\u0440\u0435\u0437 \u0442\u0440\u0438 \u0434\u043d\u044f \u0432\u0438\u0437\u0430 \u0431\u044b\u043b\u0430 \u0433\u043e\u0442\u043e\u0432\u0430."},
-    {n:"\u041c\u0438\u0440\u0430\u0441", d:"\u043d\u043e\u044f\u0431\u0440\u044c 2025", t:"\u0421\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u043e\u0442 \u043d\u0430\u0447\u0430\u043b\u0430 \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u2014 \u041c\u0430\u0442\u0432\u0435\u0439 \u0431\u044b\u043b \u043d\u0430 \u0441\u0432\u044f\u0437\u0438 \u0432\u0435\u0441\u044c \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0438 \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e \u0432\u0441\u0451 \u043e\u0431\u044a\u044f\u0441\u043d\u044f\u043b. \u0418\u0442\u043e\u0433 \u2014 \u0433\u043e\u0434\u043e\u0432\u0430\u044f \u0432\u0438\u0437\u0430."},
-    {n:"\u0420\u0430\u0434\u043e\u0441\u043b\u0430\u0432", d:"\u043d\u043e\u044f\u0431\u0440\u044c 2025", t:"\u042f\u0441\u043d\u0430\u044f, \u0431\u044b\u0441\u0442\u0440\u0430\u044f \u0438 \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u0430\u044f \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u044f \u043d\u0430 \u043f\u0440\u043e\u0442\u044f\u0436\u0435\u043d\u0438\u0438 \u0432\u0441\u0435\u0433\u043e \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f \u041a\u0418\u0422\u0410\u0421 \u2014 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e \u0438 \u0433\u0438\u0431\u043a\u043e."},
-    {n:"\u0410\u043b\u0435\u043a\u0441", d:"\u043d\u043e\u044f\u0431\u0440\u044c 2025", t:"\u0412\u0441\u0451 \u0441\u0434\u0435\u043b\u0430\u043d\u043e \u0442\u043e\u0447\u043d\u043e \u0432 \u0441\u0440\u043e\u043a \u2014 \u0431\u0435\u0437 \u0437\u0430\u0434\u0435\u0440\u0436\u0435\u043a \u0438 \u0441\u044e\u0440\u043f\u0440\u0438\u0437\u043e\u0432."},
-    {n:"\u042f\u043d\u0430", d:"\u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c 2025", t:"\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e, \u0431\u044b\u0441\u0442\u0440\u043e \u0438 \u043d\u0430\u0434\u0451\u0436\u043d\u043e \u2014 \u0441\u0435\u0440\u0432\u0438\u0441, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0431\u0435\u0440\u0435\u0436\u0451\u0442 \u0438 \u0434\u0435\u043d\u044c\u0433\u0438, \u0438 \u0432\u0440\u0435\u043c\u044f. \u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u044e."}
-  ]
+const FOOT = {
+  en: { tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
+        c1:"Services", c2:"Company", c3:"Contact", business:"Business Services", visas:"Visas", acc:"Accounting", setup:"Company Registration",
+        legal:"Legal Services", payment:"Payment Methods", about:"About Us", contacts:"Contacts", reviews:"Reviews",
+        contacts:"Contacts", priv:"Privacy Policy", addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362", rights:"All rights reserved", chat:"Chat with us" },
+  ru: { tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
+        c1:"Услуги", c2:"Компания", c3:"Контакты", business:"Бизнес-услуги", visas:"Визы", acc:"Бухгалтерия", setup:"Регистрация компаний",
+        legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", contacts:"Контакты", reviews:"Отзывы",
+        contacts:"Контакты", priv:"Политика конфиденциальности", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
 };
-const TRUST = { score:"5.0", count:"98" };
-
-/* ---------- i18n ---------- */
-const I18N = {
-  en: {
-    nav_business:"Business Services", nav_acc:"Accounting", bm_setup:"Company Registration", bm_pma:"PT PMA Company", bm_local:"Local PT (PMDN)", bm_close:"Company Closure", bm_all:"All business services →", nav_legal:"Legal Services", nav_visas:"Visas", nav_about:"About Us", nav_contacts:"Contacts",
-    dm_tourist:"Tourist Visa C1 (211A)", dm_voa:"Visa on Arrival (VOA)", dm_family:"Family KITAS",
-    dm_work:"Work KITAS", dm_business:"Business Visa C2", dm_multiple:"Multiple-entry D1 / D2", dm_d12:"Pre-Investment D12", dm_c18:"Candidate Visa C18", dm_kitas:"KITAS & KITAP", dm_all:"All visa types →",
-    hero_l1:"Every Indonesian visa.", hero_l2:"Handled end to end.",
-    hero_sub:"Trusted by a growing base of clients across Bali and Indonesia — from a 30-day stay to KITAS, business and legal support.",
-    scroll_cue:"Scroll",
-    intro_eyebrow:"Malina Visa",
-    intro_title:"Comprehensive business and legal services in Indonesia",
-    intro_text:"We register companies and support businesses across Bali and the whole of Indonesia — from PT and PMA incorporation to corporate legal counsel, licensing, accounting, tax compliance and professional HR services. Our team stays with founders and investors at every step, and visa support is built into the same service, keeping owners and employees fully compliant.",
-    visa_eyebrow:"Visa Service", visa_title:"Choose the type of visa that best suits your plans",
-    visa_sub:"We make applying as fast and simple as it can be — and help you pick the visa that actually fits the purpose of your stay.",
-    visa1_tag:"Short stay", visa1_name:"Visa on Arrival",
-    visa1_desc:"A fast entry option for tourism and short business trips, with a straightforward extension when 30 days isn't enough.",
-    visa2_tag:"Family", visa2_name:"Family KITAS",
-    visa2_desc:"A residence permit for spouses and children, so the whole family can live in Indonesia legally under one clear status.",
-    visa3_tag:"Work", visa3_name:"Work KITAS",
-    visa3_desc:"A work-and-stay permit for employment in Indonesia, prepared together with the employer's documents so nothing stalls.",
-    visa4_tag:"And more", visa4_name:"Investor, business & other visas",
-    visa4_desc:"Investor KITAS, multiple-entry business visas, extensions and more — tell us your plans and we'll map the right route.",
-    learn_more:"Learn more", visa_all:"Not sure which visa? Ask us",
-    legal_eyebrow:"Legal", legal_title:"Legal Services",
-    legal_text:"Malina Visa provides legal support to private clients and companies throughout Indonesia, Bali included. We translate local regulation into clear next steps, prepare and review documentation, and stand behind our clients' rights and interests — in property deals, tax and employment matters, contracts, powers of attorney, due diligence and notarial work.",
-    legal_btn:"Explore Legal Services",
-    legal_s1:"legal coverage for business and life in Indonesia",
-    legal_s2:"law, tax and accounting under one roof",
-    legal_s3:"guesswork — every step documented and compliant",
-    partner_eyebrow:"Why Malina Visa", partner_title:"Malina Visa: Your Trusted Business Partner",
-    p1_t:"Confidentiality", p1_d:"Corporate, financial and personal data is handled under strict security standards — sensitive business information stays protected at every stage of the relationship.",
-    p2_t:"Deep Expertise", p2_d:"The team is made up of experienced legal, tax and accounting specialists who give clear, practical guidance tailored to each business.",
-    p3_t:"Responsive Communication", p3_d:"Business moves fast, so we stay reachable through convenient channels and respond quickly to operational and strategic questions alike.",
-    p4_t:"Proven Track Record", p4_d:"Extensive hands-on experience supporting companies in Indonesia with registration, tax filing, accounting, HR and legal compliance — helping clients build a properly structured, compliant business.",
-    p5_t:"Clear Processes", p5_d:"Structured, transparent workflows simplify complex regulatory procedures — saving time and reducing risk while staying compliant with Indonesian law.",
-    p6_t:"Client-First Approach", p6_d:"We build long-term partnerships focused on the growth and stability of each client's business, with solutions built around protecting their interests.",
-    rev_eyebrow:"Google Reviews", rev_title:"Reviews From Our Clients", rev_title_short:"Reviews",
-    trust_reviews:"Google reviews", trust_cta:"We're trusted by clients",
-    footer_tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
-    f_col1:"Services", f_col2:"Company", f_col3:"Contact",
-    f_payment:"Payment Methods", f_contacts:"Contacts", f_priv:"Privacy Policy",
-    f_addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362",
-    f_rights:"All rights reserved", chat_cta:"Chat with us"
-  },
-  ru: {
-    nav_business:"Бизнес-услуги", nav_acc:"Бухгалтерия", bm_setup:"Регистрация компаний", bm_pma:"Компания PT PMA", bm_local:"Local PT (PMDN)", bm_close:"Закрытие компании", bm_all:"Все бизнес-услуги →", nav_legal:"Юридические услуги", nav_visas:"Визы", nav_about:"О нас", nav_contacts:"Контакты",
-    dm_tourist:"Туристическая виза C1 (211A)", dm_voa:"Виза по прибытии (VOA)", dm_family:"Семейный КИТАС",
-    dm_work:"Рабочий КИТАС", dm_business:"Бизнес-виза C2", dm_multiple:"Многократная D1 / D2", dm_d12:"Pre-Investment D12", dm_c18:"Виза кандидата C18", dm_kitas:"KITAS и KITAP", dm_all:"Все типы виз →",
-    hero_l1:"Любая виза в Индонезию.", hero_l2:"Под ключ, от и до.",
-    hero_sub:"Нам доверяют клиенты по всему Бали и Индонезии — от визы на 30 дней до КИТАС, бизнес- и юридического сопровождения.",
-    scroll_cue:"Листайте",
-    intro_eyebrow:"Malina Visa",
-    intro_title:"Комплексные бизнес- и юридические услуги в Индонезии",
-    intro_text:"Мы регистрируем компании и сопровождаем бизнес на Бали и по всей Индонезии — от создания PT и PMA до корпоративного юридического сопровождения, лицензий, бухгалтерии, налоговой отчётности и HR-сервисов. Команда остаётся рядом с основателями и инвесторами на каждом этапе, а визовая поддержка встроена в тот же сервис — владельцы и сотрудники всегда в правовом поле.",
-    visa_eyebrow:"Визовый сервис", visa_title:"Выберите визу, которая подходит именно вашим планам",
-    visa_sub:"Мы делаем подачу максимально быстрой и простой — и помогаем выбрать визу, которая действительно соответствует цели поездки.",
-    visa1_tag:"Короткий визит", visa1_name:"Виза по прибытии",
-    visa1_desc:"Быстрый вариант въезда для туризма и коротких деловых поездок — с простым продлением, если 30 дней не хватит.",
-    visa2_tag:"Семья", visa2_name:"Семейный КИТАС",
-    visa2_desc:"Вид на жительство для супругов и детей — вся семья живёт в Индонезии легально и с понятным статусом.",
-    visa3_tag:"Работа", visa3_name:"Рабочий КИТАС",
-    visa3_desc:"Разрешение на работу и проживание — готовим вместе с документами работодателя, чтобы ничего не буксовало.",
-    visa4_tag:"И другие", visa4_name:"Инвесторские, бизнес- и другие визы",
-    visa4_desc:"Инвесторский КИТАС, мультивизы для бизнеса, продления и не только — расскажите о планах, подберём маршрут.",
-    learn_more:"Подробнее", visa_all:"Не нашли свою визу? Напишите нам",
-    legal_eyebrow:"Право", legal_title:"Юридические услуги",
-    legal_text:"Malina Visa оказывает юридическую поддержку частным лицам и компаниям по всей Индонезии, включая Бали. Мы переводим местное законодательство в понятные шаги, готовим и проверяем документы и отстаиваем права и интересы клиентов — в сделках с недвижимостью, налоговых и трудовых вопросах, договорах, доверенностях, Due Diligence и нотариальных процедурах.",
-    legal_btn:"Смотреть юридические услуги",
-    legal_s1:"правовое покрытие для бизнеса и жизни в Индонезии",
-    legal_s2:"юристы, налоги и бухгалтерия в одной команде",
-    legal_s3:"догадок — каждый шаг задокументирован и легален",
-    partner_eyebrow:"Почему Malina Visa", partner_title:"Malina Visa: ваш надёжный бизнес-партнёр",
-    p1_t:"Конфиденциальность", p1_d:"Корпоративные, финансовые и персональные данные обрабатываются по строгим стандартам безопасности — чувствительная деловая информация защищена на каждом этапе сотрудничества.",
-    p2_t:"Глубокая экспертиза", p2_d:"Команда опытных специалистов по праву, налогам и бухгалтерии даёт ясные, практичные рекомендации с учётом специфики каждого бизнеса.",
-    p3_t:"Быстрая связь", p3_d:"Бизнес не ждёт — мы остаёмся на связи в удобных каналах и оперативно отвечаем и на операционные, и на стратегические вопросы.",
-    p4_t:"Подтверждённый опыт", p4_d:"Большой практический опыт сопровождения компаний в Индонезии: регистрация, налоговая отчётность, бухгалтерия, HR и юридическое соответствие — клиенты получают корректно выстроенный, легальный бизнес.",
-    p5_t:"Понятные процессы", p5_d:"Структурированные и прозрачные процессы упрощают сложные регуляторные процедуры — экономят время и снижают риски при полном соблюдении законов Индонезии.",
-    p6_t:"Клиент в центре", p6_d:"Мы строим долгосрочные партнёрства, поддерживая рост и устойчивость бизнеса клиентов, — решения выстроены вокруг защиты их интересов.",
-    rev_eyebrow:"Отзывы Google", rev_title:"Отзывы наших клиентов", rev_title_short:"Отзывы",
-    trust_reviews:"отзывов в Google", trust_cta:"Нам доверяют клиенты",
-    footer_tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
-    f_col1:"Услуги", f_col2:"Компания", f_col3:"Контакты",
-    f_payment:"Способы оплаты", f_contacts:"Контакты", f_priv:"Политика конфиденциальности",
-    f_addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362",
-    f_rights:"Все права защищены", chat_cta:"Напишите нам"
-  }
+const PAGE_TITLES = {
+  ru: "Визы и бизнес в Индонезии — Malina Visa",
+  en: "Visas & Business in Indonesia — Malina Visa"
 };
-let LANG = "en";
 function applyLang(lang){
-  LANG = lang;
+  document.body.classList.toggle("lang-en", lang === "en");
   document.documentElement.lang = lang;
-  document.querySelectorAll("[data-i18n]").forEach(el=>{
-    const key = el.getAttribute("data-i18n");
-    if (I18N[lang][key] !== undefined) el.textContent = I18N[lang][key];
-  });
-  document.querySelectorAll(".lang-switch button").forEach(b=>
-    b.classList.toggle("active", b.dataset.lang === lang));
-  renderReviews();
+  document.title = PAGE_TITLES[lang];
+  document.querySelectorAll("[data-nav]").forEach(el=>{ if(NAV[lang][el.dataset.nav]) el.textContent = NAV[lang][el.dataset.nav]; });
+  document.querySelectorAll("[data-f]").forEach(el=>{ if(FOOT[lang][el.dataset.f]) el.textContent = FOOT[lang][el.dataset.f]; });
+  document.querySelectorAll(".lang-switch button").forEach(b=>b.classList.toggle("active", b.dataset.lang === lang));
 }
 document.querySelectorAll(".lang-switch button").forEach(b=>b.addEventListener("click", ()=>{ applyLang(b.dataset.lang); try{localStorage.setItem("mv_lang", b.dataset.lang)}catch(e){} }));
 
-/* ---------- reviews render (scattered field) ---------- */
-const R_POS = [ // deterministic "random" scatter: [top%, left%]
-  [2,4],[11,54],[24,20],[37,64],[51,8],[64,46],[78,62]
-];
-function renderReviews(){
-  const field = document.getElementById("reviewsField");
-  field.innerHTML = "";
-  REVIEWS[LANG].forEach((r,i)=>{
-    const card = document.createElement("article");
-    card.className = "r-card";
-    const pos = R_POS[i % R_POS.length];
-    card.style.top = pos[0] + "%";
-    card.style.left = "min(" + pos[1] + "%, calc(100% - 370px))";
-    card.innerHTML =
-      '<div class="r-stars">★★★★★</div>' +
-      '<p class="r-text"></p>' +
-      '<div class="r-meta"><b></b><span></span></div>';
-    card.querySelector(".r-text").textContent = r.t;
-    card.querySelector(".r-meta b").textContent = r.n;
-    card.querySelector(".r-meta span").textContent = r.d;
-    field.appendChild(card);
-  });
-  if (window.ScrollTrigger) initReviewAnim();
-}
 
-/* ---------- boot ---------- */
 document.getElementById("year").textContent = new Date().getFullYear();
-if (TRUST.count) document.getElementById("trustCount").textContent = TRUST.count;
-document.getElementById("trustScore").textContent = TRUST.score;
-
 const chatWidget = document.getElementById("chatWidget");
 document.getElementById("chatToggle").addEventListener("click", ()=>{
   const open = chatWidget.classList.toggle("open");
   document.getElementById("chatToggle").setAttribute("aria-expanded", open);
 });
-
 const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
-burger.addEventListener("click", ()=>{
-  const open = mobileNav.classList.toggle("open");
-  if (typeof lenis !== "undefined" && lenis) { open ? lenis.stop() : lenis.start(); }
-});
-mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>{
-  mobileNav.classList.remove("open");
-  if (typeof lenis !== "undefined" && lenis) lenis.start();
-}));
+burger.addEventListener("click", ()=>mobileNav.classList.toggle("open"));
+mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>mobileNav.classList.remove("open")));
 /* прокрутка меню своими руками — не зависит от жестов браузера */
 (function(){
   let sy = 0, st = 0;
@@ -813,139 +650,63 @@ mobileNav.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>{
   }, {passive:false});
 })();
 
-/* ---------- grain ---------- */
-(function grain(){
-  const c = document.getElementById("grain"), ctx = c.getContext("2d");
-  c.width = 240; c.height = 240;
-  const img = ctx.createImageData(240,240);
-  for (let i=0;i<img.data.length;i+=4){
-    const v = Math.random()*255|0;
-    img.data[i]=img.data[i+1]=img.data[i+2]=v; img.data[i+3]=18;
-  }
-  ctx.putImageData(img,0,0);
-  c.style.width="100%"; c.style.height="100%";
-})();
-
-/* ---------- video wiring ---------- */
-const clips = ["clip1","clip2","clip3"].map(id=>document.getElementById(id));
-let videosReady = false;
-(function initVideos(){
-  const urls = [VIDEO_SOURCES.clip1, VIDEO_SOURCES.clip2, VIDEO_SOURCES.clip3];
-  if (urls.every(u=>!u)) return; // fallback mode
-  urls.forEach((u,i)=>{ if(u){ clips[i].src = u; clips[i].load(); } });
-  videosReady = true;
-  document.getElementById("filmFallback").style.opacity = "0";
-})();
-/* Плавный скраб: скролл задаёт только цель, перемотка идёт в rAF-цикле
-   с лёгкой интерполяцией и не стартует, пока не закончилась предыдущая
-   (seek в браузере асинхронный — без этого кадры "дерутся" и видео дёргается). */
-let targetTime = 0, smoothTime = 0, seekBusy = false;
-function scrubVideo(v, p){ // p 0..1 — только обновляет цель
-  if (!v.src || !v.duration || isNaN(v.duration)) return;
-  targetTime = Math.min(v.duration - 0.05, p * v.duration);
-}
-function videoSmoothLoop(){
-  const v = clips[0];
-  if (v && v.src && v.duration && !isNaN(v.duration)){
-    smoothTime += (targetTime - smoothTime) * 0.14;
-    if (!seekBusy && Math.abs(v.currentTime - smoothTime) > 0.033){
-      seekBusy = true;
-      v.currentTime = smoothTime;
-    }
-  }
-  requestAnimationFrame(videoSmoothLoop);
-}
-clips.forEach(v=>v.addEventListener("seeked", ()=>{ seekBusy = false; }));
-clips.forEach(v=>v.addEventListener("error",  ()=>{ seekBusy = false; }));
-requestAnimationFrame(videoSmoothLoop);
-
-/* ---------- motion ---------- */
-const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const isMobile = window.matchMedia("(max-width: 1000px)").matches;
-
-let lenis = null;
-if (!prefersReduced && window.Lenis){
-  lenis = new Lenis({ lerp: 0.09, smoothWheel: true });
-  function raf(t){ lenis.raf(t); requestAnimationFrame(raf); }
-  requestAnimationFrame(raf);
-}
-
-gsap.registerPlugin(ScrollTrigger);
-if (lenis) lenis.on("scroll", ScrollTrigger.update);
-
-/* header state */
-ScrollTrigger.create({
-  start: "top -60", end: 99999,
-  onUpdate: self => document.getElementById("header").classList.toggle("solid", self.scroll() > 60)
+/* аккордеоны: открытие одного закрывает соседей в группе */
+document.querySelectorAll(".acc").forEach(group=>{
+  group.querySelectorAll("details").forEach(d=>{
+    d.addEventListener("toggle", ()=>{
+      if (d.open) group.querySelectorAll("details[open]").forEach(o=>{ if(o!==d) o.open=false; });
+    });
+  });
 });
 
-/* hero title tracking-in */
-gsap.to(".hero-title-line span", { y: 0, duration: 1.4, ease: "expo.out", stagger: 0.12, delay: 0.25 });
-gsap.from(".hero-sub, .scroll-cue", { opacity: 0, y: 24, duration: 1.2, ease: "expo.out", delay: 0.9 });
-
-/* film master timeline: clip1 -> clip2 -> clip3 -> black */
-if (!prefersReduced){
-  const film = gsap.timeline({
-    scrollTrigger: { trigger: ".film", start: "top top", end: "bottom bottom", scrub: true,
-      onUpdate(self){
-        const p = self.progress;
-        if (videosReady){
-          setClip(0); // один непрерывный клип на обе секции
-          scrubVideo(clips[0], Math.min(1, p/0.98));
-        }
-      }
-    }
-  });
-  function setClip(idx){
-    clips.forEach((v,i)=>v.classList.toggle("visible", i===idx && !!v.src));
-  }
-  /* hero copy exits */
-  film.to("#heroCopy .inner", { yPercent: -30, opacity: 0, ease: "none", duration: .25 }, 0)
-      .to(".scroll-cue", { opacity: 0, ease: "none", duration: .1 }, 0)
-  /* intro copy in and out */
-      .fromTo("#introCopy", { opacity: 0, y: 60 }, { opacity: 1, y: 0, ease: "none", duration: .15 }, 0.28)
-      .to("#introCopy", { opacity: 0, y: -60, ease: "none", duration: .15 }, 0.55)
-  /* единое слитное угасание после ухода интро-текста: фильтр и чёрная вуаль
-     идут одной парой от незаметного нуля (eased) до конца пина — светлая и
-     тёмная фазы видео соединены без точки "переключения" */
-      .to("#filmMedia video, #filmFallback", { filter: "saturate(0.2) brightness(0.55)", ease: "power1.inOut", duration: .30 }, 0.70)
-      .to("#filmBlack", { opacity: 1, ease: "power1.in", duration: .30 }, 0.70);
-} else {
-  document.getElementById("introCopy").style.opacity = "1";
-}
-
-/* generic reveals */
-document.querySelectorAll(".reveal").forEach(el=>{
-  gsap.to(el, { opacity: 1, y: 0, duration: 1.15, ease: "expo.out",
-    scrollTrigger: { trigger: el, start: "top 90%" } });
-});
-
-/* partner horizontal scroll (desktop only) */
-if (!isMobile && !prefersReduced){
-  const track = document.getElementById("partnerTrack");
-  const getX = () => -(track.scrollWidth - window.innerWidth + 40);
-  gsap.to(track, {
-    x: getX, ease: "none",
-    scrollTrigger: { trigger: ".partner", start: "top top", end: "bottom bottom", scrub: true, invalidateOnRefresh: true }
-  });
-}
-
-/* review cards staggered reveal */
-function initReviewAnim(){
-  if (isMobile || prefersReduced){
-    document.querySelectorAll(".r-card").forEach(c=>{ c.style.opacity=1; c.style.transform="none"; });
-    return;
-  }
-  ScrollTrigger.batch(".r-card", {
-    start: "top 88%",
-    onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, scale: 1, duration: 1.1, ease: "expo.out", stagger: 0.12 })
-  });
-}
-renderReviews();
 applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||s==="en") return s; }catch(e){} try{ var langs=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||""]); for(var i=0;i<langs.length;i++){ if(String(langs[i]).toLowerCase().indexOf("ru")===0) return "ru"; } }catch(e){} return "en"; })());
-window.addEventListener("load", ()=>ScrollTrigger.refresh());
+</script>
 
-});
+<script>
+/* ===== Google reviews loader (v21) ===== */
+(function(){
+
+var GREV_FALLBACK = {rating:5.0,total:101,reviews:{
+ru:[
+{n:"Саша",d:"июль 2026",r:5,t:"Ответ на визовый запрос пришёл за ночь: Матвей быстро всё оформил, подробно объяснил каждый шаг, а на въезде не возникло ни одного вопроса. На связи круглосуточно."},
+{n:"Иван",d:"июнь 2026",r:5,t:"Виза была нужна «вчера», до поездки оставались считанные дни — и всё равно заявление успели подать вовремя."},
+{n:"Адиль",d:"март 2026",r:5,t:"Продление на месяц без единой заминки: отправил документы, оплатил — через три дня виза была готова."},
+{n:"Мирас",d:"ноябрь 2025",r:5,t:"Сопровождение от и до — Матвей был на связи весь процесс и провёл через все шаги, в итоге годовая виза успешно получена."},
+{n:"Радослав",d:"ноябрь 2025",r:5,t:"Чёткая, быстрая и дружелюбная коммуникация на всём пути KITAS — профессионально, гибко и гладко от начала до конца."}],
+en:[
+{n:"Sasha",d:"Jul 2026",r:5,t:"A visa request answered overnight: Matvey sorted everything fast, explained each step in detail, and arrival went without a single question. Reachable around the clock."},
+{n:"Ivan",d:"Jun 2026",r:5,t:"Came in needing a visa \u201cyesterday\u201d, with almost no time before the trip \u2014 and the application still got done in time."},
+{n:"Adil",d:"Mar 2026",r:5,t:"A one-month extension with zero hassle: sent the documents, paid, and had the visa back three days later."},
+{n:"Miras",d:"Nov 2025",r:5,t:"Support from start to finish \u2014 Matvey stayed in touch the whole way and walked through the entire process, ending in a successful one-year visa."},
+{n:"Radoslav",d:"Nov 2025",r:5,t:"Clear, fast and friendly communication throughout the KITAS process \u2014 professional, flexible, and smooth from beginning to end."}]}};
+
+  function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+  function card(r){
+    var ava = r.a ? '<img src="'+r.a+'" alt="" loading="lazy" referrerpolicy="no-referrer">' : esc((r.n||'•').trim().charAt(0).toUpperCase());
+    return '<article class="g-card"><div class="st">'+'★'.repeat(Math.round(r.r||5))+'</div>'+
+      '<p>'+esc(r.t||'')+'</p>'+
+      '<div class="g-meta"><span class="g-ava">'+ava+'</span><span><b>'+esc(r.n||'')+'</b><span>'+esc(r.d||'')+'</span></span>'+
+      '<a class="g-link" href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">Google ↗</a></div></article>';
+  }
+  function render(data){
+    document.querySelectorAll('.g-cards').forEach(function(box){
+      var L = box.getAttribute('data-grev')||'ru';
+      var list = (data.reviews && data.reviews[L]) || [];
+      box.innerHTML = list.map(card).join('');
+    });
+    if(data.rating) document.querySelectorAll('.jsScore').forEach(function(e){e.textContent=Number(data.rating).toFixed(1);});
+    if(data.total) document.querySelectorAll('.jsTotal').forEach(function(e){e.textContent=data.total;});
+  }
+  render(GREV_FALLBACK);
+  fetch('/api/reviews').then(function(r){return r.json();}).then(function(d){ if(d && d.reviews) render(d); }).catch(function(){});
+})();
+/* ===== reveal ===== */
+(function(){
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+})();
 </script>
 </body>
 </html>

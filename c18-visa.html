@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v20-perf">
+<meta name="build" content="v21-butler">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -64,7 +64,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;letter-spacing:-.02em}
 .logo-mark{width:30px;height:30px;border-radius:9px;background:var(--grad);display:grid;place-items:center;color:var(--ink);font-size:15px;font-weight:700}
 .logo-badge{flex:0 0 auto;display:block}
-.logo-img{width:42px;height:42px;flex:0 0 auto;background:url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22favGold%22%20x1%3D%228%22%20y1%3D%228%22%20x2%3D%2256%22%20y2%3D%2256%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ecd5a4%22/%3E%3Cstop%20offset%3D%22.6%22%20stop-color%3D%22%23d2a45c%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23a97c3c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d%3D%22M32.5%2012.5c2.4-4.2%207.8-4.8%2010.8-3.1-1%204.1-5.8%206.2-10.8%203.1z%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M33%2013c-.5-2.9%200-4.8%201.4-6.5%22%20stroke%3D%22url%28%23favGold%29%22%20stroke-width%3D%222.2%22%20stroke-linecap%3D%22round%22%20fill%3D%22none%22/%3E%3Cg%20stroke%3D%22%2308090b%22%20stroke-width%3D%221.6%22%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2219.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2229%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2228.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2237.5%22%20r%3D%225.8%22%20fill%3D%22%23f5f1e7%22/%3E%3C/g%3E%3Cpath%20d%3D%22M28.5%2042.5%2028%2048M35.5%2042.5%2036.5%2048%22%20stroke%3D%22%23f5f1e7%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22/%3E%3Cg%20transform%3D%22rotate%28-8%2032%2051.5%29%22%3E%3Crect%20x%3D%228%22%20y%3D%2248%22%20width%3D%2248%22%20height%3D%227%22%20rx%3D%223.5%22%20fill%3D%22url%28%23favGold%29%22/%3E%3Cpath%20d%3D%22M14%2051.5h36%22%20stroke%3D%22%23a97c3c%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.6%22/%3E%3C/g%3E%3C/svg%3E") no-repeat center/contain}
+.logo-img{width:44px;height:44px;flex:0 0 auto;background:url("logo-surf.png") no-repeat center/contain}
 .logo .lw b{color:var(--text);font-weight:700}
 .logo .lw i{font-style:normal;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 
@@ -205,6 +205,27 @@ body.lang-en main.en{display:block}
   .cta{padding:36px 26px}
 }
 @media(prefers-reduced-motion:reduce){*{transition-duration:.001s!important}}
+
+/* v21: отзывы + автоконтроль на внутренних */
+.g-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:22px 0 18px}
+.g-score{font-size:38px;font-weight:700;letter-spacing:-.03em}
+.g-stars{color:#f4b400;font-size:18px;letter-spacing:3px}
+.g-cnt{color:var(--muted);font-size:14.5px}
+.g-cnt a{text-decoration:underline;color:var(--sand)}
+.g-cards{display:grid;grid-auto-flow:column;grid-auto-columns:min(340px,84vw);gap:14px;overflow-x:auto;padding:4px 4px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.g-card{scroll-snap-align:start;border:1px solid var(--line);border-radius:16px;background:var(--glass);padding:20px 20px 16px;display:flex;flex-direction:column;gap:10px}
+.g-card .st{color:#f4b400;letter-spacing:2px;font-size:14px}
+.g-card p{color:var(--text);font-size:14.3px;line-height:1.6;flex:1;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.g-meta{display:flex;align-items:center;gap:11px}
+.g-ava{width:38px;height:38px;border-radius:50%;background:rgba(210,164,92,.2);color:var(--sand);display:grid;place-items:center;font-weight:700;overflow:hidden;flex:0 0 38px}
+.g-ava img{width:100%;height:100%;object-fit:cover}
+.g-meta b{font-size:14px;display:block}
+.g-meta span{color:var(--muted);font-size:12px}
+.g-link{margin-left:auto;font-size:12px;color:var(--muted)}
+.crm-note{display:flex;gap:16px;align-items:flex-start;border:1px solid rgba(210,164,92,.4);border-radius:18px;padding:22px 24px;background:linear-gradient(215deg,var(--glass-strong),rgba(255,255,255,.02));margin-top:20px}
+.crm-note .ni{flex:0 0 44px;height:44px;border-radius:13px;background:rgba(210,164,92,.13);display:grid;place-items:center;color:var(--gold)}
+.crm-note p{color:var(--muted);line-height:1.6;font-size:15px}
+.crm-note p b{color:var(--text)}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что такое виза C18?", "acceptedAnswer": {"@type": "Answer", "text": "Виза для иностранных кандидатов, позволяющая легально въехать в Индонезию по приглашению работодателя на период оформления рабочих разрешений."}}, {"@type": "Question", "name": "Можно ли работать по визе C18?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, право на труд даёт только рабочий КИТАС; C18 покрывает период до его получения."}}, {"@type": "Question", "name": "Конвертируется ли C18 в рабочий КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "Да, без выезда из страны."}}]}</script>
 </head>
@@ -297,6 +318,13 @@ body.lang-en main.en{display:block}
 </div></div>
     <div class="section-block"><h2>Частые вопросы</h2><div class="acc"><details class="acc-item"><summary>Зачем нужна C18, если есть бизнес-виза?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>У бизнес-визы цель — переговоры, а не выход на работу. Прилетать к работодателю по «неправильной» визе — риск отказа во въезде и осложнений при оформлении КИТАС. C18 создана ровно под этот сценарий.</p></div></details><details class="acc-item"><summary>Можно ли начать работать сразу по C18?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Нет — право на труд и доход даёт только рабочий КИТАС. C18 покрывает период до его получения: адаптацию, знакомство с командой, финальные формальности.</p></div></details><details class="acc-item"><summary>Что если оформление рабочего КИТАС затянется?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Ведём процесс с обеих сторон и заранее закладываем реалистичные сроки, чтобы статусы состыковались без разрывов.</p></div></details><details class="acc-item"><summary>Может ли семья приехать со мной?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>На этом этапе — по туристическим визам. После вашего рабочего КИТАС супругу и детям оформим зависимые КИТАС.</p></div></details></div></div>
     <div class="section-block"><h2>Другие визы</h2><div class="other-grid"><a class="other-card" href="work-kitas.html"><span class="oc-tag">ВНЖ + работа</span><b>Рабочий КИТАС</b><span>Конечная точка маршрута — полноценный рабочий статус.</span></a><a class="other-card" href="business-visa.html"><span class="oc-tag">До 180 дней</span><b>Бизнес-виза C2</b><span>Для деловых визитов без трудоустройства.</span></a><a class="other-card" href="family-kitas.html"><span class="oc-tag">ВНЖ</span><b>Семейный КИТАС</b><span>Статус для семьи после вашего выхода на работу.</span></a></div></div>
+    <div class="section-block"><h2>Ничего не просрочится</h2>
+      <div class="crm-note"><span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+      <p><b>Автоматический контроль сроков.</b> Каждая виза наших клиентов ведётся в CRM: система следит за датами, а мы напоминаем о продлении заранее — вы ничего не пропустите.</p></div></div>
+    <div class="section-block"><h2>Отзывы в Google</h2>
+      <div class="g-top"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="g-score jsScore">5.0</span><span class="g-stars">★★★★★</span>
+      <span class="g-cnt"><span class="jsTotal">100+</span> отзывов · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">открыть в Google</a></span></div>
+      <div class="g-cards" data-grev="ru"></div></div>
     <div class="cta"><h2>Работодатель уже ждёт? Оформим C18 и доведём до КИТАС</h2><a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Получить консультацию</a></div>
   </div>
 </main>
@@ -324,6 +352,13 @@ body.lang-en main.en{display:block}
 </div></div>
     <div class="section-block"><h2>Frequently asked questions</h2><div class="acc"><details class="acc-item"><summary>Why C18 if a business visa exists?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>A business visa is for negotiations, not starting a job. Arriving to an employer on the “wrong” visa risks refusal at entry and complications with the KITAS. C18 is built exactly for this scenario.</p></div></details><details class="acc-item"><summary>Can I start working right away on a C18?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>No — only a Work KITAS grants the right to work and earn. C18 covers the run-up: onboarding, meeting the team, final formalities.</p></div></details><details class="acc-item"><summary>What if the Work KITAS takes longer?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>We run the process on both sides and set realistic timelines up front so the statuses connect without gaps.</p></div></details><details class="acc-item"><summary>Can my family come with me?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>At this stage — on tourist visas. Once your Work KITAS is issued, we arrange dependent KITAS for your spouse and children.</p></div></details></div></div>
     <div class="section-block"><h2>Other visas</h2><div class="other-grid"><a class="other-card" href="work-kitas.html"><span class="oc-tag">Residence + work</span><b>Work KITAS</b><span>The destination — full working status.</span></a><a class="other-card" href="business-visa.html"><span class="oc-tag">Up to 180 days</span><b>Business Visa C2</b><span>For business visits without employment.</span></a><a class="other-card" href="family-kitas.html"><span class="oc-tag">Residence</span><b>Family KITAS</b><span>Status for the family once you start work.</span></a></div></div>
+    <div class="section-block"><h2>Nothing slips through</h2>
+      <div class="crm-note"><span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+      <p><b>Automated deadline control.</b> Every client visa lives in our CRM: the system tracks the dates and we remind you about renewals ahead of time — you won’t miss a thing.</p></div></div>
+    <div class="section-block"><h2>Google Reviews</h2>
+      <div class="g-top"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="g-score jsScore">5.0</span><span class="g-stars">★★★★★</span>
+      <span class="g-cnt"><span class="jsTotal">100+</span> reviews · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">open in Google</a></span></div>
+      <div class="g-cards" data-grev="en"></div></div>
     <div class="cta"><h2>Employer waiting? We’ll arrange the C18 and carry it to a KITAS</h2><a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Get a consultation</a></div>
   </div>
 </main>
@@ -446,6 +481,46 @@ document.querySelectorAll(".acc").forEach(group=>{
 });
 
 applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||s==="en") return s; }catch(e){} try{ var langs=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||""]); for(var i=0;i<langs.length;i++){ if(String(langs[i]).toLowerCase().indexOf("ru")===0) return "ru"; } }catch(e){} return "en"; })());
+</script>
+
+<script>
+(function(){
+  if(!document.querySelector('.g-cards')) return;
+
+  var GREV_FALLBACK = {rating:5.0,total:101,reviews:{
+  ru:[
+  {n:"Саша",d:"июль 2026",r:5,t:"Ответ на визовый запрос пришёл за ночь: Матвей быстро всё оформил, подробно объяснил каждый шаг, а на въезде не возникло ни одного вопроса. На связи круглосуточно."},
+  {n:"Иван",d:"июнь 2026",r:5,t:"Виза была нужна «вчера», до поездки оставались считанные дни — и всё равно заявление успели подать вовремя."},
+  {n:"Адиль",d:"март 2026",r:5,t:"Продление на месяц без единой заминки: отправил документы, оплатил — через три дня виза была готова."},
+  {n:"Мирас",d:"ноябрь 2025",r:5,t:"Сопровождение от и до — Матвей был на связи весь процесс и провёл через все шаги, в итоге годовая виза успешно получена."},
+  {n:"Радослав",d:"ноябрь 2025",r:5,t:"Чёткая, быстрая и дружелюбная коммуникация на всём пути KITAS — профессионально, гибко и гладко от начала до конца."}],
+  en:[
+  {n:"Sasha",d:"Jul 2026",r:5,t:"A visa request answered overnight: Matvey sorted everything fast, explained each step in detail, and arrival went without a single question. Reachable around the clock."},
+  {n:"Ivan",d:"Jun 2026",r:5,t:"Came in needing a visa \u201cyesterday\u201d, with almost no time before the trip \u2014 and the application still got done in time."},
+  {n:"Adil",d:"Mar 2026",r:5,t:"A one-month extension with zero hassle: sent the documents, paid, and had the visa back three days later."},
+  {n:"Miras",d:"Nov 2025",r:5,t:"Support from start to finish \u2014 Matvey stayed in touch the whole way and walked through the entire process, ending in a successful one-year visa."},
+  {n:"Radoslav",d:"Nov 2025",r:5,t:"Clear, fast and friendly communication throughout the KITAS process \u2014 professional, flexible, and smooth from beginning to end."}]}};
+
+  function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+  function card(r){
+    var ava = r.a ? '<img src="'+r.a+'" alt="" loading="lazy" referrerpolicy="no-referrer">' : esc((r.n||'•').trim().charAt(0).toUpperCase());
+    return '<article class="g-card"><div class="st">'+'★'.repeat(Math.round(r.r||5))+'</div>'+
+      '<p>'+esc(r.t||'')+'</p>'+
+      '<div class="g-meta"><span class="g-ava">'+ava+'</span><span><b>'+esc(r.n||'')+'</b><span>'+esc(r.d||'')+'</span></span>'+
+      '<a class="g-link" href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">Google ↗</a></div></article>';
+  }
+  function render(data){
+    document.querySelectorAll('.g-cards').forEach(function(box){
+      var L = box.getAttribute('data-grev')||'ru';
+      var list = (data.reviews && data.reviews[L]) || [];
+      box.innerHTML = list.map(card).join('');
+    });
+    if(data.rating) document.querySelectorAll('.jsScore').forEach(function(e){e.textContent=Number(data.rating).toFixed(1);});
+    if(data.total) document.querySelectorAll('.jsTotal').forEach(function(e){e.textContent=data.total;});
+  }
+  render(GREV_FALLBACK);
+  fetch('/api/reviews').then(function(r){return r.json();}).then(function(d){ if(d && d.reviews) render(d); }).catch(function(){});
+})();
 </script>
 </body>
 </html>
