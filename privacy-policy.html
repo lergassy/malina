@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v21-butler">
+<meta name="build" content="v24-butler-cards">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -21,9 +21,9 @@
 <title>Политика конфиденциальности | Malina Visa</title>
 <meta name="description" content="Политика конфиденциальности Malina Visa: какие данные собирает сайт, как используется Яндекс.Метрика и cookies, права пользователей и контакты.">
 <!-- TODO: заменить на index,follow при запуске -->
-<link rel="canonical" href="https://malinavisa.com/privacy-policy">
+<link rel="canonical" href="https://www.malinavisa.com/privacy-policy">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://malinavisa.com/privacy-policy">
+<meta property="og:url" content="https://www.malinavisa.com/privacy-policy">
 <meta property="og:title" content="Политика конфиденциальности | Malina Visa">
 <meta property="og:description" content="Как сайт Malina Visa обращается с данными посетителей.">
 <meta property="og:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_074627_c049f5e4-20b6-4d2a-be46-74d3566c341d.png">
@@ -205,6 +205,14 @@ body.lang-en main.en{display:block}
   .cta{padding:36px 26px}
 }
 @media(prefers-reduced-motion:reduce){*{transition-duration:.001s!important}}
+
+@media(max-width:1000px){
+.hero-chips{gap:10px}
+.chip{padding:13px 16px}
+.chip i{font-size:10.5px}
+.chip b{font-size:16.5px}
+.chip span{display:none}
+}
 </style>
 </head>
 <body>
@@ -237,6 +245,7 @@ body.lang-en main.en{display:block}
           <a href="multiple-visa.html" data-nav="d_multiple">Multiple-entry D1 / D2</a>
           <a href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
           <a href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+          <a href="remote-worker-kitas.html" data-nav="d_e33g">Remote Worker E33G</a>
           <a href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
           <a href="visas.html" class="drop-all" data-nav="d_all">All visa types →</a>
         </div>
@@ -267,6 +276,7 @@ body.lang-en main.en{display:block}
   <a class="sub" href="multiple-visa.html" data-nav="d_multiple">Multiple D1 / D2</a>
   <a class="sub" href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+  <a class="sub" href="remote-worker-kitas.html" data-nav="d_e33g">Remote Worker E33G</a>
   <a class="sub" href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="index.html#about" data-nav="about">About Us</a>
   <a href="contacts.html" data-nav="contacts">Contacts</a>
@@ -365,11 +375,11 @@ body.lang-en main.en{display:block}
 const NAV = {
   en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", contacts:"Contacts",
         d_tourist:"Tourist Visa C1 (211A)", d_voa:"Visa on Arrival (VOA)", d_business:"Business Visa C2",
-        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18",
+        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
         d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
   ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", contacts:"Контакты",
         d_tourist:"Туристическая виза C1 (211A)", d_voa:"Виза по прибытии (VOA)", d_business:"Бизнес-виза C2",
-        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18",
+        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
         d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
 const FOOT = {

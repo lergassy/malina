@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v21-butler">
+<meta name="build" content="v24-butler-cards">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -18,12 +18,12 @@
 <!-- /Yandex.Metrika counter -->
 <meta name="theme-color" content="#08090b">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>КИТАС удалёнщика E33G в Индонезии — ВНЖ для digital nomads | Malina Visa</title>
-<meta name="description" content="КИТАС удалёнщика (E33G): годовой вид на жительство в Индонезии для сотрудников зарубежных компаний. Доход от ~60 000 USD/год, работа только на иностранных работодателей. Malina Visa.">
+<title>КИТАС удалёнщика E33G — ВНЖ на Бали за 7–9 дней | Malina Visa</title>
+<meta name="description" content="KITAS E33G для удалённых сотрудников: год жизни на Бали без визаранов, свободные въезды, банк и семейные КИТАС. Оформление 7–9 рабочих дней, 12 000 000 IDR. Документов — всего три.">
 <!-- TODO: заменить на index,follow при запуске -->
-<link rel="canonical" href="https://malinavisa.com/remote-worker-kitas">
+<link rel="canonical" href="https://www.malinavisa.com/remote-worker-kitas">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://malinavisa.com/remote-worker-kitas">
+<meta property="og:url" content="https://www.malinavisa.com/remote-worker-kitas">
 <meta property="og:title" content="КИТАС удалёнщика E33G в Индонезии — ВНЖ для digital nomads | Malina Visa">
 <meta property="og:description" content="КИТАС удалёнщика (E33G): годовой вид на жительство в Индонезии для сотрудников зарубежных компаний. Доход от ~60 000 USD/год, работа только на иностранных работодателей. Malina Visa.">
 <meta property="og:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_074627_c049f5e4-20b6-4d2a-be46-74d3566c341d.png">
@@ -226,6 +226,50 @@ body.lang-en main.en{display:block}
 .crm-note .ni{flex:0 0 44px;height:44px;border-radius:13px;background:rgba(210,164,92,.13);display:grid;place-items:center;color:var(--gold)}
 .crm-note p{color:var(--muted);line-height:1.6;font-size:15px}
 .crm-note p b{color:var(--text)}
+/* consult modal */
+.cm-ov{position:fixed;inset:0;z-index:120;background:rgba(6,7,9,.72);backdrop-filter:blur(6px);display:none;place-items:center;padding:24px;opacity:0;transition:opacity .28s var(--ease)}
+.cm-ov.open{display:grid;opacity:1}
+.cm{width:min(440px,100%);border:1px solid rgba(210,164,92,.4);border-radius:24px;background:
+  radial-gradient(500px 240px at 80% -10%, rgba(210,164,92,.16), transparent 70%), #101216;
+  padding:34px 30px 30px;transform:translateY(14px) scale(.98);transition:transform .3s var(--ease);position:relative}
+.cm-ov.open .cm{transform:none}
+.cm-x{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);color:var(--muted);display:grid;place-items:center;transition:.25s}
+.cm-x:hover{color:var(--text);border-color:var(--gold)}
+.cm h3{font-size:23px;letter-spacing:-.01em}
+.cm p{color:var(--muted);font-size:14.5px;margin-top:8px;line-height:1.55}
+.cm-opts{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.cm-opt{display:flex;align-items:center;gap:15px;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:var(--glass);transition:.25s var(--ease)}
+.cm-opt:hover{border-color:rgba(210,164,92,.6);transform:translateY(-2px);background:var(--glass-strong)}
+.cm-ic{flex:0 0 44px;height:44px;border-radius:12px;display:grid;place-items:center}
+.cm-ic.wa{background:rgba(37,211,102,.14)}
+.cm-ic.tg{background:rgba(41,171,226,.14)}
+.cm-opt b{display:block;font-size:16px}
+.cm-opt span{color:var(--muted);font-size:13px}
+.cm-opt .cm-go{margin-left:auto;color:var(--muted);transition:.25s}
+.cm-opt:hover .cm-go{color:var(--sand);transform:translateX(3px)}
+
+@media(max-width:1000px){
+.hero-chips{gap:10px}
+.chip{padding:13px 16px}
+.chip i{font-size:10.5px}
+.chip b{font-size:16.5px}
+.chip span{display:none}
+}
+
+.e-spec{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}
+.e-spec .es{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--glass)}
+.e-spec i{display:block;font-style:normal;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:4px}
+.e-spec b{font-size:16px;letter-spacing:-.01em}
+.ok-list,.no-list{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.ok-list li,.no-list li{display:flex;gap:13px;align-items:flex-start;list-style:none;font-size:15.5px;line-height:1.55;color:var(--text)}
+.ok-list .mk{flex:0 0 24px;height:24px;border-radius:50%;background:rgba(210,164,92,.15);color:var(--gold);display:grid;place-items:center;font-size:13px;font-weight:700}
+.no-list .mk{flex:0 0 24px;height:24px;border-radius:50%;background:rgba(255,90,90,.12);color:#e07575;display:grid;place-items:center;font-size:13px;font-weight:700}
+.way-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+.way{border:1px solid var(--line);border-radius:18px;padding:24px 22px;background:var(--glass)}
+.way i{font-style:normal;font-size:11px;letter-spacing:.16em;color:var(--gold);font-weight:700}
+.way b{display:block;font-size:18px;margin:8px 0 8px}
+.way p{color:var(--muted);font-size:14.5px;line-height:1.6}
+@media(max-width:1000px){.e-spec{grid-template-columns:1fr 1fr}.way-grid{grid-template-columns:1fr}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что такое КИТАС E33G?", "acceptedAnswer": {"@type": "Answer", "text": "Годовой вид на жительство в Индонезии для удалённых сотрудников зарубежных компаний."}}, {"@type": "Question", "name": "Какой доход нужен для E33G?", "acceptedAnswer": {"@type": "Answer", "text": "Ориентир — от 60 000 USD в год от работодателя за пределами Индонезии, подтверждается документально."}}, {"@type": "Question", "name": "Можно ли работать на индонезийские компании по E33G?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, доход из индонезийских источников по этому статусу запрещён."}}]}</script>
 </head>
@@ -259,6 +303,7 @@ body.lang-en main.en{display:block}
           <a href="multiple-visa.html" data-nav="d_multiple">Multiple-entry D1 / D2</a>
           <a href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
           <a href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+          <a href="remote-worker-kitas.html" class="current" data-nav="d_e33g">Remote Worker E33G</a>
           <a href="kitas-kitap.html" class="current" data-nav="d_kitas">KITAS &amp; KITAP</a>
           <a href="visas.html" class="drop-all" data-nav="d_all">All visa types →</a>
         </div>
@@ -289,34 +334,62 @@ body.lang-en main.en{display:block}
   <a class="sub" href="multiple-visa.html" data-nav="d_multiple">Multiple D1 / D2</a>
   <a class="sub" href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+  <a class="sub" href="remote-worker-kitas.html" data-nav="d_e33g">Remote Worker E33G</a>
   <a class="sub" href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="index.html#about" data-nav="about">About Us</a>
   <a href="contacts.html" data-nav="contacts">Contacts</a>
 </div>
 
 <main class="ru" lang="ru">
-  <section class="page-hero">
-    <div class="container">
-      <div class="crumbs"><a href="index.html">Главная</a><span>/</span><a href="visas.html">Визы в Индонезию</a><span>/</span><span>КИТАС удалёнщика</span></div>
-      <span class="eyebrow">Визовый сервис · E33G</span>
-      <h1 style="margin-top:18px">КИТАС удалёнщика <span class="gold-text">E33G</span></h1>
-      <div class="hero-chips"><div class="chip"><i>01 · Статус</i><b>ВНЖ на 1 год</b><span>Полноценный КИТАС с продлением — живите на Бали легально.</span></div><div class="chip"><i>02 · Работа</i><b>На зарубежные компании</b><span>Удалённая работа на работодателей за пределами Индонезии — легальна.</span></div><div class="chip"><i>03 · Порог</i><b>Доход от ~60 000 USD/год</b><span>Подтверждается контрактом и выпиской — поможем собрать корректно.</span></div></div>
+  <section class="page-hero"><div class="container">
+    <div class="crumbs"><a href="index.html">Главная</a><span>/</span><a href="visas.html">Визы в Индонезию</a><span>/</span><span>E33G</span></div>
+    <span class="eyebrow">ВНЖ · Digital Nomad</span>
+    <h1 style="margin-top:18px">КИТАС удалёнщика <span class="gold-text">E33G</span></h1>
+    <p style="color:var(--muted);max-width:620px;margin-top:16px;font-size:16.5px;line-height:1.6">Проживание на Бали без визаранов и продлений — для тех, кто работает удалённо на зарубежную компанию.</p>
+    <div class="e-spec">
+      <div class="es"><i>Срок</i><b>12 месяцев</b></div>
+      <div class="es"><i>Въезды</i><b>Без ограничений</b></div>
+      <div class="es"><i>Оформление</i><b>7–9 раб. дней</b></div>
+      <div class="es"><i>Стоимость</i><b>IDR 12,000,000</b></div>
     </div>
-  </section>
+  </div></section>
+
   <div class="page container">
-    <div class="section-block" style="margin-top:34px"><p>E33G — вид на жительство, созданный специально для удалённых сотрудников: живёте в Индонезии, работаете на компанию за её пределами, и всё это в легальном статусе резидента, а не в вечном цикле туристических виз.</p><p>Ключевое условие — доход от зарубежного работодателя (ориентир — от 60 000 USD в год) и действующий контракт. Внутри Индонезии работать и получать доход по этому КИТАС нельзя.</p></div>
-    <div class="section-block"><h2>Основные условия</h2><ul class="tick-list"><li>Срок — 1 год с возможностью продления</li><li>Разрешена удалённая работа только на компании за пределами Индонезии</li><li>Ориентир по доходу — от ~60 000 USD в год, подтверждается документально</li><li>Мультивъезд: свободные поездки на весь срок действия</li><li>Права резидента: счёт в банке, аренда, водительские права</li></ul><div class="note"><b>Важно:</b> любая работа на индонезийские компании или доход из индонезийских источников по E33G запрещены — для этого существует рабочий КИТАС.</div></div>
-    
-    <div class="section-block"><h2>Необходимые документы</h2><ul class="tick-list"><li>Загранпаспорт с запасом срока действия</li><li>Персональное фото</li><li>Трудовой контракт с зарубежной компанией</li><li>Подтверждение дохода/выписка по счёту</li></ul><div class="note">Требования к подтверждению дохода периодически уточняются иммиграционной службой — пришлём актуальный список на консультации.</div></div>
-    <div class="section-block"><h2>Стоимость и сроки</h2><div class="price-grid"><div class="price-card featured" style="max-width:440px"><div class="p-name">КИТАС удалёнщика E33G</div><div class="p-sum">12 000 000 IDR</div><div class="p-term">ВНЖ на 1 год</div><ul><li>Подготовка и подача полного пакета</li><li>Сопровождение до выдачи КИТАС</li><li>Консультация по подтверждению дохода</li></ul></div></div></div>
-    <div class="section-block"><h2>Как проходит оформление</h2><div class="steps">
-<div class="step"><b>Данные и документы</b><p>Присылаете фото разворота паспорта, персональное фото и контакт в WhatsApp или Telegram.</p></div>
-<div class="step"><b>Договор и оплата</b><p>Готовим договор, вы подписываете — и получаете счёт по выбранному пакету.</p></div>
-<div class="step"><b>Оформление</b><p>После оплаты подаём документы и ведём заявку на всех этапах.</p></div>
-<div class="step"><b>Получение</b><p>Готовый документ приходит уведомлением и остаётся в личном кабинете.</p></div>
-</div></div>
-    <div class="section-block"><h2>Частые вопросы</h2><div class="acc"><details class="acc-item"><summary>Подхожу ли я, если работаю на себя (фриланс)?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Базовый сценарий E33G — контракт с зарубежной компанией. Фриланс-кейсы разбираем индивидуально: многое зависит от структуры дохода и документов. Напишите нам — оценим шансы честно.</p></div></details><details class="acc-item"><summary>Можно ли брать проекты от индонезийских клиентов?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Нет — доход из индонезийских источников по этому статусу запрещён. Только зарубежные работодатели и клиенты.</p></div></details><details class="acc-item"><summary>Что с семьёй?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Для супруга и детей оформляются зависимые КИТАС на базе вашего — живут с вами легально, дети ходят в школу.</p></div></details><details class="acc-item"><summary>Чем E33G лучше туристической визы C1?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Это резидентский статус: без выездов каждые полгода, с банком, правами и продлением на месте. И главное — удалённая работа из Индонезии в нём легальна, а на туристической визе она в серой зоне.</p></div></details></div></div>
-    <div class="section-block"><h2>Другие визы</h2><div class="other-grid"><a class="other-card" href="second-home-kitas.html"><span class="oc-tag">5–10 лет</span><b>Second Home КИТАС</b><span>Длинный ВНЖ через подтверждение капитала — без привязки к работе.</span></a><a class="other-card" href="tourist-visa.html"><span class="oc-tag">До 180 дней</span><b>Туристическая виза C1</b><span>Попробовать жизнь на Бали до оформления ВНЖ.</span></a><a class="other-card" href="kitas-kitap.html"><span class="oc-tag">Обзор</span><b>Все типы КИТАС</b><span>Сравните варианты ВНЖ и выберите свой.</span></a></div></div>
+    <div class="section-block" style="margin-top:34px"><h2>Что даёт E33G</h2>
+      <ul class="ok-list">
+        <li><span class="mk">✓</span><span>Проживание в Индонезии до 12 месяцев</span></li>
+        <li><span class="mk">✓</span><span>Свободный въезд и выезд без ограничений</span></li>
+        <li><span class="mk">✓</span><span>Семейные КИТАС для супругов и детей</span></li>
+        <li><span class="mk">✓</span><span>Счёт в местном банке</span></li>
+        <li><span class="mk">✓</span><span>Шенгенские, японские и другие визы — прямо из Индонезии</span></li>
+      </ul>
+    </div>
+
+    <div class="section-block"><h2>Важно знать</h2>
+      <ul class="no-list">
+        <li><span class="mk">✕</span><span>Работать можно только на иностранную компанию</span></li>
+        <li><span class="mk">✕</span><span>Доход от индонезийских источников запрещён</span></li>
+        <li><span class="mk">✕</span><span>Торговля и услуги внутри страны — нельзя</span></li>
+      </ul>
+    </div>
+
+    <div class="section-block"><h2>Документы — всего три</h2>
+      <ul class="ok-list">
+        <li><span class="mk">✓</span><span>Фото разворота паспорта (действителен минимум 6 месяцев)</span></li>
+        <li><span class="mk">✓</span><span>Селфи на светлом или красном фоне</span></li>
+        <li><span class="mk">✓</span><span>Адрес проживания в Индонезии — достаточно текстом</span></li>
+      </ul>
+    </div>
+
+    <div class="section-block"><h2>Два способа оформления</h2>
+      <div class="way-grid">
+        <div class="way"><i>ВАРИАНТ 1</i><b>Офшорный КИТАС</b>
+          <p>Если вы за пределами Индонезии. Срок 7–9 рабочих дней; используется по умолчанию при оформлении из-за границы.</p></div>
+        <div class="way"><i>ВАРИАНТ 2</i><b>Оншорный КИТАС</b>
+          <p>Если вы уже на Бали — переход с текущей визы без выезда из страны. Возможность зависит от вашего текущего статуса.</p></div>
+      </div>
+    </div>
+
     <div class="section-block"><h2>Ничего не просрочится</h2>
       <div class="crm-note"><span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
       <p><b>Автоматический контроль сроков.</b> Каждая виза наших клиентов ведётся в CRM: система следит за датами, а мы напоминаем о продлении заранее — вы ничего не пропустите.</p></div></div>
@@ -324,32 +397,64 @@ body.lang-en main.en{display:block}
       <div class="g-top"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="g-score jsScore">5.0</span><span class="g-stars">★★★★★</span>
       <span class="g-cnt"><span class="jsTotal">100+</span> отзывов · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">открыть в Google</a></span></div>
       <div class="g-cards" data-grev="ru"></div></div>
-    <div class="cta"><h2>Работаете удалённо? Легализуем жизнь на Бали</h2><a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Получить консультацию</a></div>
+    
+    <div class="section-block"><h2>Частые вопросы</h2><div class="acc"><details class="acc-item"><summary>Подхожу ли я, если работаю на себя (фриланс)?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Базовый сценарий E33G — контракт с зарубежной компанией. Фриланс-кейсы разбираем индивидуально: многое зависит от структуры дохода и документов. Напишите нам — оценим шансы честно.</p></div></details><details class="acc-item"><summary>Можно ли брать проекты от индонезийских клиентов?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Нет — доход из индонезийских источников по этому статусу запрещён. Только зарубежные работодатели и клиенты.</p></div></details><details class="acc-item"><summary>Что с семьёй?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Для супруга и детей оформляются зависимые КИТАС на базе вашего — живут с вами легально, дети ходят в школу.</p></div></details><details class="acc-item"><summary>Чем E33G лучше туристической визы C1?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Это резидентский статус: без выездов каждые полгода, с банком, правами и продлением на месте. И главное — удалённая работа из Индонезии в нём легальна, а на туристической визе она в серой зоне.</p></div></details></div></div>
+    
+    <div class="cta"><h2>Оформим ваш E33G под ключ — от документов до карты</h2>
+      <button class="btn btn-gold" data-consult>Получить консультацию</button>
+    </div>
   </div>
 </main>
 <main class="en" lang="en">
-  <section class="page-hero">
-    <div class="container">
-      <div class="crumbs"><a href="index.html">Home</a><span>/</span><a href="visas.html">Visas to Indonesia</a><span>/</span><span>Remote Worker KITAS</span></div>
-      <span class="eyebrow">Visa Service · E33G</span>
-      <h1 style="margin-top:18px">Remote Worker KITAS <span class="gold-text">E33G</span></h1>
-      <div class="hero-chips"><div class="chip"><i>01 · Status</i><b>1-year residence</b><span>A full KITAS with renewal — live in Bali legally.</span></div><div class="chip"><i>02 · Work</i><b>For foreign companies</b><span>Remote work for employers outside Indonesia is legal.</span></div><div class="chip"><i>03 · Threshold</i><b>Income from ~USD 60,000/yr</b><span>Proven with a contract and statements — we’ll help package it right.</span></div></div>
+  <section class="page-hero"><div class="container">
+    <div class="crumbs"><a href="index.html">Home</a><span>/</span><a href="visas.html">Visas to Indonesia</a><span>/</span><span>E33G</span></div>
+    <span class="eyebrow">Residence · Digital Nomad</span>
+    <h1 style="margin-top:18px">Remote Worker KITAS <span class="gold-text">E33G</span></h1>
+    <p style="color:var(--muted);max-width:620px;margin-top:16px;font-size:16.5px;line-height:1.6">Life in Bali with no visa runs or extensions — for those working remotely for a foreign company.</p>
+    <div class="e-spec">
+      <div class="es"><i>Validity</i><b>12 months</b></div>
+      <div class="es"><i>Entries</i><b>Unlimited</b></div>
+      <div class="es"><i>Processing</i><b>7–9 working days</b></div>
+      <div class="es"><i>Price</i><b>IDR 12,000,000</b></div>
     </div>
-  </section>
+  </div></section>
+
   <div class="page container">
-    <div class="section-block" style="margin-top:34px"><p>E33G is a residence permit built for remote employees: live in Indonesia, work for a company outside it — in proper resident status instead of an endless loop of tourist visas.</p><p>The key requirement is income from a foreign employer (roughly USD 60,000 per year and up) and an active contract. Working or earning inside Indonesia on this KITAS is not allowed.</p></div>
-    <div class="section-block"><h2>Key terms</h2><ul class="tick-list"><li>Term — 1 year, renewable</li><li>Remote work permitted only for companies outside Indonesia</li><li>Income benchmark — from ~USD 60,000 per year, documented</li><li>Multiple entry: travel freely for the full term</li><li>Resident perks: bank account, rentals, a driving licence</li></ul><div class="note"><b>Note:</b> any work for Indonesian companies or income from Indonesian sources is prohibited on an E33G — that is what the Work KITAS is for.</div></div>
-    
-    <div class="section-block"><h2>Required documents</h2><ul class="tick-list"><li>A passport with generous remaining validity</li><li>A personal photo</li><li>An employment contract with a foreign company</li><li>Proof of income / bank statements</li></ul><div class="note">Immigration refines the income-proof requirements from time to time — we’ll send the current list at the consultation.</div></div>
-    <div class="section-block"><h2>Pricing and timing</h2><div class="price-grid"><div class="price-card featured" style="max-width:440px"><div class="p-name">Remote Worker KITAS E33G</div><div class="p-sum">12,000,000 IDR</div><div class="p-term">1-year residence permit</div><ul><li>Full package preparation and filing</li><li>Support through to KITAS issuance</li><li>Income-proof consultation</li></ul></div></div></div>
-    <div class="section-block"><h2>How it works</h2><div class="steps">
-<div class="step"><b>Data and documents</b><p>Send a passport-spread photo, a personal photo and a WhatsApp or Telegram contact.</p></div>
-<div class="step"><b>Agreement and payment</b><p>We prepare the agreement, you sign — and receive an invoice for the chosen package.</p></div>
-<div class="step"><b>Processing</b><p>After payment we file the documents and manage the application at every stage.</p></div>
-<div class="step"><b>Delivery</b><p>The finished document arrives with a notification and stays in your personal account.</p></div>
-</div></div>
-    <div class="section-block"><h2>Frequently asked questions</h2><div class="acc"><details class="acc-item"><summary>Do I qualify as a freelancer?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>The core E33G scenario is a contract with a foreign company. Freelance cases are assessed individually — much depends on income structure and paperwork. Message us and we’ll give you an honest read.</p></div></details><details class="acc-item"><summary>Can I take projects from Indonesian clients?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>No — income from Indonesian sources is prohibited under this status. Foreign employers and clients only.</p></div></details><details class="acc-item"><summary>What about my family?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Dependent KITAS for your spouse and children attach to yours — they live with you legally and the kids attend school.</p></div></details><details class="acc-item"><summary>Why E33G over a C1 tourist visa?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>It is resident status: no exits every six months, with a bank account, a licence and in-country renewal. Crucially, remote work from Indonesia is legal on it — on a tourist visa it sits in a grey zone.</p></div></details></div></div>
-    <div class="section-block"><h2>Other visas</h2><div class="other-grid"><a class="other-card" href="second-home-kitas.html"><span class="oc-tag">5–10 years</span><b>Second Home KITAS</b><span>Long residence via proof of funds — no employment link.</span></a><a class="other-card" href="tourist-visa.html"><span class="oc-tag">Up to 180 days</span><b>Tourist Visa C1</b><span>Try life in Bali before committing to residence.</span></a><a class="other-card" href="kitas-kitap.html"><span class="oc-tag">Overview</span><b>All KITAS types</b><span>Compare the residence options and pick yours.</span></a></div></div>
+    <div class="section-block" style="margin-top:34px"><h2>What E33G gives you</h2>
+      <ul class="ok-list">
+        <li><span class="mk">✓</span><span>Live in Indonesia for up to 12 months</span></li>
+        <li><span class="mk">✓</span><span>Unlimited entries and exits</span></li>
+        <li><span class="mk">✓</span><span>Family KITAS for spouse and children</span></li>
+        <li><span class="mk">✓</span><span>A local bank account</span></li>
+        <li><span class="mk">✓</span><span>Schengen, Japanese and other visas — right from Indonesia</span></li>
+      </ul>
+    </div>
+
+    <div class="section-block"><h2>Good to know</h2>
+      <ul class="no-list">
+        <li><span class="mk">✕</span><span>You may only work for a foreign company</span></li>
+        <li><span class="mk">✕</span><span>Income from Indonesian sources is not allowed</span></li>
+        <li><span class="mk">✕</span><span>No trading or providing services inside the country</span></li>
+      </ul>
+    </div>
+
+    <div class="section-block"><h2>Documents — just three</h2>
+      <ul class="ok-list">
+        <li><span class="mk">✓</span><span>Passport photo page (valid for at least 6 months)</span></li>
+        <li><span class="mk">✓</span><span>A selfie on a light or red background</span></li>
+        <li><span class="mk">✓</span><span>Your address in Indonesia — plain text is enough</span></li>
+      </ul>
+    </div>
+
+    <div class="section-block"><h2>Two ways to apply</h2>
+      <div class="way-grid">
+        <div class="way"><i>OPTION 1</i><b>Offshore KITAS</b>
+          <p>If you are outside Indonesia. Takes 7–9 working days; the default route when applying from abroad.</p></div>
+        <div class="way"><i>OPTION 2</i><b>Onshore KITAS</b>
+          <p>Already in Bali — switch from your current visa without leaving the country. Availability depends on your current status.</p></div>
+      </div>
+    </div>
+
     <div class="section-block"><h2>Nothing slips through</h2>
       <div class="crm-note"><span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
       <p><b>Automated deadline control.</b> Every client visa lives in our CRM: the system tracks the dates and we remind you about renewals ahead of time — you won’t miss a thing.</p></div></div>
@@ -357,7 +462,13 @@ body.lang-en main.en{display:block}
       <div class="g-top"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="g-score jsScore">5.0</span><span class="g-stars">★★★★★</span>
       <span class="g-cnt"><span class="jsTotal">100+</span> reviews · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">open in Google</a></span></div>
       <div class="g-cards" data-grev="en"></div></div>
-    <div class="cta"><h2>Working remotely? Let’s make Bali life legal</h2><a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Get a consultation</a></div>
+    
+    
+    <div class="section-block"><h2>Frequently asked questions</h2><div class="acc"><details class="acc-item"><summary>Do I qualify as a freelancer?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>The core E33G scenario is a contract with a foreign company. Freelance cases are assessed individually — much depends on income structure and paperwork. Message us and we’ll give you an honest read.</p></div></details><details class="acc-item"><summary>Can I take projects from Indonesian clients?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>No — income from Indonesian sources is prohibited under this status. Foreign employers and clients only.</p></div></details><details class="acc-item"><summary>What about my family?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>Dependent KITAS for your spouse and children attach to yours — they live with you legally and the kids attend school.</p></div></details><details class="acc-item"><summary>Why E33G over a C1 tourist visa?<span class="acc-ico"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span></summary><div class="acc-body"><p>It is resident status: no exits every six months, with a bank account, a licence and in-country renewal. Crucially, remote work from Indonesia is legal on it — on a tourist visa it sits in a grey zone.</p></div></details></div></div>
+    
+    <div class="cta"><h2>We’ll handle your E33G end-to-end — documents to card</h2>
+      <button class="btn btn-gold" data-consult>Get a consultation</button>
+    </div>
   </div>
 </main>
 <footer class="site-footer">
@@ -415,11 +526,11 @@ body.lang-en main.en{display:block}
 const NAV = {
   en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", contacts:"Contacts",
         d_tourist:"Tourist Visa C1 (211A)", d_voa:"Visa on Arrival (VOA)", d_business:"Business Visa C2",
-        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18",
+        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
         d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
   ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", contacts:"Контакты",
         d_tourist:"Туристическая виза C1 (211A)", d_voa:"Виза по прибытии (VOA)", d_business:"Бизнес-виза C2",
-        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18",
+        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
         d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
 const FOOT = {
@@ -433,8 +544,8 @@ const FOOT = {
         contacts:"Контакты", priv:"Политика конфиденциальности", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
 };
 const PAGE_TITLES = {
-  ru: "КИТАС удалёнщика E33G в Индонезии — ВНЖ для digital nomads | Malina Visa",
-  en: "Remote Worker KITAS E33G in Indonesia — Digital Nomad Residence | Malina Visa"
+  ru: "КИТАС удалёнщика E33G — ВНЖ на Бали | Malina Visa",
+  en: "Remote Worker KITAS E33G — Bali Residence | Malina Visa"
 };
 function applyLang(lang){
   document.body.classList.toggle("lang-en", lang === "en");
@@ -443,6 +554,7 @@ function applyLang(lang){
   document.querySelectorAll("[data-nav]").forEach(el=>{ if(NAV[lang][el.dataset.nav]) el.textContent = NAV[lang][el.dataset.nav]; });
   document.querySelectorAll("[data-f]").forEach(el=>{ if(FOOT[lang][el.dataset.f]) el.textContent = FOOT[lang][el.dataset.f]; });
   document.querySelectorAll(".lang-switch button").forEach(b=>b.classList.toggle("active", b.dataset.lang === lang));
+  if(window.cmI18n) window.cmI18n(lang);
 }
 document.querySelectorAll(".lang-switch button").forEach(b=>b.addEventListener("click", ()=>{ applyLang(b.dataset.lang); try{localStorage.setItem("mv_lang", b.dataset.lang)}catch(e){} }));
 
@@ -518,6 +630,24 @@ applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||
   }
   render(GREV_FALLBACK);
   fetch('/api/reviews').then(function(r){return r.json();}).then(function(d){ if(d && d.reviews) render(d); }).catch(function(){});
+})();
+</script>
+<script>
+(function(){
+  var ov=document.getElementById("consultModal");
+  if(!ov) return;
+  function open(){ov.classList.add("open");document.body.style.overflow="hidden";}
+  function close(){ov.classList.remove("open");document.body.style.overflow="";}
+  document.querySelectorAll("[data-consult]").forEach(function(b){b.addEventListener("click",open);});
+  document.getElementById("cmClose").addEventListener("click",close);
+  ov.addEventListener("click",function(e){if(e.target===ov)close();});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")close();});
+  // перевод строк модалки при смене языка
+  window.cmI18n=function(lang){
+    var T=document.querySelector('[data-cm="title"]'), S=document.querySelector('[data-cm="sub"]');
+    if(lang==="en"){T.textContent="How would you like to reach us?";S.textContent="We reply fast on any messenger. Pick yours:";}
+    else{T.textContent="Как вам удобнее связаться?";S.textContent="Ответим быстро в любом мессенджере. Выберите свой:";}
+  };
 })();
 </script>
 </body>

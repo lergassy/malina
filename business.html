@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v21-butler">
+<meta name="build" content="v24-butler-cards">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -21,9 +21,9 @@
 <title>Бизнес-услуги в Индонезии — регистрация, бухгалтерия, закрытие | Malina Visa</title>
 <meta name="description" content="Бизнес-услуги Malina Visa на Бали: регистрация PT PMA и Local PT, абонентская бухгалтерия, инвесторский КИТАС и ликвидация компаний. Один подрядчик на всё.">
 <!-- TODO: заменить на index,follow при запуске -->
-<link rel="canonical" href="https://malinavisa.com/business">
+<link rel="canonical" href="https://www.malinavisa.com/business">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://malinavisa.com/business">
+<meta property="og:url" content="https://www.malinavisa.com/business">
 <meta property="og:title" content="Бизнес-услуги в Индонезии — регистрация, бухгалтерия, закрытие | Malina Visa">
 <meta property="og:description" content="Бизнес-услуги Malina Visa на Бали: регистрация PT PMA и Local PT, абонентская бухгалтерия, инвесторский КИТАС и ликвидация компаний. Один подрядчик на всё.">
 <meta property="og:image" content="https://d8j0ntlcm91z4.cloudfront.net/user_3HX8FN8RgUGLPXINVpVbXxosNs9/hf_20260807_074627_c049f5e4-20b6-4d2a-be46-74d3566c341d.png">
@@ -226,6 +226,35 @@ body.lang-en main.en{display:block}
 .crm-note .ni{flex:0 0 44px;height:44px;border-radius:13px;background:rgba(210,164,92,.13);display:grid;place-items:center;color:var(--gold)}
 .crm-note p{color:var(--muted);line-height:1.6;font-size:15px}
 .crm-note p b{color:var(--text)}
+/* consult modal */
+.cm-ov{position:fixed;inset:0;z-index:120;background:rgba(6,7,9,.72);backdrop-filter:blur(6px);display:none;place-items:center;padding:24px;opacity:0;transition:opacity .28s var(--ease)}
+.cm-ov.open{display:grid;opacity:1}
+.cm{width:min(440px,100%);border:1px solid rgba(210,164,92,.4);border-radius:24px;background:
+  radial-gradient(500px 240px at 80% -10%, rgba(210,164,92,.16), transparent 70%), #101216;
+  padding:34px 30px 30px;transform:translateY(14px) scale(.98);transition:transform .3s var(--ease);position:relative}
+.cm-ov.open .cm{transform:none}
+.cm-x{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);color:var(--muted);display:grid;place-items:center;transition:.25s}
+.cm-x:hover{color:var(--text);border-color:var(--gold)}
+.cm h3{font-size:23px;letter-spacing:-.01em}
+.cm p{color:var(--muted);font-size:14.5px;margin-top:8px;line-height:1.55}
+.cm-opts{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.cm-opt{display:flex;align-items:center;gap:15px;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:var(--glass);transition:.25s var(--ease)}
+.cm-opt:hover{border-color:rgba(210,164,92,.6);transform:translateY(-2px);background:var(--glass-strong)}
+.cm-ic{flex:0 0 44px;height:44px;border-radius:12px;display:grid;place-items:center}
+.cm-ic.wa{background:rgba(37,211,102,.14)}
+.cm-ic.tg{background:rgba(41,171,226,.14)}
+.cm-opt b{display:block;font-size:16px}
+.cm-opt span{color:var(--muted);font-size:13px}
+.cm-opt .cm-go{margin-left:auto;color:var(--muted);transition:.25s}
+.cm-opt:hover .cm-go{color:var(--sand);transform:translateX(3px)}
+
+@media(max-width:1000px){
+.hero-chips{gap:10px}
+.chip{padding:13px 16px}
+.chip i{font-size:10.5px}
+.chip b{font-size:16.5px}
+.chip span{display:none}
+}
 </style>
 </head>
 <body>
@@ -258,6 +287,7 @@ body.lang-en main.en{display:block}
           <a href="multiple-visa.html" data-nav="d_multiple">Multiple-entry D1 / D2</a>
           <a href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
           <a href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+          <a href="remote-worker-kitas.html" data-nav="d_e33g">Remote Worker E33G</a>
           <a href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
           <a href="visas.html" class="drop-all" data-nav="d_all">All visa types →</a>
         </div>
@@ -288,6 +318,7 @@ body.lang-en main.en{display:block}
   <a class="sub" href="multiple-visa.html" data-nav="d_multiple">Multiple D1 / D2</a>
   <a class="sub" href="pre-investment-d12.html" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="c18-visa.html" data-nav="d_c18">Candidate Visa C18</a>
+  <a class="sub" href="remote-worker-kitas.html" data-nav="d_e33g">Remote Worker E33G</a>
   <a class="sub" href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="index.html#about" data-nav="about">About Us</a>
   <a href="contacts.html" data-nav="contacts">Contacts</a>
@@ -309,7 +340,7 @@ body.lang-en main.en{display:block}
       <div class="g-top"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="g-score jsScore">5.0</span><span class="g-stars">★★★★★</span>
       <span class="g-cnt"><span class="jsTotal">100+</span> отзывов · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">открыть в Google</a></span></div>
       <div class="g-cards" data-grev="ru"></div></div>
-    <div class="cta"><h2>Расскажите о проекте — соберём маршрут под задачу</h2><a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Получить консультацию</a></div>
+    <div class="cta"><h2>Расскажите о проекте — соберём маршрут под задачу</h2><button class="btn btn-gold" data-consult>Получить консультацию</button></div>
   </div>
 </main>
 <main class="en" lang="en">
@@ -328,9 +359,28 @@ body.lang-en main.en{display:block}
       <div class="g-top"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3l5.7-5.7C34.2 6.1 29.4 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="g-score jsScore">5.0</span><span class="g-stars">★★★★★</span>
       <span class="g-cnt"><span class="jsTotal">100+</span> reviews · <a href="https://maps.app.goo.gl/poLfCoF7mLrp2c6c9" target="_blank" rel="noopener">open in Google</a></span></div>
       <div class="g-cards" data-grev="en"></div></div>
-    <div class="cta"><h2>Tell us about the project — we’ll map the route</h2><a class="btn btn-gold" href="https://wa.me/6287842255781" target="_blank" rel="noopener">Get a consultation</a></div>
+    <div class="cta"><h2>Tell us about the project — we’ll map the route</h2><button class="btn btn-gold" data-consult>Get a consultation</button></div>
   </div>
 </main>
+
+<!-- consult modal -->
+<div class="cm-ov" id="consultModal" role="dialog" aria-modal="true">
+  <div class="cm">
+    <button class="cm-x" id="cmClose" aria-label="Close">✕</button>
+    <h3 data-cm="title">Как вам удобнее связаться?</h3>
+    <p data-cm="sub">Ответим быстро в любом мессенджере. Выберите свой:</p>
+    <div class="cm-opts">
+      <a class="cm-opt" href="https://wa.me/6287842255781" target="_blank" rel="noopener">
+        <span class="cm-ic wa"><svg width="24" height="24" viewBox="0 0 24 24" fill="#25D366"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3C4.4 14.9 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg></span>
+        <span><b>WhatsApp</b><span>+62 878-4225-5781</span></span>
+        <span class="cm-go">→</span></a>
+      <a class="cm-opt" href="https://t.me/mstatham1" target="_blank" rel="noopener">
+        <span class="cm-ic tg"><svg width="24" height="24" viewBox="0 0 24 24" fill="#29ABE2"><path d="M22 3.4 2.6 10.9c-1.1.4-1.1 1.1-.2 1.4l4.9 1.5 1.9 5.8c.2.6.1.9.8.9.5 0 .7-.2 1-.5l2.4-2.3 4.9 3.6c.9.5 1.6.2 1.8-.8l3.2-15.1c.3-1.3-.5-1.8-1.4-1.4l-.6.4z"/></svg></span>
+        <span><b>Telegram</b><span>@mstatham1</span></span>
+        <span class="cm-go">→</span></a>
+    </div>
+  </div>
+</div>
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
@@ -386,11 +436,11 @@ body.lang-en main.en{display:block}
 const NAV = {
   en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", contacts:"Contacts",
         d_tourist:"Tourist Visa C1 (211A)", d_voa:"Visa on Arrival (VOA)", d_business:"Business Visa C2",
-        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18",
+        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
         d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
   ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", contacts:"Контакты",
         d_tourist:"Туристическая виза C1 (211A)", d_voa:"Виза по прибытии (VOA)", d_business:"Бизнес-виза C2",
-        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18",
+        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
         d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
 const FOOT = {
@@ -414,6 +464,7 @@ function applyLang(lang){
   document.querySelectorAll("[data-nav]").forEach(el=>{ if(NAV[lang][el.dataset.nav]) el.textContent = NAV[lang][el.dataset.nav]; });
   document.querySelectorAll("[data-f]").forEach(el=>{ if(FOOT[lang][el.dataset.f]) el.textContent = FOOT[lang][el.dataset.f]; });
   document.querySelectorAll(".lang-switch button").forEach(b=>b.classList.toggle("active", b.dataset.lang === lang));
+  if(window.cmI18n) window.cmI18n(lang);
 }
 document.querySelectorAll(".lang-switch button").forEach(b=>b.addEventListener("click", ()=>{ applyLang(b.dataset.lang); try{localStorage.setItem("mv_lang", b.dataset.lang)}catch(e){} }));
 
@@ -489,6 +540,24 @@ applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||
   }
   render(GREV_FALLBACK);
   fetch('/api/reviews').then(function(r){return r.json();}).then(function(d){ if(d && d.reviews) render(d); }).catch(function(){});
+})();
+</script>
+<script>
+(function(){
+  var ov=document.getElementById("consultModal");
+  if(!ov) return;
+  function open(){ov.classList.add("open");document.body.style.overflow="hidden";}
+  function close(){ov.classList.remove("open");document.body.style.overflow="";}
+  document.querySelectorAll("[data-consult]").forEach(function(b){b.addEventListener("click",open);});
+  document.getElementById("cmClose").addEventListener("click",close);
+  ov.addEventListener("click",function(e){if(e.target===ov)close();});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")close();});
+  // перевод строк модалки при смене языка
+  window.cmI18n=function(lang){
+    var T=document.querySelector('[data-cm="title"]'), S=document.querySelector('[data-cm="sub"]');
+    if(lang==="en"){T.textContent="How would you like to reach us?";S.textContent="We reply fast on any messenger. Pick yours:";}
+    else{T.textContent="Как вам удобнее связаться?";S.textContent="Ответим быстро в любом мессенджере. Выберите свой:";}
+  };
 })();
 </script>
 </body>

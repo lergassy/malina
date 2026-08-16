@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://malinavisa.com/sitemap.xml
+Sitemap: https://www.malinavisa.com/sitemap.xml
