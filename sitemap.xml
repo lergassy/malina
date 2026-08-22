@@ -27,4 +27,6 @@
   <url><loc>https://www.malinavisa.com/contacts</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.malinavisa.com/offer</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://www.malinavisa.com/arrival</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.malinavisa.com/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.malinavisa.com/blog/overstay-bali</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>
