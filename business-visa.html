@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v29-audit">
+<meta name="build" content="v34-tg">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -596,5 +596,20 @@ applyLang((function(){ try{ var s=localStorage.getItem("mv_lang"); if(s==="ru"||
   };
 })();
 </script>
+<script>(function(){
+  var prev=window.cmI18n;
+  window.cmI18n=function(lang){
+    if(prev) prev(lang);
+    try{
+      var o=document.querySelector('#consultModal .cm-opts');
+      if(!o) return;
+      var wa=o.querySelector('a[href*="wa.me"]'), tg=o.querySelector('a[href*="t.me"]');
+      if(wa&&tg){ if(lang==='ru'){o.insertBefore(tg,wa);} else {o.insertBefore(wa,tg);} }
+    }catch(e){}
+  };
+  var ru=document.querySelector('main.ru');
+  var l0=(ru&&getComputedStyle(ru).display!=='none')?'ru':'en';
+  window.cmI18n(l0);
+})();</script>
 </body>
 </html>
