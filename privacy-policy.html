@@ -255,6 +255,7 @@ body.lang-en main.en{display:block}
         </div>
       </div>
       <a href="index.html#about" data-nav="about">About Us</a>
+      <a href="blog/index.html" data-nav="blog">Blog</a>
       <a href="contacts.html" data-nav="contacts">Contacts</a>
     </nav>
     <div class="header-right">
@@ -284,6 +285,7 @@ body.lang-en main.en{display:block}
   <a class="sub" href="kitas-kitap.html" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="index.html#about" data-nav="about">About Us</a>
   <a href="contacts.html" data-nav="contacts">Contacts</a>
+  <a href="blog/index.html" data-nav="blog">Blog</a>
 </div>
 
 <span id="pageContent"></span>
@@ -380,11 +382,11 @@ body.lang-en main.en{display:block}
 <script>
 /* язык: показываем main.ru или main.en, переводим шапку/футер */
 const NAV = {
-  en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", contacts:"Contacts",
+  en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", blog:"Blog", contacts:"Contacts",
         d_tourist:"Tourist Visa C1 (211A)", d_voa:"eVOA · Visa on Arrival", d_business:"Business Visa C2",
         d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
         d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
-  ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", contacts:"Контакты",
+  ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", blog:"Блог", contacts:"Контакты",
         d_tourist:"Туристическая виза C1 (211A)", d_voa:"eVOA — виза по прибытии", d_business:"Бизнес-виза C2",
         d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
         d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
@@ -392,11 +394,11 @@ const NAV = {
 const FOOT = {
   en: { tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
         c1:"Services", c2:"Company", c3:"Contact", business:"Business Services", visas:"Visas", acc:"Accounting", setup:"Company Registration",
-        legal:"Legal Services", payment:"Payment Methods", about:"About Us", contacts:"Contacts", reviews:"Reviews",
+        legal:"Legal Services", payment:"Payment Methods", about:"About Us", blog:"Blog", contacts:"Contacts", reviews:"Reviews",
         contacts:"Contacts", priv:"Privacy Policy", offer:"Public Offer", blog:"Blog", addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362", rights:"All rights reserved", chat:"Chat with us" },
   ru: { tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
         c1:"Услуги", c2:"Компания", c3:"Контакты", business:"Бизнес-услуги", visas:"Визы", acc:"Бухгалтерия", setup:"Регистрация компаний",
-        legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", contacts:"Контакты", reviews:"Отзывы",
+        legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", blog:"Блог", contacts:"Контакты", reviews:"Отзывы",
         contacts:"Контакты", priv:"Политика конфиденциальности", offer:"Публичная оферта", blog:"Блог", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
 };
 const PAGE_TITLES = {
