@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.malinavisa.com/sitemap.xml
+
+# AI index
+# https://www.malinavisa.com/llms.txt
