@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
-<meta name="build" content="v48-calc">
+<meta name="build" content="v49-nav">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -303,6 +303,15 @@ body.lang-en main.en{display:block}
           <a href="/visas" class="drop-all" data-nav="d_all">All visa types →</a>
         </div>
       </div>
+      <div class="nav-drop">
+        <button type="button" aria-haspopup="true"><span data-nav="calc">Calculators</span>
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="drop-menu">
+          <a href="/visa-calculator" data-nav="c_visa">Visa Finder</a>
+          <a href="/overstay-calculator" data-nav="c_over">Overstay Calculator</a>
+        </div>
+      </div>
       <a href="index.html#about" data-nav="about">About Us</a>
       <a href="/blog" data-nav="blog">Blog</a>
       <a href="/contacts" data-nav="contacts">Contacts</a>
@@ -332,6 +341,9 @@ body.lang-en main.en{display:block}
   <a class="sub" href="/c18-visa" data-nav="d_c18">Candidate Visa C18</a>
   <a class="sub" href="/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
   <a class="sub" href="/kitas-kitap" data-nav="d_kitas">KITAS &amp; KITAP</a>
+  <a href="/visa-calculator" data-nav="calc">Calculators</a>
+  <a class="sub" href="/visa-calculator" data-nav="c_visa">Visa Finder</a>
+  <a class="sub" href="/overstay-calculator" data-nav="c_over">Overstay Calculator</a>
   <a href="index.html#about" data-nav="about">About Us</a>
   <a href="/contacts" data-nav="contacts">Contacts</a>
   <a href="/blog" data-nav="blog">Blog</a>
@@ -441,6 +453,8 @@ body.lang-en main.en{display:block}
         <h4 data-f="c1">Services</h4>
         <a href="/business" data-f="business">Business Services</a>
         <a href="/visas" data-f="visas">Visas</a>
+        <a href="/visa-calculator" data-f="f_calc">Visa Finder</a>
+        <a href="/overstay-calculator" data-f="f_over">Overstay Calculator</a>
         <a href="/accounting" data-f="acc">Accounting</a>
         <a href="/company-setup" data-f="setup">Company Registration</a>
         <a href="index.html#legal" data-f="legal">Legal Services</a>
@@ -485,21 +499,21 @@ body.lang-en main.en{display:block}
 <script>
 /* язык: показываем main.ru или main.en, переводим шапку/футер */
 const NAV = {
-  en: { business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", blog:"Blog", contacts:"Contacts",
+  en: { calc:"Calculators", c_visa:"Visa Finder", c_over:"Overstay Calculator", business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", blog:"Blog", contacts:"Contacts",
         d_tourist:"Tourist Visa C1 (211A)", d_voa:"eVOA · Visa on Arrival", d_business:"Business Visa C2",
         d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
         d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
-  ru: { business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", blog:"Блог", contacts:"Контакты",
+  ru: { calc:"Калькуляторы", c_visa:"Подбор визы", c_over:"Калькулятор оверстея", business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", blog:"Блог", contacts:"Контакты",
         d_tourist:"Туристическая виза C1 (211A)", d_voa:"eVOA — виза по прибытии", d_business:"Бизнес-виза C2",
         d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
         d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
 const FOOT = {
-  en: { tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
+  en: { f_calc:"Visa Finder", f_over:"Overstay Calculator", tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
         c1:"Services", c2:"Company", c3:"Contact", business:"Business Services", visas:"Visas", acc:"Accounting", setup:"Company Registration",
         legal:"Legal Services", payment:"Payment Methods", about:"About Us", blog:"Blog", contacts:"Contacts", reviews:"Reviews",
         contacts:"Contacts", priv:"Privacy Policy", offer:"Public Offer", blog:"Blog", addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362", rights:"All rights reserved", chat:"Chat with us" },
-  ru: { tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
+  ru: { f_calc:"Подбор визы", f_over:"Калькулятор оверстея", tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
         c1:"Услуги", c2:"Компания", c3:"Контакты", business:"Бизнес-услуги", visas:"Визы", acc:"Бухгалтерия", setup:"Регистрация компаний",
         legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", blog:"Блог", contacts:"Контакты", reviews:"Отзывы",
         contacts:"Контакты", priv:"Политика конфиденциальности", offer:"Публичная оферта", blog:"Блог", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
