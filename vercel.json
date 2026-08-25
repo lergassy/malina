@@ -5,20 +5,197 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains"
+        }
       ]
     },
     {
       "source": "/media/(.*)",
-      "headers": [ { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" } ]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/(og-banner.jpg|logo-surf.png)",
-      "headers": [ { "key": "Cache-Control", "value": "public, max-age=604800" } ]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/en/accounting-indonesia-basics",
+      "destination": "/en/blog/accounting-indonesia-basics",
+      "permanent": true
+    },
+    {
+      "source": "/en/artist-kitas-bali",
+      "destination": "/en/blog/artist-kitas-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/bali-immigration-offices",
+      "destination": "/en/blog/bali-immigration-offices",
+      "permanent": true
+    },
+    {
+      "source": "/en/bali-visa-guide",
+      "destination": "/en/blog/bali-visa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/bank-account-bali",
+      "destination": "/en/blog/bank-account-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/c1-tourist-visa-guide",
+      "destination": "/en/blog/c1-tourist-visa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/c1-vs-evoa",
+      "destination": "/en/blog/c1-vs-evoa",
+      "permanent": true
+    },
+    {
+      "source": "/en/c18-bridge-work",
+      "destination": "/en/blog/c18-bridge-work",
+      "permanent": true
+    },
+    {
+      "source": "/en/c2-business-visa-guide",
+      "destination": "/en/blog/c2-business-visa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/company-closure-bali",
+      "destination": "/en/blog/company-closure-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/d1-d2-multiple-visa",
+      "destination": "/en/blog/d1-d2-multiple-visa",
+      "permanent": true
+    },
+    {
+      "source": "/en/d12-pre-investment",
+      "destination": "/en/blog/d12-pre-investment",
+      "permanent": true
+    },
+    {
+      "source": "/en/digital-nomad-bali-legal",
+      "destination": "/en/blog/digital-nomad-bali-legal",
+      "permanent": true
+    },
+    {
+      "source": "/en/documents-passport-rules",
+      "destination": "/en/blog/documents-passport-rules",
+      "permanent": true
+    },
+    {
+      "source": "/en/e33g-remote-kitas-guide",
+      "destination": "/en/blog/e33g-remote-kitas-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/evoa-bali-guide",
+      "destination": "/en/blog/evoa-bali-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/family-kitas-guide",
+      "destination": "/en/blog/family-kitas-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/investor-kitas-guide",
+      "destination": "/en/blog/investor-kitas-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/kitap-permanent",
+      "destination": "/en/blog/kitap-permanent",
+      "permanent": true
+    },
+    {
+      "source": "/en/love-bali-levy",
+      "destination": "/en/blog/love-bali-levy",
+      "permanent": true
+    },
+    {
+      "source": "/en/open-pt-pma",
+      "destination": "/en/blog/open-pt-pma",
+      "permanent": true
+    },
+    {
+      "source": "/en/overstay-bali",
+      "destination": "/en/blog/overstay-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/pt-pma-vs-local-pt",
+      "destination": "/en/blog/pt-pma-vs-local-pt",
+      "permanent": true
+    },
+    {
+      "source": "/en/retirement-kitas-55",
+      "destination": "/en/blog/retirement-kitas-55",
+      "permanent": true
+    },
+    {
+      "source": "/en/second-home-bali",
+      "destination": "/en/blog/second-home-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/visa-extension-bali",
+      "destination": "/en/blog/visa-extension-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/visa-free-indonesia",
+      "destination": "/en/blog/visa-free-indonesia",
+      "permanent": true
+    },
+    {
+      "source": "/en/visa-runs-bali",
+      "destination": "/en/blog/visa-runs-bali",
+      "permanent": true
+    },
+    {
+      "source": "/en/visa-sponsor-indonesia",
+      "destination": "/en/blog/visa-sponsor-indonesia",
+      "permanent": true
+    },
+    {
+      "source": "/en/work-kitas-guide",
+      "destination": "/en/blog/work-kitas-guide",
+      "permanent": true
     }
   ]
 }
