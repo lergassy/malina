@@ -28,7 +28,7 @@
   <url><loc>https://www.malinavisa.com/offer</loc><lastmod>2026-08-18</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://www.malinavisa.com/arrival</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/blog</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.malinavisa.com/blog/overstay-bali</loc><lastmod>2026-08-22</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.malinavisa.com/blog/overstay-bali</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/blog/extend-evoa-bali</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/blog/c1-vs-evoa</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/blog/visa-runs-bali</loc><lastmod>2026-08-22</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -88,7 +88,7 @@
   <url><loc>https://www.malinavisa.com/en/company-closure</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/en/accounting</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/en/blog</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.malinavisa.com/en/blog/overstay-bali</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.malinavisa.com/en/blog/overstay-bali</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/en/blog/extend-evoa-bali</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/en/blog/c1-vs-evoa</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/en/blog/e33g-remote-kitas-guide</loc><lastmod>2026-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -125,4 +125,8 @@
   <url><loc>https://www.malinavisa.com/en/blog/golden-visa-indonesia</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/blog/visa-free-indonesia</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.malinavisa.com/en/blog/visa-free-indonesia</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.malinavisa.com/visa-calculator</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.malinavisa.com/en/visa-calculator</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.malinavisa.com/overstay-calculator</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.malinavisa.com/en/overstay-calculator</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
