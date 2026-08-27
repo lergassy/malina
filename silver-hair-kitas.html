@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
 <meta name="yandex-verification" content="cac7f5155e0c6af0" />
-<meta name="build" content="v69-retirement">
+<meta name="build" content="v74-extension-service">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -280,6 +280,7 @@ body.lang-en main.en{display:block}
 .tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
 @media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://www.malinavisa.com/"}, {"@type": "ListItem", "position": 2, "name": "Визы в Индонезию", "item": "https://www.malinavisa.com/visas"}, {"@type": "ListItem", "position": 3, "name": "Silver Hair КИТАС"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "С какого возраста дают Silver Hair?", "acceptedAnswer": {"@type": "Answer", "text": "С 55 лет. Это прямо записано в министерском решении о классификации виз 2025 года. Многие сайты пишут 60 — это ошибка: порог 60 лет относится не к визе, а к переходу на постоянный КИТАП по пенсионной линии."}}, {"@type": "Question", "name": "Можно ли вместо депозита показать недвижимость?", "acceptedAnswer": {"@type": "Answer", "text": "Для Silver Hair — нет, здесь предусмотрен именно банковский депозит. Вариант с недвижимостью есть у Second Home E33, но там и порог другой."}}, {"@type": "Question", "name": "Можно ли работать по этому статусу?", "acceptedAnswer": {"@type": "Answer", "text": "Прямая продажа товаров и услуг внутри Индонезии запрещена. Формально закон допускает и другую деятельность через отдельную процедуру уведомления иммиграции о совмещении, но по пенсионной линии её практически никто не проходит. Если планируете зарабатывать — смотрите E33G или инвесторский E28A."}}, {"@type": "Question", "name": "Что с супругом?", "acceptedAnswer": {"@type": "Answer", "text": "Закон разрешает держателю статуса привезти семью — супруг оформляется по отдельному зависимому коду, не по пенсионному. Возраст супруга роли не играет. Важная деталь: требование по доходу считается на человека, а не на пару. Случай нестандартный, разберём его на консультации."}}, {"@type": "Question", "name": "Что будет через 5 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Статус продлевается ещё на пять лет, суммарно до десяти. После этого возможен переход на КИТАП — постоянный вид на жительство, для пенсионной линии он доступен с 60 лет."}}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Silver Hair КИТАС E33E", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/silver-hair-kitas"}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/silver-hair-kitas">
@@ -359,6 +360,8 @@ body.lang-en main.en{display:block}
   <a class="sub" href="/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="/c18-visa" data-nav="d_c18">Candidate Visa C18</a>
   <a class="sub" href="/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
+  <a class="sub" href="/visa-extension" data-nav="d_ext">Visa Extension</a>
+  <a class="sub" href="/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
   <a class="sub" href="/kitas-kitap" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="/visa-calculator" data-nav="calc">Calculators</a>
   <a class="sub" href="/visa-calculator" data-nav="c_visa">Visa Finder</a>
@@ -543,11 +546,11 @@ const NAV = {
   en: { calc:"Calculators", c_visa:"Visa Finder", c_over:"Overstay Calculator", business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", blog:"Blog", contacts:"Contacts",
         d_tourist:"Tourist Visa C1", d_voa:"eVOA · Visa on Arrival", d_business:"Business Visa C2",
         d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
-        d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
+        d_ext:"Visa Extension", d_bridge:"Bridging Visa", d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
   ru: { calc:"Калькуляторы", c_visa:"Подбор визы", c_over:"Калькулятор оверстея", business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", blog:"Блог", contacts:"Контакты",
         d_tourist:"Туристическая виза C1", d_voa:"eVOA — виза по прибытии", d_business:"Бизнес-виза C2",
         d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
-        d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
+        d_ext:"Продление визы", d_bridge:"Bridging Visa", d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
 const FOOT = {
   en: { f_calc:"Visa Finder", f_over:"Overstay Calculator", tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
 <meta name="yandex-verification" content="cac7f5155e0c6af0" />
-<meta name="build" content="v69-retirement">
+<meta name="build" content="v74-extension-service">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -309,6 +309,8 @@ body.lang-en main.en{display:block}
           <a href="/en/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
           <a href="/en/c18-visa" data-nav="d_c18">Candidate Visa C18</a>
           <a href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
+          <a href="/en/visa-extension" data-nav="d_ext">Visa Extension</a>
+          <a href="/en/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
           <a href="/en/kitas-kitap" data-nav="d_kitas">KITAS &amp; KITAP</a>
           <a href="/en/visas" class="drop-all" data-nav="d_all">All visa types →</a>
         </div>
@@ -350,6 +352,8 @@ body.lang-en main.en{display:block}
   <a class="sub" href="/en/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="/en/c18-visa" data-nav="d_c18">Candidate Visa C18</a>
   <a class="sub" href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
+  <a class="sub" href="/en/visa-extension" data-nav="d_ext">Visa Extension</a>
+  <a class="sub" href="/en/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
   <a class="sub" href="/en/kitas-kitap" data-nav="d_kitas">KITAS &amp; KITAP</a>
   <a href="/en/visa-calculator" data-nav="calc">Calculators</a>
   <a class="sub" href="/en/visa-calculator" data-nav="c_visa">Visa Finder</a>
@@ -520,11 +524,11 @@ const NAV = {
   en: { calc:"Calculators", c_visa:"Visa Finder", c_over:"Overstay Calculator", business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", about:"About Us", blog:"Blog", contacts:"Contacts",
         d_tourist:"Tourist Visa C1", d_voa:"eVOA · Visa on Arrival", d_business:"Business Visa C2",
         d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
-        d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
+        d_ext:"Visa Extension", d_bridge:"Bridging Visa", d_kitas:"KITAS & KITAP", d_family:"Family KITAS", d_work:"Work KITAS", d_all:"All visa types →" },
   ru: { calc:"Калькуляторы", c_visa:"Подбор визы", c_over:"Калькулятор оверстея", business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", about:"О нас", blog:"Блог", contacts:"Контакты",
         d_tourist:"Туристическая виза C1", d_voa:"eVOA — виза по прибытии", d_business:"Бизнес-виза C2",
         d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
-        d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
+        d_ext:"Продление визы", d_bridge:"Bridging Visa", d_kitas:"KITAS и KITAP", d_family:"Семейный КИТАС", d_work:"Рабочий КИТАС", d_all:"Все типы виз →" }
 };
 const FOOT = {
   en: { f_calc:"Visa Finder", f_over:"Overstay Calculator", tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
