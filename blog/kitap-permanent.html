@@ -251,6 +251,24 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "КИТАП", "datePublished": "2026-08-22", "dateModified": "2026-08-25", "inLanguage": ["ru", "en"], "author": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "publisher": {"@type": "Organization", "name": "Malina Visa", "logo": {"@type": "ImageObject", "url": "https://www.malinavisa.com/logo-surf.png"}}, "mainEntityOfPage": "https://www.malinavisa.com/blog/kitap-permanent"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что такое КИТАП простыми словами?", "acceptedAnswer": {"@type": "Answer", "text": "Постоянный вид на жительство Индонезии. Карта выдаётся на 5 лет и продлевается автоматически — ежегодные продления, сборы документов и визиты в иммиграцию заканчиваются."}}, {"@type": "Question", "name": "Можно ли получить КИТАП сразу, без КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Прямого пути не существует: к КИТАПу приходят только через годы непрерывного КИТАС. Приехать по туристической визе и оформить постоянный статус невозможно."}}, {"@type": "Question", "name": "Через сколько лет брака дают КИТАП?", "acceptedAnswer": {"@type": "Answer", "text": "Супругам граждан Индонезии обычно после 2 лет официального брака — это самый быстрый маршрут. Для рабочих, инвесторских и пенсионных оснований требуется несколько лет непрерывного статуса."}}, {"@type": "Question", "name": "Можно ли выезжать из страны с КИТАП?", "acceptedAnswer": {"@type": "Answer", "text": "Да, но для этого оформляется многократное разрешение на возвращение — MERP. Выезд без него и длительное отсутствие без разрешения ведут к аннулированию статуса."}}, {"@type": "Question", "name": "Что будет, если прервать КИТАС на год?", "acceptedAnswer": {"@type": "Answer", "text": "Перерыв обнуляет накопленную непрерывность, и отсчёт для КИТАПа начинается заново. Поэтому пересиживать между статусами на туристических визах — дорогое решение."}}]}</script>
@@ -466,7 +484,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

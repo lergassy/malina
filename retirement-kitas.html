@@ -261,9 +261,27 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Можно ли подрабатывать по пенсионному КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "Прямая продажа товаров и услуг внутри Индонезии по этому статусу запрещена — это главное ограничение. Формально закон допускает и другие виды деятельности, но только через отдельную процедуру уведомления иммиграции о совмещении (rangkap kegiatan); на практике по пенсионной линии её почти никто не проходит. Если планируете зарабатывать, честнее сразу смотреть в сторону E33G для удалённой работы на зарубежную компанию или инвесторского КИТАС E28A."}}, {"@type": "Question", "name": "Супруге 52 — что делать?", "acceptedAnswer": {"@type": "Answer", "text": "Закон разрешает держателю пенсионного статуса привезти семью, и для супруга оформляется отдельный зависимый КИТАС — по своему коду, не по пенсионному. Возраст супруга при этом роли не играет, а вот требование по доходу считается на каждого человека, а не на пару. Случай нестандартный, поэтому разберём его на консультации до того, как вы начнёте что-то оплачивать."}}, {"@type": "Question", "name": "Насколько сложны ежегодные продления?", "acceptedAnswer": {"@type": "Answer", "text": "Рутина, которую мы берём на себя: напомним заранее, соберём документы, проведём процесс без вашего стояния в очередях."}}, {"@type": "Question", "name": "Когда можно претендовать на КИТАП?", "acceptedAnswer": {"@type": "Answer", "text": "После нескольких лет непрерывного пенсионного КИТАС — постоянный статус снимает ежегодные продления. Поможем дойти до этой точки."}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Пенсионный KITAS 55+", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/retirement-kitas"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Пенсионный KITAS 55+", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/retirement-kitas", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100", "bestRating": "5", "worstRating": "1"}}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/retirement-kitas">
 <link rel="alternate" hreflang="en" href="https://www.malinavisa.com/en/retirement-kitas">
 <link rel="alternate" hreflang="x-default" href="https://www.malinavisa.com/en/retirement-kitas">
@@ -358,6 +376,7 @@ body.lang-en main.en{display:block}
       <span class="eyebrow">Визовый сервис · 55+ · E33F</span>
       <h1 style="margin-top:18px">Пенсионный КИТАС <span class="gold-text">E33F</span></h1>
       <div class="hero-chips"><div class="chip"><i>01 · Возраст</i><b>От 55 лет</b><span>Резидентский статус для тех, кто выбирает Бали для жизни на пенсии.</span></div><div class="chip"><i>02 · Срок</i><b>1 год с продлением</b><span>Ежегодные продления без выезда — и путь к постоянному КИТАП.</span></div><div class="chip"><i>03 · Быт</i><b>Как у резидента</b><span>Банковский счёт, долгосрочная аренда, водительские права, страховка.</span></div></div>
+      <p style="color:var(--muted);margin-top:14px;font-size:13.5px">Обновлено: 27 августа 2026 · Проверено командой Malina Visa</p>
     </div>
   </section>
   <div class="page container">
@@ -450,7 +469,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

@@ -246,6 +246,24 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Блог Malina Visa", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://www.malinavisa.com/blog/overstay-bali"}, {"@type": "ListItem", "position": 2, "url": "https://www.malinavisa.com/blog/extend-evoa-bali"}, {"@type": "ListItem", "position": 3, "url": "https://www.malinavisa.com/blog/c1-vs-evoa"}, {"@type": "ListItem", "position": 4, "url": "https://www.malinavisa.com/blog/visa-runs-bali"}, {"@type": "ListItem", "position": 5, "url": "https://www.malinavisa.com/blog/autogate-all-indonesia"}, {"@type": "ListItem", "position": 6, "url": "https://www.malinavisa.com/blog/love-bali-levy"}, {"@type": "ListItem", "position": 7, "url": "https://www.malinavisa.com/blog/documents-passport-rules"}, {"@type": "ListItem", "position": 8, "url": "https://www.malinavisa.com/blog/bali-immigration-offices"}, {"@type": "ListItem", "position": 9, "url": "https://www.malinavisa.com/blog/e33g-remote-kitas-guide"}, {"@type": "ListItem", "position": 10, "url": "https://www.malinavisa.com/blog/digital-nomad-bali-legal"}, {"@type": "ListItem", "position": 11, "url": "https://www.malinavisa.com/blog/d1-d2-multiple-visa"}, {"@type": "ListItem", "position": 12, "url": "https://www.malinavisa.com/blog/d12-pre-investment"}, {"@type": "ListItem", "position": 13, "url": "https://www.malinavisa.com/blog/c18-bridge-work"}, {"@type": "ListItem", "position": 14, "url": "https://www.malinavisa.com/blog/work-kitas-guide"}, {"@type": "ListItem", "position": 15, "url": "https://www.malinavisa.com/blog/family-kitas-guide"}, {"@type": "ListItem", "position": 16, "url": "https://www.malinavisa.com/blog/retirement-kitas-55"}, {"@type": "ListItem", "position": 17, "url": "https://www.malinavisa.com/blog/investor-kitas-guide"}, {"@type": "ListItem", "position": 18, "url": "https://www.malinavisa.com/blog/second-home-bali"}, {"@type": "ListItem", "position": 19, "url": "https://www.malinavisa.com/blog/kitap-permanent"}, {"@type": "ListItem", "position": 20, "url": "https://www.malinavisa.com/blog/bank-account-bali"}, {"@type": "ListItem", "position": 21, "url": "https://www.malinavisa.com/blog/open-pt-pma"}, {"@type": "ListItem", "position": 22, "url": "https://www.malinavisa.com/blog/company-closure-bali"}, {"@type": "ListItem", "position": 23, "url": "https://www.malinavisa.com/blog/evoa-bali-guide"}, {"@type": "ListItem", "position": 24, "url": "https://www.malinavisa.com/blog/c1-tourist-visa-guide"}, {"@type": "ListItem", "position": 25, "url": "https://www.malinavisa.com/blog/c2-business-visa-guide"}, {"@type": "ListItem", "position": 26, "url": "https://www.malinavisa.com/blog/pt-pma-vs-local-pt"}, {"@type": "ListItem", "position": 27, "url": "https://www.malinavisa.com/blog/accounting-indonesia-basics"}, {"@type": "ListItem", "position": 28, "url": "https://www.malinavisa.com/blog/artist-kitas-bali"}, {"@type": "ListItem", "position": 29, "url": "https://www.malinavisa.com/blog/epo-erp-kitas-closing"}]}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/blog">
@@ -654,7 +672,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

@@ -261,9 +261,27 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Сколько действует виза по прибытии в Индонезию?", "acceptedAnswer": {"@type": "Answer", "text": "30 дней с даты въезда, с одним продлением ещё на 30 — максимум 60 дней."}}, {"@type": "Question", "name": "Сколько стоит VOA?", "acceptedAnswer": {"@type": "Answer", "text": "Госпошлина составляет 500 000 IDR, оплачивается картой или наличными в аэропорту либо онлайн при оформлении eVOA."}}, {"@type": "Question", "name": "Можно ли продлить VOA онлайн?", "acceptedAnswer": {"@type": "Answer", "text": "Да, если виза оформлялась заранее как eVOA — продление доступно онлайн."}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "eVOA — электронная виза по прибытии", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/visa-on-arrival", "offers": {"@type": "AggregateOffer", "lowPrice": "900000", "priceCurrency": "IDR"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем eVOA отличается от VOA в аэропорту?", "acceptedAnswer": {"@type": "Answer", "text": "Это одна и та же виза. eVOA оформляется заранее онлайн — по прилёте вы идёте сразу на паспортный контроль, минуя окно оплаты. Продлевать eVOA тоже можно онлайн."}}, {"@type": "Question", "name": "Как продлить VOA?", "acceptedAnswer": {"@type": "Answer", "text": "Продление одно, ещё на 30 дней. Начинать стоит за 1–2 недели до окончания первого срока. Мы берём процесс на себя — без личных визитов в иммиграционный офис в большинстве случаев."}}, {"@type": "Question", "name": "Что делать, если 60 дней мало?", "acceptedAnswer": {"@type": "Answer", "text": "Выехать из страны и вернуться по новой визе — либо заранее оформить туристическую C1 (до 180 дней) или многократную D1/D2. Конвертировать VOA в долгосрочную визу внутри страны нельзя."}}, {"@type": "Question", "name": "Через какие аэропорты можно въехать?", "acceptedAnswer": {"@type": "Answer", "text": "Через любой международный аэропорт и ряд морских портов Индонезии, принимающих иностранных граждан, — виза не привязана к городу."}}, {"@type": "Question", "name": "Что будет за оверстей?", "acceptedAnswer": {"@type": "Answer", "text": "Штраф 1 000 000 IDR за каждый день просрочки; до 60 дней он оплачивается при вылете, свыше — возможны серьёзные меры иммиграционной службы."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "eVOA — электронная виза по прибытии", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/visa-on-arrival", "offers": {"@type": "AggregateOffer", "lowPrice": "900000", "priceCurrency": "IDR"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100", "bestRating": "5", "worstRating": "1"}}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/visa-on-arrival">
 <link rel="alternate" hreflang="en" href="https://www.malinavisa.com/en/visa-on-arrival">
 <link rel="alternate" hreflang="x-default" href="https://www.malinavisa.com/en/visa-on-arrival">
@@ -358,6 +376,7 @@ body.lang-en main.en{display:block}
       <span class="eyebrow">Визовый сервис · VOA / eVOA</span>
       <h1 style="margin-top:18px">Виза по прибытии <span class="gold-text">(VOA)</span></h1>
       <div class="hero-chips"><div class="chip"><i>01 · Срок</i><b>30 + 30 дней</b><span>Выдаётся на 30 дней и продлевается один раз ещё на 30 — суммарно до 60.</span></div><div class="chip"><i>02 · Просто</i><b>В аэропорту или онлайн</b><span>Ставится в окне перед паспортным контролем — или оформляется заранее как eVOA.</span></div><div class="chip"><i>03 · Мы рядом</i><b>Продление без очередей</b><span>Берём продление на себя — без визитов в иммиграционный офис в разгар отпуска.</span></div></div>
+      <p style="color:var(--muted);margin-top:14px;font-size:13.5px">Обновлено: 27 августа 2026 · Проверено командой Malina Visa</p>
     </div>
   </section>
   <div class="page container">
@@ -439,7 +458,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

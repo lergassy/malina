@@ -261,9 +261,27 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что такое Local PT (PT PMDN)?", "acceptedAnswer": {"@type": "Answer", "text": "Индонезийская компания, полностью принадлежащая гражданам Индонезии, с капиталом от 50 млн IDR."}}, {"@type": "Question", "name": "Может ли иностранец владеть Local PT?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, любая иностранная доля делает компанию PT PMA."}}, {"@type": "Question", "name": "Сколько занимает регистрация Local PT?", "acceptedAnswer": {"@type": "Answer", "text": "Как правило, от двух недель до двух месяцев."}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Регистрация Local PT", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/local-pt"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Может ли иностранец владеть Local PT?", "acceptedAnswer": {"@type": "Answer", "text": "Нет — владельцами PT PMDN могут быть только граждане Индонезии. Любая иностранная доля автоматически переводит компанию в разряд PT PMA."}}, {"@type": "Question", "name": "А если оформить доли на номинального индонезийца?", "acceptedAnswer": {"@type": "Answer", "text": "Мы обязаны сказать прямо: номинальные схемы юридически не защищают иностранца — по документам компания и её активы принадлежат номиналу, и в споре суд встанет на сторону записанного владельца. Если контроль важен — выбирайте PT PMA; если есть настоящий партнёр — Local PT с грамотно оформленными договорённостями."}}, {"@type": "Question", "name": "Чем Local PT лучше PMA для совместного проекта?", "acceptedAnswer": {"@type": "Answer", "text": "Порогом входа и скоростью: капитал от 50 млн IDR против 10 млрд, меньше отчётной нагрузки (без LKPM), быстрее запуск. Для локального бизнеса с местным партнёром это оптимальный формат."}}, {"@type": "Question", "name": "Можно ли потом превратить Local PT в PMA?", "acceptedAnswer": {"@type": "Answer", "text": "Да — при вхождении иностранного капитала компания проходит конвертацию в PT PMA с приведением капитала и документов к требованиям для иностранных инвестиций. Сопровождаем такие переходы."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Регистрация Local PT", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/local-pt", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100", "bestRating": "5", "worstRating": "1"}}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/local-pt">
 <link rel="alternate" hreflang="en" href="https://www.malinavisa.com/en/local-pt">
 <link rel="alternate" hreflang="x-default" href="https://www.malinavisa.com/en/local-pt">
@@ -358,6 +376,7 @@ body.lang-en main.en{display:block}
       <span class="eyebrow">Бизнес-услуги · Local PT</span>
       <h1 style="margin-top:18px">Местная компания <span class="gold-text">Local PT</span></h1>
       <div class="hero-chips"><div class="chip"><i>01 · Порог</i><b>Капитал от 50 млн IDR</b><span>В сотни раз ниже порога PT PMA — быстрый и доступный старт.</span></div><div class="chip"><i>02 · Владельцы</i><b>Граждане Индонезии</b><span>100% долей принадлежит индонезийским учредителям.</span></div><div class="chip"><i>03 · Сроки</i><b>2 недели — 2 месяца</b><span>Чёткий, отработанный процесс регистрации и запуска.</span></div></div>
+      <p style="color:var(--muted);margin-top:14px;font-size:13.5px">Обновлено: 27 августа 2026 · Проверено командой Malina Visa</p>
     </div>
   </section>
   <div class="page container">
@@ -441,7 +460,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

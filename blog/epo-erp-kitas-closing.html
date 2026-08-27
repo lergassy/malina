@@ -251,6 +251,24 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "EPO и ERP: как правильно закрыть КИТАС", "datePublished": "2026-08-27", "dateModified": "2026-08-27", "inLanguage": "ru", "author": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "publisher": {"@type": "Organization", "name": "Malina Visa", "logo": {"@type": "ImageObject", "url": "https://www.malinavisa.com/logo-surf.png"}}, "mainEntityOfPage": "https://www.malinavisa.com/blog/epo-erp-kitas-closing", "description": "Закрытие КИТАС в Индонезии: EPO — если вы в стране, ERP — если уже уехали. Сроки, документы, риски брошенного статуса. 1 500 000 IDR."}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Можно ли просто улететь и не закрывать КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "Улететь физически вы, скорее всего, сможете — действующий статус не мешает пройти паспортный контроль. Проблема начнётся позже: КИТАС останется активным в базе, и на новую индонезийскую визу вы не подадитесь, пока он не закрыт. Оформлять придётся то же самое, только уже дистанционно и с большей нервотрёпкой."}}, {"@type": "Question", "name": "КИТАС истёк сам. Всё равно нужно закрывать?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Это самое частое заблуждение. Истечение срока не равно закрытию: запись в системе остаётся, и её нужно погасить процедурой. EPO и ERP оформляются в том числе на просроченный статус."}}, {"@type": "Question", "name": "Сколько занимает процедура?", "acceptedAnswer": {"@type": "Answer", "text": "Ориентируйтесь на несколько рабочих дней плюс окно на вылет при EPO. Точный срок зависит от офиса иммиграции и загрузки, поэтому мы называем его после проверки вашей ситуации, а не заранее. Планировать вылет впритык не стоит: праздничные дни сдвигают сроки."}}, {"@type": "Question", "name": "Смогу ли я вернуться в Индонезию после EPO или ERP?", "acceptedAnswer": {"@type": "Answer", "text": "Да, но по новой визе. Закрытый КИТАС не восстанавливается и не даёт права на въезд. Само по себе закрытие статуса не портит вашу историю — наоборот, аккуратно закрытый КИТАС упрощает будущие заявки. Плохо выглядит именно брошенный."}}, {"@type": "Question", "name": "Сколько это стоит?", "acceptedAnswer": {"@type": "Answer", "text": "1 500 000 IDR за процедуру — и EPO, и ERP. Если параллельно нужно закрыть компанию-спонсора или оформить новый статус, посчитаем всё вместе."}}, {"@type": "Question", "name": "Можно ли оформить EPO в аэропорту перед вылетом?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. EPO оформляется в отделении иммиграции по месту вашей регистрации, заранее, с физической сдачей паспорта. Процедуры «в день вылета» не существует."}}]}</script>
@@ -477,7 +495,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

@@ -251,6 +251,24 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Виза США с Бали", "datePublished": "2026-08-27", "dateModified": "2026-08-27", "inLanguage": "ru", "author": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "publisher": {"@type": "Organization", "name": "Malina Visa", "logo": {"@type": "ImageObject", "url": "https://www.malinavisa.com/logo-surf.png"}}, "mainEntityOfPage": "https://www.malinavisa.com/blog/us-visa-from-bali"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Нужен ли КИТАС, чтобы подать на визу США в Индонезии?", "acceptedAnswer": {"@type": "Answer", "text": "Формально нет: достаточно находиться в стране законно. Но резиденты имеют приоритет при распределении слотов на собеседование, а действующий КИТАС усиливает заявку — он показывает связи со страной проживания."}}, {"@type": "Question", "name": "Сколько стоит виза B1/B2?", "acceptedAnswer": {"@type": "Answer", "text": "Сейчас 185 долларов. Дополнительный Visa Integrity Fee в 250 долларов подписан законом 4 июля 2025 года, но пока не взимается; ожидается, что его введут до 30 сентября 2026 — тогда общая сумма станет 435 долларов."}}, {"@type": "Question", "name": "Где проходит собеседование?", "acceptedAnswer": {"@type": "Answer", "text": "В посольстве США в Джакарте или в консульстве в Сурабае. Запись открывается только после оплаты консульского сбора, поэтому посмотреть свободные даты заранее не получится."}}, {"@type": "Question", "name": "На каком языке проходит интервью?", "acceptedAnswer": {"@type": "Answer", "text": "На английском. Переводчика взять можно, но его допуск в посольство согласуют заранее — прийти с ним без предупреждения не выйдет."}}, {"@type": "Question", "name": "Вернут ли сбор при отказе?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Консульский сбор в 185 долларов не возвращается независимо от решения. Новый сбор в 250 долларов, наоборот, взимается только при выдаче визы, поэтому при отказе его не платят."}}]}</script>
@@ -478,7 +496,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

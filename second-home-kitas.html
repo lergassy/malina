@@ -261,9 +261,27 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "На сколько выдаётся Second Home КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "На 5 или 10 лет, с мультивъездом."}}, {"@type": "Question", "name": "Какие средства нужны для Second Home?", "acceptedAnswer": {"@type": "Answer", "text": "Ориентир — от 2 млрд IDR на счёте в индонезийском банке либо инвестиция в недвижимость."}}, {"@type": "Question", "name": "Можно ли работать по Second Home КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "Трудоустройство в индонезийских компаниях не разрешено."}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Second Home KITAS", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/second-home-kitas"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Деньги замораживаются на весь срок?", "acceptedAnswer": {"@type": "Answer", "text": "Средства размещаются на счёте в индонезийском банке как подтверждение статуса — условия распоряжения зависят от текущих правил программы. Разложим детали по полочкам до подачи, чтобы не было сюрпризов."}}, {"@type": "Question", "name": "Подойдёт ли покупка виллы вместо депозита?", "acceptedAnswer": {"@type": "Answer", "text": "Инвестиция в недвижимость допускается как альтернатива — с требованиями к её стоимости и оформлению. Проверим ваш объект на соответствие."}}, {"@type": "Question", "name": "Можно ли работать удалённо по Second Home?", "acceptedAnswer": {"@type": "Answer", "text": "Работа на зарубежные компании из Индонезии в этом статусе — как правило, приемлемый сценарий; трудоустройство в местные компании запрещено. Для полноценной удалёнки существует профильный E33G."}}, {"@type": "Question", "name": "Что с семьёй?", "acceptedAnswer": {"@type": "Answer", "text": "Супруг и дети получают зависимые статусы на базе вашего — живут в Индонезии те же 5–10 лет."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Second Home KITAS", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/second-home-kitas", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100", "bestRating": "5", "worstRating": "1"}}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/second-home-kitas">
 <link rel="alternate" hreflang="en" href="https://www.malinavisa.com/en/second-home-kitas">
 <link rel="alternate" hreflang="x-default" href="https://www.malinavisa.com/en/second-home-kitas">
@@ -358,6 +376,7 @@ body.lang-en main.en{display:block}
       <span class="eyebrow">Визовый сервис · Second Home · E33</span>
       <h1 style="margin-top:18px">Second Home КИТАС <span class="gold-text">E33</span></h1>
       <div class="hero-chips"><div class="chip"><i>01 · Срок</i><b>5 или 10 лет</b><span>Самый длинный ВНЖ Индонезии — без ежегодной гонки продлений.</span></div><div class="chip"><i>02 · Основание</i><b>Капитал, а не работа</b><span>Подтверждение средств (ориентир — от 2 млрд IDR) или инвестиция в недвижимость.</span></div><div class="chip"><i>03 · Свобода</i><b>Без возраста и найма</b><span>Не требует пенсионного возраста, работодателя или собственного бизнеса.</span></div></div>
+      <p style="color:var(--muted);margin-top:14px;font-size:13.5px">Обновлено: 27 августа 2026 · Проверено командой Malina Visa</p>
     </div>
   </section>
   <div class="page container">
@@ -441,7 +460,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

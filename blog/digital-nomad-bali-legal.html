@@ -251,6 +251,24 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Легальная удалёнка", "datePublished": "2026-08-22", "dateModified": "2026-08-27", "inLanguage": "ru", "author": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "publisher": {"@type": "Organization", "name": "Malina Visa", "logo": {"@type": "ImageObject", "url": "https://www.malinavisa.com/logo-surf.png"}}, "mainEntityOfPage": "https://www.malinavisa.com/blog/digital-nomad-bali-legal"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Можно ли работать удалённо, живя на Бали по туристической визе?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Визы посещения — eVOA, C1, мультивизы D — права на работу не дают вообще. Для удалённой работы на зарубежных заказчиков существует отдельный статус E33G."}}, {"@type": "Question", "name": "Считается ли работой реклама бренда в Instagram?", "acceptedAnswer": {"@type": "Answer", "text": "Если бренд индонезийский, а вы получаете за публикацию деньги или товар — да, это деятельность внутри страны. Бартер ситуацию не спасает: значение имеет факт услуги, а не форма оплаты."}}, {"@type": "Question", "name": "Можно ли сдавать свою виллу в аренду?", "acceptedAnswer": {"@type": "Answer", "text": "Сдача недвижимости — доход из индонезийского источника, и статусом E33G он не покрывается. Такую деятельность нужно структурировать отдельно — разберём на консультации."}}, {"@type": "Question", "name": "Что будет, если работать без нужного статуса?", "acceptedAnswer": {"@type": "Answer", "text": "Это нарушение цели пребывания. Санкции варьируются от штрафа до депортации с запретом на въезд. По данным иммиграции, деятельность вне цели визы — одна из основных причин депортаций с Бали."}}, {"@type": "Question", "name": "Можно ли оформить E33G, уже находясь на острове?", "acceptedAnswer": {"@type": "Answer", "text": "Да, если текущий статус это допускает. С визы C1 смена статуса идёт напрямую, с eVOA — через промежуточную Bridging Visa. С безвизового въезда перейти нельзя, придётся выехать и зайти заново. В любом случае до окончания текущей визы должно оставаться не менее 30 дней."}}]}</script>
@@ -471,7 +489,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

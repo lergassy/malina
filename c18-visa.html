@@ -261,9 +261,27 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что такое виза C18?", "acceptedAnswer": {"@type": "Answer", "text": "Виза для иностранных кандидатов, позволяющая легально въехать в Индонезию по приглашению работодателя на период оформления рабочих разрешений."}}, {"@type": "Question", "name": "Можно ли работать по визе C18?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, право на труд даёт только рабочий КИТАС; C18 покрывает период до его получения."}}, {"@type": "Question", "name": "Конвертируется ли C18 в рабочий КИТАС?", "acceptedAnswer": {"@type": "Answer", "text": "Да, без выезда из страны."}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Виза C18 для выхода на работу", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/c18-visa"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Зачем нужна C18, если есть бизнес-виза?", "acceptedAnswer": {"@type": "Answer", "text": "У бизнес-визы цель — переговоры, а не выход на работу. Прилетать к работодателю по «неправильной» визе — риск отказа во въезде и осложнений при оформлении КИТАС. C18 создана ровно под этот сценарий."}}, {"@type": "Question", "name": "Можно ли начать работать сразу по C18?", "acceptedAnswer": {"@type": "Answer", "text": "Нет — право на труд и доход даёт только рабочий КИТАС. C18 покрывает период до его получения: адаптацию, знакомство с командой, финальные формальности."}}, {"@type": "Question", "name": "Что если оформление рабочего КИТАС затянется?", "acceptedAnswer": {"@type": "Answer", "text": "Ведём процесс с обеих сторон и заранее закладываем реалистичные сроки, чтобы статусы состыковались без разрывов."}}, {"@type": "Question", "name": "Может ли семья приехать со мной?", "acceptedAnswer": {"@type": "Answer", "text": "На этом этапе — по туристическим визам. После вашего рабочего КИТАС супругу и детям оформим зависимые КИТАС."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Виза C18 для выхода на работу", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/c18-visa", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100", "bestRating": "5", "worstRating": "1"}}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/c18-visa">
 <link rel="alternate" hreflang="en" href="https://www.malinavisa.com/en/c18-visa">
 <link rel="alternate" hreflang="x-default" href="https://www.malinavisa.com/en/c18-visa">
@@ -357,6 +375,7 @@ body.lang-en main.en{display:block}
       <span class="eyebrow">Визовый сервис · C18</span>
       <h1 style="margin-top:18px">Виза иностранного кандидата <span class="gold-text">C18</span></h1>
       <div class="hero-chips"><div class="chip"><i>01 · Назначение</i><b>Мост к работе</b><span>Легальный въезд для кандидата, пока оформляются рабочие разрешения.</span></div><div class="chip"><i>02 · Основание</i><b>Приглашение компании</b><span>Оформляется по инициативе индонезийского работодателя.</span></div><div class="chip"><i>03 · Далее</i><b>Конвертация в КИТАС</b><span>Из C18 — в полноценный рабочий статус без лишних перелётов.</span></div></div>
+      <p style="color:var(--muted);margin-top:14px;font-size:13.5px">Обновлено: 27 августа 2026 · Проверено командой Malina Visa</p>
     </div>
   </section>
   <div class="page container">
@@ -440,7 +459,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>

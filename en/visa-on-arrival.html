@@ -261,15 +261,33 @@ body.lang-en main.en{display:block}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0e0e13;padding:10px 18px;z-index:1200;font-weight:600;border-radius:0 0 10px 0}.skip-link:focus{left:0}
 .lang-switch a{padding:7px 14px;color:var(--muted);display:inline-block;transition:.3s}
 .lang-switch a:hover{color:var(--text)}
+
+/* tables */
+.tbl-wrap{margin-top:22px;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--glass)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+.tbl caption{text-align:left;padding:16px 20px 0;color:var(--muted);font-size:13.5px;caption-side:top}
+.tbl th,.tbl td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl thead th{background:rgba(255,255,255,.05);color:var(--sand);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:hover{background:rgba(255,255,255,.025)}
+.tbl td:first-child{color:var(--text);font-weight:500}
+.tbl .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .yes{color:#7fc99a}
+.tbl .no{color:#c98b8b}
+.tbl .mid{color:var(--muted)}
+.tbl tr.hl td{background:linear-gradient(90deg,rgba(210,164,92,.11),rgba(210,164,92,.02));border-bottom-color:rgba(210,164,92,.22)}
+.tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
+.tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
+@media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Сколько действует виза по прибытии в Индонезию?", "acceptedAnswer": {"@type": "Answer", "text": "30 дней с даты въезда, с одним продлением ещё на 30 — максимум 60 дней."}}, {"@type": "Question", "name": "Сколько стоит VOA?", "acceptedAnswer": {"@type": "Answer", "text": "Госпошлина составляет 500 000 IDR, оплачивается картой или наличными в аэропорту либо онлайн при оформлении eVOA."}}, {"@type": "Question", "name": "Можно ли продлить VOA онлайн?", "acceptedAnswer": {"@type": "Answer", "text": "Да, если виза оформлялась заранее как eVOA — продление доступно онлайн."}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "eVOA Indonesia: IDR 900,000 Turnkey", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/en/visa-on-arrival", "offers": {"@type": "AggregateOffer", "lowPrice": "900000", "priceCurrency": "IDR"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How is an eVOA different from an airport VOA?", "acceptedAnswer": {"@type": "Answer", "text": "It is the same visa. The eVOA is arranged online in advance — on arrival you go straight to passport control, skipping the payment counter. eVOA extensions can also be done online."}}, {"@type": "Question", "name": "How do I extend a VOA?", "acceptedAnswer": {"@type": "Answer", "text": "One extension of 30 days is allowed. Start 1–2 weeks before the first period ends. We take the process over — in most cases with no in-person immigration visits."}}, {"@type": "Question", "name": "What if 60 days is not enough?", "acceptedAnswer": {"@type": "Answer", "text": "Leave and return on a new visa — or arrange a C1 tourist visa (up to 180 days) or a multiple-entry D1/D2 in advance. A VOA cannot be converted to a long-stay visa inside the country."}}, {"@type": "Question", "name": "Which airports accept it?", "acceptedAnswer": {"@type": "Answer", "text": "Any international airport and a number of seaports that accept foreign nationals — the visa is not tied to a city."}}, {"@type": "Question", "name": "What does overstay cost?", "acceptedAnswer": {"@type": "Answer", "text": "1,000,000 IDR per day of overstay; up to 60 days it is paid at departure, beyond that serious immigration measures are possible."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "eVOA Indonesia: IDR 900,000 Turnkey", "serviceType": "Visa and immigration services", "provider": {"@type": "Organization", "name": "Malina Visa", "url": "https://www.malinavisa.com"}, "areaServed": {"@type": "Country", "name": "Indonesia"}, "url": "https://www.malinavisa.com/en/visa-on-arrival", "offers": {"@type": "AggregateOffer", "lowPrice": "900000", "priceCurrency": "IDR"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100", "bestRating": "5", "worstRating": "1"}}</script>
 <link rel="alternate" hreflang="ru" href="https://www.malinavisa.com/visa-on-arrival">
 <link rel="alternate" hreflang="en" href="https://www.malinavisa.com/en/visa-on-arrival">
 <link rel="alternate" hreflang="x-default" href="https://www.malinavisa.com/en/visa-on-arrival">
 </head>
 <body class="lang-en">
-<a class="skip-link" href="#pageContent">К содержанию · Skip to content</a>
+<a class="skip-link" href="#pageContent">Skip to content</a>
 
 <header class="site-header">
   <div class="container header-inner">
@@ -358,6 +376,7 @@ body.lang-en main.en{display:block}
       <span class="eyebrow">Visa Service · VOA / eVOA</span>
       <h1 style="margin-top:18px">Visa on Arrival <span class="gold-text">(VOA)</span></h1>
       <div class="hero-chips"><div class="chip"><i>01 · Duration</i><b>30 + 30 days</b><span>Issued for 30 days, extendable once for another 30 — up to 60 in total.</span></div><div class="chip"><i>02 · Simple</i><b>At the airport or online</b><span>Issued at the counter before passport control — or arranged in advance as an eVOA.</span></div><div class="chip"><i>03 · With us</i><b>Extension without queues</b><span>We handle the extension — no immigration-office visits in the middle of your holiday.</span></div></div>
+      <p style="color:var(--muted);margin-top:14px;font-size:13.5px">Updated: 27 August 2026 · Verified by the Malina Visa team</p>
     </div>
   </section>
   <div class="page container">
@@ -389,8 +408,8 @@ body.lang-en main.en{display:block}
 <div class="cm-ov" id="consultModal" role="dialog" aria-modal="true">
   <div class="cm">
     <button class="cm-x" id="cmClose" aria-label="Close">✕</button>
-    <h3 data-cm="title">Как вам удобнее связаться?</h3>
-    <p data-cm="sub">Ответим быстро в любом мессенджере. Выберите свой:</p>
+    <h3 data-cm="title">How would you like to reach us?</h3>
+    <p data-cm="sub">We reply fast on any messenger. Pick yours:</p>
     <div class="cm-opts">
       <a class="cm-opt" href="https://wa.me/6281958386755" target="_blank" rel="noopener">
         <span class="cm-ic wa"><svg width="24" height="24" viewBox="0 0 24 24" fill="#25D366"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3C4.4 14.9 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg></span>
@@ -439,7 +458,7 @@ body.lang-en main.en{display:block}
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Malina Visa</span>
+      <span>© <span id="year"></span> Malina Visa · PT SOLUSI VISA MUDAH PRIMA · NPWP 10.000.000.9-755.604</span>
       <span data-f="rights">All rights reserved</span>
     </div>
   </div>
@@ -582,7 +601,7 @@ applyLang("en");
   window.cmI18n=function(lang){
     var T=document.querySelector('[data-cm="title"]'), S=document.querySelector('[data-cm="sub"]');
     if(lang==="en"){T.textContent="How would you like to reach us?";S.textContent="We reply fast on any messenger. Pick yours:";}
-    else{T.textContent="Как вам удобнее связаться?";S.textContent="Ответим быстро в любом мессенджере. Выберите свой:";}
+    else{T.textContent="How would you like to reach us?";S.textContent="We reply fast on any messenger. Pick yours:";}
   };
 })();
 </script>
