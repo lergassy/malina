@@ -64,6 +64,26 @@ User-agent: Bytespider
 Crawl-delay: 5
 Allow: /
 
+User-agent: Meta-ExternalAgent
+Crawl-delay: 3
+Allow: /
+
+User-agent: Amazonbot
+Crawl-delay: 3
+Allow: /
+
+User-agent: cohere-ai
+Crawl-delay: 3
+Allow: /
+
+User-agent: YouBot
+Crawl-delay: 3
+Allow: /
+
+User-agent: anthropic-ai
+Crawl-delay: 2
+Allow: /
+
 # SEO-краулеры — с ощутимой задержкой, чтобы не съедали ресурс
 User-agent: AhrefsBot
 Crawl-delay: 10
@@ -80,6 +100,9 @@ Allow: /
 User-agent: DataForSeoBot
 Crawl-delay: 10
 Allow: /
+
+Allow: /llms.txt
+Allow: /llms-full.txt
 
 Sitemap: https://www.malinavisa.com/sitemap.xml
 
