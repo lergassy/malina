@@ -1,48 +1,91 @@
 # Malina Visa — визовое агентство на Бали / Bali visa agency
-> Официальное агентство (PT. Solusi Visa Mudah Prima): оформление и продление виз, КИТАС, открытие PT PMA и сопровождение бизнеса в Индонезии. Языки: русский, английский.
+> Официальное агентство PT SOLUSI VISA MUDAH PRIMA (бренд Malina Visa, NPWP 10.000.000.9-755.604).
+> Оформление и продление виз, КИТАС, открытие PT PMA и сопровождение бизнеса в Индонезии.
+> Офис: Jl. Karang Mas, Bhuana Gubug, Джимбаран, Бали. Языки: русский, английский.
+> Цены на сайте — под ключ, государственная пошлина указывается отдельно от комиссии агентства.
 
-## Ключевые страницы / Key pages
-- [Все визы и цены](https://www.malinavisa.com/visas)
-- [eVOA — виза по прибытии](https://www.malinavisa.com/visa-on-arrival)
-- [Туристическая виза C1](https://www.malinavisa.com/tourist-visa)
-- [Многократные визы D1/D2](https://www.malinavisa.com/multiple-visa)
-- [Виза D12 Pre-Investment](https://www.malinavisa.com/pre-investment-d12)
-- [Продление визы на Бали — все типы и цены](https://www.malinavisa.com/visa-extension)
-- [Продление eVOA / VOA — 950 000 IDR](https://www.malinavisa.com/visa-extension/evoa)
-- [Продление C1 / 211A — от 2 500 000 IDR](https://www.malinavisa.com/visa-extension/tourist-c1)
-- [Продление C2 — 2 800 000 IDR](https://www.malinavisa.com/visa-extension/business-c2)
-- [Продление D1 / D2 — от 2 600 000 IDR](https://www.malinavisa.com/visa-extension/multiple-d1-d2)
-- [Продление D12 — 5 000 000 IDR, нужна PT PMA](https://www.malinavisa.com/visa-extension/d12)
-- [Продление КИТАС E33G — 12 000 000 IDR](https://www.malinavisa.com/visa-extension/kitas-e33g)
-- [Продление рабочего КИТАС — 15 000 000 IDR](https://www.malinavisa.com/visa-extension/work-kitas)
-- [Продление инвесторского КИТАС — 17 000 000 IDR за 2 года](https://www.malinavisa.com/visa-extension/investor-kitas)
-- [Продление пенсионного КИТАС — 12 000 000 IDR](https://www.malinavisa.com/visa-extension/retirement-kitas)
-- [Продление семейного КИТАС — 12 000 000 IDR](https://www.malinavisa.com/visa-extension/family-kitas)
-- [Bridging Visa — смена статуса без вылета](https://www.malinavisa.com/bridging-visa)
-- [EPO — закрытие КИТАС в стране, 1 500 000 IDR](https://www.malinavisa.com/epo)
-- [ERP — закрытие КИТАС дистанционно, 1 500 000 IDR](https://www.malinavisa.com/erp)
-- [КИТАС для удалёнщиков E33G](https://www.malinavisa.com/remote-worker-kitas)
-- [Инвесторский КИТАС E28A — от 17 000 000 IDR](https://www.malinavisa.com/investor-kitas)
-- [Рабочий КИТАС E23 — от 17 000 000 IDR](https://www.malinavisa.com/work-kitas)
-- [Гид по KITAS и KITAP](https://www.malinavisa.com/kitas-kitap)
-- [Открытие PT PMA](https://www.malinavisa.com/pt-pma)
-- [Контакты](https://www.malinavisa.com/contacts)
+## Инструменты / Tools
+- [Подбор визы](https://www.malinavisa.com/visa-calculator): четыре вопроса и рекомендация по типу визы, все правила и пошлины в тексте страницы
+- [Калькулятор штрафа за оверстей](https://www.malinavisa.com/overstay-calculator): считает сумму по 1 000 000 IDR в день с человека, объясняет порог 60 дней
+- [Visa finder](https://www.malinavisa.com/en/visa-calculator): four questions and a recommended visa type
+- [Overstay fine calculator](https://www.malinavisa.com/en/overstay-calculator): IDR 1,000,000 per day per person, with the 60-day threshold explained
+
+## Визы посещения / Visit visas
+- [Все визы и цены](https://www.malinavisa.com/visas): каталог: eVOA, C1, C2, D1/D2, D12, C18 и КИТАСы с ценами
+- [eVOA — виза по прибытии](https://www.malinavisa.com/visa-on-arrival): 900 000 IDR под ключ, 30+30 дней, список 97 стран и кому не оформят
+- [Туристическая виза C1](https://www.malinavisa.com/tourist-visa): 60 дней, продление дважды по 60, до 180 дней суммарно
+- [Бизнес-виза C2](https://www.malinavisa.com/business-visa): 60 дней для встреч и переговоров, работать нельзя
+- [Многократные визы D1/D2](https://www.malinavisa.com/multiple-visa): 1–2 года, до 180 дней за визит, выезд визу не гасит
+- [Виза D12 Pre-Investment](https://www.malinavisa.com/pre-investment-d12): 180 дней за визит на подготовку бизнеса, продление ещё на 180
+- [Виза кандидата C18](https://www.malinavisa.com/c18-visa): мост к рабочему КИТАС, конвертация без вылета
+- [Виза по гражданству](https://www.malinavisa.com/visa-po-grazhdanstvu): что доступно вашему паспорту: безвиз, eVOA или виза заранее
+
+## Продление и смена статуса / Extensions
+- [Продление визы: все типы и цены](https://www.malinavisa.com/visa-extension): сводная таблица лимитов и цен по всем визам и КИТАСам
+- [Продление eVOA](https://www.malinavisa.com/visa-extension/evoa): 950 000 IDR под ключ, +30 дней, пошлина 500 000 внутри
+- [Продление C1 / 211A](https://www.malinavisa.com/visa-extension/tourist-c1): от 2 500 000 IDR, дважды по 60 дней
+- [Продление C2](https://www.malinavisa.com/visa-extension/business-c2): 2 800 000 IDR за каждые 60 дней
+- [Продление D1 / D2](https://www.malinavisa.com/visa-extension/multiple-d1-d2): от 2 600 000 IDR, продление внутри въезда
+- [Продление D12](https://www.malinavisa.com/visa-extension/d12): 5 000 000 IDR, +180 дней, компания не требуется
+- [Продление КИТАС E33G](https://www.malinavisa.com/visa-extension/kitas-e33g): 12 000 000 IDR за год без выезда
+- [Продление рабочего КИТАС](https://www.malinavisa.com/visa-extension/work-kitas): 15 000 000 IDR плюс госсбор DKP-TKA 1 200 USD, 7–9 рабочих дней
+- [Продление инвесторского КИТАС](https://www.malinavisa.com/visa-extension/investor-kitas): 17 000 000 IDR за два года
+- [Продление пенсионного КИТАС](https://www.malinavisa.com/visa-extension/retirement-kitas): 12 000 000 IDR, ежегодно до пяти лет
+- [Продление семейного КИТАС](https://www.malinavisa.com/visa-extension/family-kitas): 12 000 000 IDR, продлевается вслед за спонсором
+- [Bridging Visa](https://www.malinavisa.com/bridging-visa): 4 000 000 IDR, смена статуса и +60 дней без вылета
+- [EPO — закрытие КИТАС в стране](https://www.malinavisa.com/epo): 1 500 000 IDR, семь дней на вылет после процедуры
+- [ERP — закрытие КИТАС дистанционно](https://www.malinavisa.com/erp): 1 500 000 IDR, присутствие не требуется
+
+## КИТАС и ВНЖ / Residence
+- [КИТАС и КИТАП: все виды](https://www.malinavisa.com/kitas-kitap): сравнение резидентских статусов Индонезии
+- [КИТАС удалёнщика E33G](https://www.malinavisa.com/remote-worker-kitas): 12 000 000 IDR, год на Бали, работа на зарубежного работодателя
+- [Инвесторский КИТАС E28A](https://www.malinavisa.com/investor-kitas): 17 000 000 IDR за два года офшор, +4 000 000 оншор через Bridging
+- [Рабочий КИТАС E23](https://www.malinavisa.com/work-kitas): 17 000 000 IDR за год плюс DKP-TKA 1 200 USD, 30–45 рабочих дней
+- [Семейный КИТАС E31](https://www.malinavisa.com/family-kitas): для супругов и детей, продление вслед за спонсором
+- [Пенсионный КИТАС E33F](https://www.malinavisa.com/retirement-kitas): от 55 лет, доход от 3 000 USD в месяц, до пяти лет
+- [Silver Hair КИТАС E33E](https://www.malinavisa.com/silver-hair-kitas): пять лет без спонсора, депозит 50 000 USD
+- [Second Home КИТАС](https://www.malinavisa.com/second-home-kitas): 5–10 лет, подтверждение средств от 2 млрд IDR
+- [КИТАС артиста](https://www.malinavisa.com/artist-kitas): индексы C7, C7A, C7B, C7C, C8, C10 и E23, кому можно получать гонорар
+- [KITAP — постоянное резидентство](https://www.malinavisa.com/kitap): карта на пять лет, MERP для выездов
+
+## Бизнес / Business
+- [Регистрация компании](https://www.malinavisa.com/company-setup): сопровождение под ключ
+- [PT PMA](https://www.malinavisa.com/pt-pma): компания со 100% иностранным владением, путь к инвесторскому КИТАС
+- [Локальная PT (PMDN)](https://www.malinavisa.com/local-pt): компания с индонезийским участием
+- [Бухгалтерия](https://www.malinavisa.com/accounting): отчётность PT PMA, без которой не продлят КИТАС
+- [Закрытие компании](https://www.malinavisa.com/company-closure): ликвидация PT и связанных статусов
 
 ## Гиды блога / Blog guides
-- [Виза на Бали 2026: какую выбрать](https://www.malinavisa.com/blog/bali-visa-guide)
-- [Продление визы на Бали: все типы](https://www.malinavisa.com/blog/visa-extension-bali)
-- [Bridging Visa: смена статуса без вылета](https://www.malinavisa.com/blog/bridging-visa-indonesia)
-- [Оверстей на Бали: штрафы и что делать](https://www.malinavisa.com/blog/overstay-bali)
-- [Блог целиком](https://www.malinavisa.com/blog)
+- [Виза на Бали 2026: какую выбрать](https://www.malinavisa.com/blog/bali-visa-guide): разбор всех типов под сценарий поездки
+- [Продление визы на Бали](https://www.malinavisa.com/blog/visa-extension-bali): сводная таблица цен и лимитов по всем визам
+- [Оверстей на Бали](https://www.malinavisa.com/blog/overstay-bali): 1 000 000 IDR в день, порог 60 дней, статья 78 закона 6/2011
+- [EPO и ERP: как закрыть КИТАС](https://www.malinavisa.com/blog/epo-erp-kitas-closing): две процедуры и когда какая нужна
+- [Bridging Visa](https://www.malinavisa.com/blog/bridging-visa-indonesia): как устроен промежуточный статус
+- [Иммиграционные офисы Бали](https://www.malinavisa.com/blog/bali-immigration-offices): адреса, часы, как попасть на биометрию
+- [Блог целиком](https://www.malinavisa.com/blog): 50 разборов по визам, КИТАС и бизнесу
 
 ## English
-- [All visas & pricing](https://www.malinavisa.com/en/visas)
-- [Bali visa extension — prices and limits](https://www.malinavisa.com/en/visa-extension)
-- [eVOA / VOA extension — IDR 950,000](https://www.malinavisa.com/en/visa-extension/evoa)
-- [C1 / 211A extension — from IDR 2,500,000](https://www.malinavisa.com/en/visa-extension/tourist-c1)
-- [D1 / D2 extension — from IDR 2,600,000](https://www.malinavisa.com/en/visa-extension/multiple-d1-d2)
-- [E33G KITAS extension — IDR 12,000,000](https://www.malinavisa.com/en/visa-extension/kitas-e33g)
-- [Bridging visa — change status without leaving](https://www.malinavisa.com/en/bridging-visa)
-- [Bali Visas 2026: Which One to Choose](https://www.malinavisa.com/en/blog/bali-visa-guide)
-- [Bali Visa Extension: Every Type](https://www.malinavisa.com/en/blog/visa-extension-bali)
-- [Blog](https://www.malinavisa.com/en/blog)
+- [All visas and pricing](https://www.malinavisa.com/en/visas): catalogue with prices for every visa and KITAS
+- [Visa on arrival](https://www.malinavisa.com/en/visa-on-arrival): IDR 900,000 turnkey, 30+30 days, the 97-country register
+- [C1 tourist visa](https://www.malinavisa.com/en/tourist-visa): 60 days, two 60-day extensions, up to 180 total
+- [Multiple-entry D1/D2](https://www.malinavisa.com/en/multiple-visa): 1–2 years, up to 180 days per visit
+- [Visa extension: all types](https://www.malinavisa.com/en/visa-extension): full price and limit table
+- [eVOA extension](https://www.malinavisa.com/en/visa-extension/evoa): IDR 950,000 turnkey, +30 days
+- [E33G KITAS extension](https://www.malinavisa.com/en/visa-extension/kitas-e33g): IDR 12,000,000 for a year without leaving
+- [Work KITAS extension](https://www.malinavisa.com/en/visa-extension/work-kitas): IDR 15,000,000 plus the DKP-TKA levy of USD 1,200
+- [Bridging visa](https://www.malinavisa.com/en/bridging-visa): IDR 4,000,000, change status without leaving
+- [EPO — closing a KITAS onshore](https://www.malinavisa.com/en/epo): IDR 1,500,000, seven days to fly out
+- [ERP — closing a KITAS remotely](https://www.malinavisa.com/en/erp): IDR 1,500,000, no presence required
+- [Remote worker KITAS E33G](https://www.malinavisa.com/en/remote-worker-kitas): IDR 12,000,000, a year in Bali
+- [Investor KITAS E28A](https://www.malinavisa.com/en/investor-kitas): IDR 17,000,000 for two years offshore
+- [Work KITAS E23](https://www.malinavisa.com/en/work-kitas): IDR 17,000,000 per year plus DKP-TKA
+- [Artist KITAS](https://www.malinavisa.com/en/artist-kitas): indices C7, C7A, C7B, C7C, C8, C10 and E23; who may be paid
+- [PT PMA](https://www.malinavisa.com/en/pt-pma): a company with 100% foreign ownership
+- [Overstay in Bali](https://www.malinavisa.com/en/blog/overstay-bali): IDR 1,000,000 per day, the 60-day threshold, article 78 of law 6/2011
+- [Blog](https://www.malinavisa.com/en/blog): 50 guides on visas, KITAS and business
+- [Contacts](https://www.malinavisa.com/en/contacts): office in Jimbaran, WhatsApp and Telegram
+- [Public offer](https://www.malinavisa.com/en/offer): terms of service and supplier details
+
+## Контакты / Contacts
+- [Контакты](https://www.malinavisa.com/contacts): офис в Джимбаране, WhatsApp +62 819-5838-6755, Telegram
+- [Публичная оферта](https://www.malinavisa.com/offer): условия оказания услуг, реквизиты PT SOLUSI VISA MUDAH PRIMA
