@@ -1,7 +1,88 @@
+# Malina Visa · PT SOLUSI VISA MUDAH PRIMA
+# https://www.malinavisa.com
+
 User-agent: *
+Allow: /
+
+# Поисковые роботы
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ИИ-ассистенты, отвечающие пользователю здесь и сейчас.
+# Разрешены без задержки: их ответ — это наш клиент.
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Gemini-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Обучающие краулеры — разрешены, но с задержкой
+User-agent: GPTBot
+Crawl-delay: 2
+Allow: /
+
+User-agent: ClaudeBot
+Crawl-delay: 2
+Allow: /
+
+User-agent: CCBot
+Crawl-delay: 3
+Allow: /
+
+User-agent: Applebot-Extended
+Crawl-delay: 3
+Allow: /
+
+User-agent: Bytespider
+Crawl-delay: 5
+Allow: /
+
+# SEO-краулеры — с ощутимой задержкой, чтобы не съедали ресурс
+User-agent: AhrefsBot
+Crawl-delay: 10
+Allow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
+Allow: /
+
+User-agent: MJ12bot
+Crawl-delay: 10
+Allow: /
+
+User-agent: DataForSeoBot
+Crawl-delay: 10
 Allow: /
 
 Sitemap: https://www.malinavisa.com/sitemap.xml
 
-# AI index
-# https://www.malinavisa.com/llms.txt
+# Текстовые индексы для языковых моделей
+# https://www.malinavisa.com/llms.txt — каталог ключевых страниц с описаниями
+# https://www.malinavisa.com/llms-full.txt — полный текст сайта, 202 страницы
