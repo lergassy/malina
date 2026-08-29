@@ -106,6 +106,9 @@ Allow: /llms-full.txt
 
 Sitemap: https://www.malinavisa.com/sitemap.xml
 
+# RSS-лента блога (для Дзена и агрегаторов)
+# https://www.malinavisa.com/rss.xml
+
 # Текстовые индексы для языковых моделей
 # https://www.malinavisa.com/llms.txt — каталог ключевых страниц с описаниями
 # https://www.malinavisa.com/llms-full.txt — полный текст сайта, 202 страницы
