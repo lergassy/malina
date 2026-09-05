@@ -48,6 +48,21 @@
   ],
   "redirects": [
     {
+      "source": "/en/review",
+      "destination": "https://g.page/r/CXNB4pNu0MXdEBM/review",
+      "permanent": false
+    },
+    {
+      "source": "/otzyv",
+      "destination": "https://g.page/r/CXNB4pNu0MXdEBM/review",
+      "permanent": false
+    },
+    {
+      "source": "/review",
+      "destination": "https://g.page/r/CXNB4pNu0MXdEBM/review",
+      "permanent": false
+    },
+    {
       "source": "/en/accounting-indonesia-basics",
       "destination": "/en/blog/accounting-indonesia-basics",
       "permanent": true
