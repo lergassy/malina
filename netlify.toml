@@ -207,44 +207,1377 @@
   force = true
 
 [[redirects]]
-  from = "/:p.html"
-  to = "/:p"
-  status = 301
+  from = "/en"
+  to = "/en/index.html"
+  status = 200
 
 [[redirects]]
-  from = "/en/:p.html"
-  to = "/en/:p"
+  from = "/en/"
+  to = "/en"
   status = 301
+  force = true
 
 [[redirects]]
-  from = "/blog/:p.html"
-  to = "/blog/:p"
-  status = 301
+  from = "/blog"
+  to = "/blog/index.html"
+  status = 200
 
 [[redirects]]
-  from = "/en/blog/:p.html"
-  to = "/en/blog/:p"
+  from = "/blog/"
+  to = "/blog"
   status = 301
+  force = true
 
 [[redirects]]
-  from = "/visa-extension/:p.html"
-  to = "/visa-extension/:p"
-  status = 301
+  from = "/en/blog"
+  to = "/en/blog/index.html"
+  status = 200
 
 [[redirects]]
-  from = "/en/visa-extension/:p.html"
-  to = "/en/visa-extension/:p"
+  from = "/en/blog/"
+  to = "/en/blog"
   status = 301
+  force = true
 
 [[redirects]]
-  from = "/vizy-iz-indonezii/:p.html"
-  to = "/vizy-iz-indonezii/:p"
-  status = 301
+  from = "/visa-extension"
+  to = "/visa-extension/index.html"
+  status = 200
 
 [[redirects]]
-  from = "/en/visas-from-indonesia/:p.html"
-  to = "/en/visas-from-indonesia/:p"
+  from = "/visa-extension/"
+  to = "/visa-extension"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension"
+  to = "/en/visa-extension/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/visa-extension/"
+  to = "/en/visa-extension"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii"
+  to = "/vizy-iz-indonezii/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/"
+  to = "/vizy-iz-indonezii"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia"
+  to = "/en/visas-from-indonesia/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/"
+  to = "/en/visas-from-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/accounting.html"
+  to = "/accounting"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/arrival.html"
+  to = "/arrival"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/artist-kitas.html"
+  to = "/artist-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/accounting-indonesia-basics.html"
+  to = "/blog/accounting-indonesia-basics"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/apostille-indonesia.html"
+  to = "/blog/apostille-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/artist-kitas-bali.html"
+  to = "/blog/artist-kitas-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/asia-trips-from-bali.html"
+  to = "/blog/asia-trips-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/australia-visa-from-bali.html"
+  to = "/blog/australia-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/autogate-all-indonesia.html"
+  to = "/blog/autogate-all-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/bali-immigration-offices.html"
+  to = "/blog/bali-immigration-offices"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/bali-visa-guide.html"
+  to = "/blog/bali-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/bank-account-bali.html"
+  to = "/blog/bank-account-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/bridging-visa-indonesia.html"
+  to = "/blog/bridging-visa-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/c1-tourist-visa-guide.html"
+  to = "/blog/c1-tourist-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/c1-vs-evoa.html"
+  to = "/blog/c1-vs-evoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/c18-bridge-work.html"
+  to = "/blog/c18-bridge-work"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/c2-business-visa-guide.html"
+  to = "/blog/c2-business-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/c6-social-visa.html"
+  to = "/blog/c6-social-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/child-visa-indonesia.html"
+  to = "/blog/child-visa-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/company-closure-bali.html"
+  to = "/blog/company-closure-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/d1-d2-multiple-visa.html"
+  to = "/blog/d1-d2-multiple-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/d12-pre-investment.html"
+  to = "/blog/d12-pre-investment"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/deportation-bali.html"
+  to = "/blog/deportation-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/digital-nomad-bali-legal.html"
+  to = "/blog/digital-nomad-bali-legal"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/documents-passport-rules.html"
+  to = "/blog/documents-passport-rules"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/driving-licence-bali.html"
+  to = "/blog/driving-licence-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/e33g-remote-kitas-guide.html"
+  to = "/blog/e33g-remote-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/epo-erp-kitas-closing.html"
+  to = "/blog/epo-erp-kitas-closing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/evoa-bali-guide.html"
+  to = "/blog/evoa-bali-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/extend-evoa-bali.html"
+  to = "/blog/extend-evoa-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/family-kitas-guide.html"
+  to = "/blog/family-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/golden-visa-indonesia.html"
+  to = "/blog/golden-visa-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/immigration-check-bali.html"
+  to = "/blog/immigration-check-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/index.html"
+  to = "/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/insurance-bali.html"
+  to = "/blog/insurance-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/investor-kitas-guide.html"
+  to = "/blog/investor-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/investor-kitas-work-limits.html"
+  to = "/blog/investor-kitas-work-limits"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/japan-visa-from-bali.html"
+  to = "/blog/japan-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/kitap-permanent.html"
+  to = "/blog/kitap-permanent"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/love-bali-levy.html"
+  to = "/blog/love-bali-levy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/open-pt-pma.html"
+  to = "/blog/open-pt-pma"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/overstay-bali.html"
+  to = "/blog/overstay-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/pt-pma-vs-local-pt.html"
+  to = "/blog/pt-pma-vs-local-pt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/retirement-kitas-55.html"
+  to = "/blog/retirement-kitas-55"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/rptka-dkptka-work-permit.html"
+  to = "/blog/rptka-dkptka-work-permit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/schengen-visa-from-bali.html"
+  to = "/blog/schengen-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/second-home-bali.html"
+  to = "/blog/second-home-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/sell-pt-pma-exit-kitas.html"
+  to = "/blog/sell-pt-pma-exit-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/skck-indonesia.html"
+  to = "/blog/skck-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/sktt-stm-indonesia.html"
+  to = "/blog/sktt-stm-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/taxes-foreigners-indonesia.html"
+  to = "/blog/taxes-foreigners-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/us-visa-from-bali.html"
+  to = "/blog/us-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/visa-conversion-kitas.html"
+  to = "/blog/visa-conversion-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/visa-extension-bali.html"
+  to = "/blog/visa-extension-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/visa-free-indonesia.html"
+  to = "/blog/visa-free-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/visa-runs-bali.html"
+  to = "/blog/visa-runs-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/visa-sponsor-indonesia.html"
+  to = "/blog/visa-sponsor-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/work-kitas-guide.html"
+  to = "/blog/work-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bridging-visa.html"
+  to = "/bridging-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-visa.html"
+  to = "/business-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business.html"
+  to = "/business"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/c18-visa.html"
+  to = "/c18-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/company-closure.html"
+  to = "/company-closure"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/company-setup.html"
+  to = "/company-setup"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contacts.html"
+  to = "/contacts"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/about.html"
+  to = "/en/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/accounting.html"
+  to = "/en/accounting"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/arrival.html"
+  to = "/en/arrival"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/artist-kitas.html"
+  to = "/en/artist-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/accounting-indonesia-basics.html"
+  to = "/en/blog/accounting-indonesia-basics"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/apostille-indonesia.html"
+  to = "/en/blog/apostille-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/artist-kitas-bali.html"
+  to = "/en/blog/artist-kitas-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/asia-trips-from-bali.html"
+  to = "/en/blog/asia-trips-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/australia-visa-from-bali.html"
+  to = "/en/blog/australia-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/autogate-all-indonesia.html"
+  to = "/en/blog/autogate-all-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/bali-immigration-offices.html"
+  to = "/en/blog/bali-immigration-offices"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/bali-visa-guide.html"
+  to = "/en/blog/bali-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/bank-account-bali.html"
+  to = "/en/blog/bank-account-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/bridging-visa-indonesia.html"
+  to = "/en/blog/bridging-visa-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/c1-tourist-visa-guide.html"
+  to = "/en/blog/c1-tourist-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/c1-vs-evoa.html"
+  to = "/en/blog/c1-vs-evoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/c18-bridge-work.html"
+  to = "/en/blog/c18-bridge-work"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/c2-business-visa-guide.html"
+  to = "/en/blog/c2-business-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/c6-social-visa.html"
+  to = "/en/blog/c6-social-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/child-visa-indonesia.html"
+  to = "/en/blog/child-visa-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/company-closure-bali.html"
+  to = "/en/blog/company-closure-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/d1-d2-multiple-visa.html"
+  to = "/en/blog/d1-d2-multiple-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/d12-pre-investment.html"
+  to = "/en/blog/d12-pre-investment"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/deportation-bali.html"
+  to = "/en/blog/deportation-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/digital-nomad-bali-legal.html"
+  to = "/en/blog/digital-nomad-bali-legal"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/documents-passport-rules.html"
+  to = "/en/blog/documents-passport-rules"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/driving-licence-bali.html"
+  to = "/en/blog/driving-licence-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/e33g-remote-kitas-guide.html"
+  to = "/en/blog/e33g-remote-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/epo-erp-kitas-closing.html"
+  to = "/en/blog/epo-erp-kitas-closing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/evoa-bali-guide.html"
+  to = "/en/blog/evoa-bali-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/extend-evoa-bali.html"
+  to = "/en/blog/extend-evoa-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/family-kitas-guide.html"
+  to = "/en/blog/family-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/golden-visa-indonesia.html"
+  to = "/en/blog/golden-visa-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/immigration-check-bali.html"
+  to = "/en/blog/immigration-check-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/index.html"
+  to = "/en/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/insurance-bali.html"
+  to = "/en/blog/insurance-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/investor-kitas-guide.html"
+  to = "/en/blog/investor-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/japan-visa-from-bali.html"
+  to = "/en/blog/japan-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/kitap-permanent.html"
+  to = "/en/blog/kitap-permanent"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/love-bali-levy.html"
+  to = "/en/blog/love-bali-levy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/open-pt-pma.html"
+  to = "/en/blog/open-pt-pma"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/overstay-bali.html"
+  to = "/en/blog/overstay-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/pt-pma-vs-local-pt.html"
+  to = "/en/blog/pt-pma-vs-local-pt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/retirement-kitas-55.html"
+  to = "/en/blog/retirement-kitas-55"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/rptka-dkptka-work-permit.html"
+  to = "/en/blog/rptka-dkptka-work-permit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/schengen-visa-from-bali.html"
+  to = "/en/blog/schengen-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/second-home-bali.html"
+  to = "/en/blog/second-home-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/skck-indonesia.html"
+  to = "/en/blog/skck-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/sktt-stm-indonesia.html"
+  to = "/en/blog/sktt-stm-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/taxes-foreigners-indonesia.html"
+  to = "/en/blog/taxes-foreigners-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/us-visa-from-bali.html"
+  to = "/en/blog/us-visa-from-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/visa-conversion-kitas.html"
+  to = "/en/blog/visa-conversion-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/visa-extension-bali.html"
+  to = "/en/blog/visa-extension-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/visa-free-indonesia.html"
+  to = "/en/blog/visa-free-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/visa-runs-bali.html"
+  to = "/en/blog/visa-runs-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/visa-sponsor-indonesia.html"
+  to = "/en/blog/visa-sponsor-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/work-kitas-guide.html"
+  to = "/en/blog/work-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/bridging-visa.html"
+  to = "/en/bridging-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/business-visa.html"
+  to = "/en/business-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/business.html"
+  to = "/en/business"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/c18-visa.html"
+  to = "/en/c18-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/company-closure.html"
+  to = "/en/company-closure"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/company-setup.html"
+  to = "/en/company-setup"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/contacts.html"
+  to = "/en/contacts"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/epo.html"
+  to = "/en/epo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/erp.html"
+  to = "/en/erp"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/family-kitas.html"
+  to = "/en/family-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/index.html"
+  to = "/en"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/investor-kitas.html"
+  to = "/en/investor-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/kitap.html"
+  to = "/en/kitap"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/kitas-kitap.html"
+  to = "/en/kitas-kitap"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/local-pt.html"
+  to = "/en/local-pt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/multiple-visa.html"
+  to = "/en/multiple-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/offer.html"
+  to = "/en/offer"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/overstay-calculator.html"
+  to = "/en/overstay-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/pre-investment-d12.html"
+  to = "/en/pre-investment-d12"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/price.html"
+  to = "/en/price"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/privacy-policy.html"
+  to = "/en/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/pt-pma.html"
+  to = "/en/pt-pma"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/remote-worker-kitas.html"
+  to = "/en/remote-worker-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/retirement-kitas.html"
+  to = "/en/retirement-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/second-home-kitas.html"
+  to = "/en/second-home-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/silver-hair-kitas.html"
+  to = "/en/silver-hair-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/tourist-visa.html"
+  to = "/en/tourist-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-by-nationality.html"
+  to = "/en/visa-by-nationality"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-calculator.html"
+  to = "/en/visa-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/business-c2.html"
+  to = "/en/visa-extension/business-c2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/d12.html"
+  to = "/en/visa-extension/d12"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/evoa.html"
+  to = "/en/visa-extension/evoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/family-kitas.html"
+  to = "/en/visa-extension/family-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/index.html"
+  to = "/en/visa-extension"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/investor-kitas.html"
+  to = "/en/visa-extension/investor-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/kitas-e33g.html"
+  to = "/en/visa-extension/kitas-e33g"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/multiple-d1-d2.html"
+  to = "/en/visa-extension/multiple-d1-d2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/retirement-kitas.html"
+  to = "/en/visa-extension/retirement-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/tourist-c1.html"
+  to = "/en/visa-extension/tourist-c1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension/work-kitas.html"
+  to = "/en/visa-extension/work-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-on-arrival.html"
+  to = "/en/visa-on-arrival"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/australia.html"
+  to = "/en/visas-from-indonesia/australia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/cambodia.html"
+  to = "/en/visas-from-indonesia/cambodia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/index.html"
+  to = "/en/visas-from-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/japan.html"
+  to = "/en/visas-from-indonesia/japan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/schengen.html"
+  to = "/en/visas-from-indonesia/schengen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/usa.html"
+  to = "/en/visas-from-indonesia/usa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/vietnam.html"
+  to = "/en/visas-from-indonesia/vietnam"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visas.html"
+  to = "/en/visas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/work-kitas.html"
+  to = "/en/work-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/epo.html"
+  to = "/epo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/erp.html"
+  to = "/erp"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/family-kitas.html"
+  to = "/family-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/investor-kitas.html"
+  to = "/investor-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kitap.html"
+  to = "/kitap"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kitas-kitap.html"
+  to = "/kitas-kitap"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/local-pt.html"
+  to = "/local-pt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/multiple-visa.html"
+  to = "/multiple-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/offer.html"
+  to = "/offer"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/overstay-calculator.html"
+  to = "/overstay-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pre-investment-d12.html"
+  to = "/pre-investment-d12"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/price.html"
+  to = "/price"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt-pma.html"
+  to = "/pt-pma"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/remote-worker-kitas.html"
+  to = "/remote-worker-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/retirement-kitas.html"
+  to = "/retirement-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/second-home-kitas.html"
+  to = "/second-home-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/silver-hair-kitas.html"
+  to = "/silver-hair-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tourist-visa.html"
+  to = "/tourist-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-calculator.html"
+  to = "/visa-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/business-c2.html"
+  to = "/visa-extension/business-c2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/d12.html"
+  to = "/visa-extension/d12"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/evoa.html"
+  to = "/visa-extension/evoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/family-kitas.html"
+  to = "/visa-extension/family-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/index.html"
+  to = "/visa-extension"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/investor-kitas.html"
+  to = "/visa-extension/investor-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/kitas-e33g.html"
+  to = "/visa-extension/kitas-e33g"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/multiple-d1-d2.html"
+  to = "/visa-extension/multiple-d1-d2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/retirement-kitas.html"
+  to = "/visa-extension/retirement-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/tourist-c1.html"
+  to = "/visa-extension/tourist-c1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-extension/work-kitas.html"
+  to = "/visa-extension/work-kitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-on-arrival.html"
+  to = "/visa-on-arrival"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visa-po-grazhdanstvu.html"
+  to = "/visa-po-grazhdanstvu"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visas.html"
+  to = "/visas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/australia.html"
+  to = "/vizy-iz-indonezii/australia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/cambodia.html"
+  to = "/vizy-iz-indonezii/cambodia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/index.html"
+  to = "/vizy-iz-indonezii"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/japan.html"
+  to = "/vizy-iz-indonezii/japan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/schengen.html"
+  to = "/vizy-iz-indonezii/schengen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/usa.html"
+  to = "/vizy-iz-indonezii/usa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/vietnam.html"
+  to = "/vizy-iz-indonezii/vietnam"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work-kitas.html"
+  to = "/work-kitas"
+  status = 301
+  force = true
 
 [[headers]]
   for = "/*"
