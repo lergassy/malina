@@ -208,53 +208,11 @@
   force = true
 
 
-[[redirects]]
-  from = "/en/"
-  to = "/en"
-  status = 301
-  force = true
 
 
-[[redirects]]
-  from = "/blog/"
-  to = "/blog"
-  status = 301
-  force = true
 
 
-[[redirects]]
-  from = "/en/blog/"
-  to = "/en/blog"
-  status = 301
-  force = true
 
-
-[[redirects]]
-  from = "/visa-extension/"
-  to = "/visa-extension"
-  status = 301
-  force = true
-
-
-[[redirects]]
-  from = "/en/visa-extension/"
-  to = "/en/visa-extension"
-  status = 301
-  force = true
-
-
-[[redirects]]
-  from = "/vizy-iz-indonezii/"
-  to = "/vizy-iz-indonezii"
-  status = 301
-  force = true
-
-
-[[redirects]]
-  from = "/en/visas-from-indonesia/"
-  to = "/en/visas-from-indonesia"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/about.html"
