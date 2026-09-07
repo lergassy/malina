@@ -1,0 +1,267 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Лента отзывов: та же функция, что была на Vercel
+[[redirects]]
+  from = "/api/reviews"
+  to = "/.netlify/functions/reviews"
+  status = 200
+
+[[redirects]]
+  from = "/en/review"
+  to = "https://g.page/r/CXNB4pNu0MXdEBM/review"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/otzyv"
+  to = "https://g.page/r/CXNB4pNu0MXdEBM/review"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/review"
+  to = "https://g.page/r/CXNB4pNu0MXdEBM/review"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/en/accounting-indonesia-basics"
+  to = "/en/blog/accounting-indonesia-basics"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/artist-kitas-bali"
+  to = "/en/blog/artist-kitas-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/bali-immigration-offices"
+  to = "/en/blog/bali-immigration-offices"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/bali-visa-guide"
+  to = "/en/blog/bali-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/bank-account-bali"
+  to = "/en/blog/bank-account-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/c1-tourist-visa-guide"
+  to = "/en/blog/c1-tourist-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/c1-vs-evoa"
+  to = "/en/blog/c1-vs-evoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/c18-bridge-work"
+  to = "/en/blog/c18-bridge-work"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/c2-business-visa-guide"
+  to = "/en/blog/c2-business-visa-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/company-closure-bali"
+  to = "/en/blog/company-closure-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/d1-d2-multiple-visa"
+  to = "/en/blog/d1-d2-multiple-visa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/d12-pre-investment"
+  to = "/en/blog/d12-pre-investment"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/digital-nomad-bali-legal"
+  to = "/en/blog/digital-nomad-bali-legal"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/documents-passport-rules"
+  to = "/en/blog/documents-passport-rules"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/e33g-remote-kitas-guide"
+  to = "/en/blog/e33g-remote-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/evoa-bali-guide"
+  to = "/en/blog/evoa-bali-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/family-kitas-guide"
+  to = "/en/blog/family-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/investor-kitas-guide"
+  to = "/en/blog/investor-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/kitap-permanent"
+  to = "/en/blog/kitap-permanent"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/love-bali-levy"
+  to = "/en/blog/love-bali-levy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/open-pt-pma"
+  to = "/en/blog/open-pt-pma"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/overstay-bali"
+  to = "/en/blog/overstay-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/pt-pma-vs-local-pt"
+  to = "/en/blog/pt-pma-vs-local-pt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/retirement-kitas-55"
+  to = "/en/blog/retirement-kitas-55"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/second-home-bali"
+  to = "/en/blog/second-home-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-extension-bali"
+  to = "/en/blog/visa-extension-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-free-indonesia"
+  to = "/en/blog/visa-free-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-runs-bali"
+  to = "/en/blog/visa-runs-bali"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/visa-sponsor-indonesia"
+  to = "/en/blog/visa-sponsor-indonesia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/work-kitas-guide"
+  to = "/en/blog/work-kitas-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:p.html"
+  to = "/:p"
+  status = 301
+
+[[redirects]]
+  from = "/en/:p.html"
+  to = "/en/:p"
+  status = 301
+
+[[redirects]]
+  from = "/blog/:p.html"
+  to = "/blog/:p"
+  status = 301
+
+[[redirects]]
+  from = "/en/blog/:p.html"
+  to = "/en/blog/:p"
+  status = 301
+
+[[redirects]]
+  from = "/visa-extension/:p.html"
+  to = "/visa-extension/:p"
+  status = 301
+
+[[redirects]]
+  from = "/en/visa-extension/:p.html"
+  to = "/en/visa-extension/:p"
+  status = 301
+
+[[redirects]]
+  from = "/vizy-iz-indonezii/:p.html"
+  to = "/vizy-iz-indonezii/:p"
+  status = 301
+
+[[redirects]]
+  from = "/en/visas-from-indonesia/:p.html"
+  to = "/en/visas-from-indonesia/:p"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+[[headers]]
+  for = "/og-banner.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
