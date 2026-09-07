@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = "for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp "$d/index.html" "$d.html"; done"
+  command = 'for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp $d/index.html $d.html; done'
   functions = "netlify/functions"
 
 # Лента отзывов: та же функция, что была на Vercel
