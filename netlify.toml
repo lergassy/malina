@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  command = "for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp "$d/index.html" "$d.html"; done"
   functions = "netlify/functions"
 
 # Лента отзывов: та же функция, что была на Vercel
@@ -206,10 +207,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/en"
-  to = "/en/index.html"
-  status = 200
 
 [[redirects]]
   from = "/en/"
@@ -217,10 +214,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/blog"
-  to = "/blog/index.html"
-  status = 200
 
 [[redirects]]
   from = "/blog/"
@@ -228,10 +221,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/en/blog"
-  to = "/en/blog/index.html"
-  status = 200
 
 [[redirects]]
   from = "/en/blog/"
@@ -239,10 +228,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/visa-extension"
-  to = "/visa-extension/index.html"
-  status = 200
 
 [[redirects]]
   from = "/visa-extension/"
@@ -250,10 +235,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/en/visa-extension"
-  to = "/en/visa-extension/index.html"
-  status = 200
 
 [[redirects]]
   from = "/en/visa-extension/"
@@ -261,10 +242,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/vizy-iz-indonezii"
-  to = "/vizy-iz-indonezii/index.html"
-  status = 200
 
 [[redirects]]
   from = "/vizy-iz-indonezii/"
@@ -272,10 +249,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/en/visas-from-indonesia"
-  to = "/en/visas-from-indonesia/index.html"
-  status = 200
 
 [[redirects]]
   from = "/en/visas-from-indonesia/"
@@ -1579,6 +1552,41 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/en.html"
+  to = "/en"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/blog.html"
+  to = "/en/blog"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/visa-extension.html"
+  to = "/visa-extension"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/visa-extension.html"
+  to = "/en/visa-extension"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/vizy-iz-indonezii.html"
+  to = "/vizy-iz-indonezii"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/visas-from-indonesia.html"
+  to = "/en/visas-from-indonesia"
+  status = 301
+  force = true
 [[headers]]
   for = "/*"
   [headers.values]
