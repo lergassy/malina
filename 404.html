@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
 <meta name="yandex-verification" content="cac7f5155e0c6af0" />
-<meta name="build" content="v108-telegram-handle">
+<meta name="build" content="v109-terms-refund">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -252,5 +252,19 @@ body.lang-en main.en{display:block}
     </p>
   </div>
 </main>
+<script>
+/* Защита от пустой страницы: если версии на языке посетителя нет, показываем ту, что есть. */
+(function(){
+  function guard(){
+    var mains = document.querySelectorAll("main");
+    if (!mains.length) return;
+    var visible = false;
+    for (var i=0;i<mains.length;i++){ if (getComputedStyle(mains[i]).display !== "none"){ visible = true; break; } }
+    if (!visible) mains[0].style.setProperty("display","block","important");
+  }
+  guard();
+  document.querySelectorAll(".lang-switch button").forEach(function(b){ b.addEventListener("click", function(){ setTimeout(guard, 0); }); });
+})();
+</script>
 </body>
 </html>

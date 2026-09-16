@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
 <meta name="yandex-verification" content="cac7f5155e0c6af0" />
-<meta name="build" content="v108-telegram-handle">
+<meta name="build" content="v109-terms-refund">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -530,6 +530,9 @@ body.lang-en main.en{display:block}
         <a href="/en/contacts" data-f="contacts">Contacts</a>
         <a href="/en/privacy-policy" data-f="priv">Privacy Policy</a>
         <a href="/en/offer" data-f="offer">Public Offer</a>
+        <a href="/en/terms" data-f="terms">Terms &amp; Conditions</a>
+        <a href="/en/refund-policy" data-f="refund">Refund Policy</a>
+
         <a href="/en/blog" data-f="blog">Blog</a>
         <a href="/en/blog" data-f="blog">Blog</a>
       </div>
@@ -576,11 +579,11 @@ const FOOT = {
   en: { f_calc:"Visa Finder", f_over:"Overstay Calculator", tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
         c1:"Services", c2:"Company", c3:"Contact", business:"Business Services", visas:"Visas", acc:"Accounting", setup:"Company Registration",
         legal:"Legal Services", payment:"Payment Methods", about:"About Us", blog:"Blog", contacts:"Contacts", reviews:"Reviews",
-        contacts:"Contacts", priv:"Privacy Policy", offer:"Public Offer", blog:"Blog", blog:"Blog", addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362", rights:"All rights reserved", chat:"Chat with us" },
+        contacts:"Contacts", priv:"Privacy Policy", offer:"Public Offer", terms:"Terms & Conditions", refund:"Refund Policy", blog:"Blog", blog:"Blog", addr:"Jl. Karang Mas, Jimbaran, South Kuta, Bali 80362", rights:"All rights reserved", chat:"Chat with us" },
   ru: { f_calc:"Подбор визы", f_over:"Калькулятор оверстея", tag:"Визы, бизнес и юридическое сопровождение на Бали и по всей Индонезии — под ключ.",
         c1:"Услуги", c2:"Компания", c3:"Контакты", business:"Бизнес-услуги", visas:"Визы", acc:"Бухгалтерия", setup:"Регистрация компаний",
         legal:"Юридические услуги", payment:"Способы оплаты", about:"О нас", blog:"Блог", contacts:"Контакты", reviews:"Отзывы",
-        contacts:"Контакты", priv:"Политика конфиденциальности", offer:"Публичная оферта", blog:"Блог", blog:"Блог", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
+        contacts:"Контакты", priv:"Политика конфиденциальности", offer:"Публичная оферта", terms:"Условия оказания услуг", refund:"Политика возврата", blog:"Блог", blog:"Блог", addr:"Jl. Karang Mas, Джимбаран, Южная Кута, Бали 80362", rights:"Все права защищены", chat:"Напишите нам" }
 };
 const PAGE_TITLES = {
   ru: "Рабочий КИТАС 2026: как работать легально | Malina Visa",
@@ -664,5 +667,19 @@ applyLang("en");
   var l0=(ru&&getComputedStyle(ru).display!=='none')?'ru':'en';
   window.cmI18n(l0);
 })();</script>
+<script>
+/* Защита от пустой страницы: если версии на языке посетителя нет, показываем ту, что есть. */
+(function(){
+  function guard(){
+    var mains = document.querySelectorAll("main");
+    if (!mains.length) return;
+    var visible = false;
+    for (var i=0;i<mains.length;i++){ if (getComputedStyle(mains[i]).display !== "none"){ visible = true; break; } }
+    if (!visible) mains[0].style.setProperty("display","block","important");
+  }
+  guard();
+  document.querySelectorAll(".lang-switch button").forEach(function(b){ b.addEventListener("click", function(){ setTimeout(guard, 0); }); });
+})();
+</script>
 </body>
 </html>
