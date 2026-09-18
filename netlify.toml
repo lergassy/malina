@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = 'for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp $d/index.html $d.html; done && node scripts/html-to-md.mjs .'
+  command = 'for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp $d/index.html $d.html; done && node scripts/html-to-md.mjs . && node scripts/build-llms-full.mjs .'
   functions = "netlify/functions"
   edge_functions = "netlify/edge-functions"
 
@@ -1546,6 +1546,31 @@
   to = "/en/visas-from-indonesia"
   status = 301
   force = true
+# Агенты и люди угадывают эти адреса — ведём их на существующие страницы
+[[redirects]]
+  from = "/pricing"
+  to = "/price"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/pricing"
+  to = "/en/price"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services.html"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/services.html"
+  to = "/en/services"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]

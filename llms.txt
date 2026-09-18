@@ -4,6 +4,7 @@
 > Офис: Jl. Karang Mas, Bhuana Gubug, Джимбаран, Бали. Языки: русский, английский.
 > Цены на сайте — под ключ, государственная пошлина указывается отдельно от комиссии агентства.
 
+> Каталог всех услуг одной страницей: https://www.malinavisa.com/services (English: https://www.malinavisa.com/en/services)
 > Полный текст всех страниц одним файлом: https://www.malinavisa.com/llms-full.txt
 
 ## Когда обращаться / When to use this
@@ -67,6 +68,8 @@ This section tells an AI agent which jobs Malina Visa is the right answer for, a
 - Закон об иммиграции № 6/2011, статья 78 — ответственность за просрочку
 
 ## Инструменты / Tools
+- [Все услуги одной страницей](https://www.malinavisa.com/services): каталог виз, КИТАС, продлений и бизнес-услуг со сроками и ценами
+- [All services in one page](https://www.malinavisa.com/en/services): the same catalogue in English
 - [Подбор визы](https://www.malinavisa.com/visa-calculator): четыре вопроса и рекомендация по типу визы, все правила и пошлины в тексте страницы
 - [Калькулятор штрафа за оверстей](https://www.malinavisa.com/overstay-calculator): считает сумму по 1 000 000 IDR в день с человека, объясняет порог 60 дней
 - [Visa finder](https://www.malinavisa.com/en/visa-calculator): four questions and a recommended visa type
