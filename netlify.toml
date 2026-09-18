@@ -2,7 +2,6 @@
   publish = "."
   command = 'for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp $d/index.html $d.html; done && node scripts/html-to-md.mjs . && node scripts/build-llms-full.mjs .'
   functions = "netlify/functions"
-  edge_functions = "netlify/edge-functions"
 
 # Лента отзывов: та же функция, что была на Vercel
 [[redirects]]
