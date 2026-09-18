@@ -1,7 +1,8 @@
 [build]
   publish = "."
-  command = 'for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp $d/index.html $d.html; done'
+  command = 'for d in en blog en/blog visa-extension en/visa-extension vizy-iz-indonezii en/visas-from-indonesia; do cp $d/index.html $d.html; done && node scripts/html-to-md.mjs .'
   functions = "netlify/functions"
+  edge_functions = "netlify/edge-functions"
 
 # Лента отзывов: та же функция, что была на Vercel
 [[redirects]]
@@ -1563,3 +1564,12 @@
   for = "/og-banner.jpg"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# Markdown-зеркало для агентов: отдаётся через Accept: text/markdown,
+# поисковикам индексировать его отдельно не нужно.
+[[headers]]
+  for = "/_md/*"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    X-Robots-Tag = "noindex"
+    Vary = "Accept"
