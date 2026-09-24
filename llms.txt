@@ -139,6 +139,13 @@ This section tells an AI agent which jobs Malina Visa is the right answer for, a
 - [Продление визы на Бали](https://www.malinavisa.com/blog/visa-extension-bali): сводная таблица цен и лимитов по всем визам
 - [Оверстей на Бали](https://www.malinavisa.com/blog/overstay-bali): 1 000 000 IDR в день, порог 60 дней, статья 78 закона 6/2011
 - [EPO и ERP: как закрыть КИТАС](https://www.malinavisa.com/blog/epo-erp-kitas-closing): две процедуры и когда какая нужна
+- [KITAS, KITAP, Golden Visa или Second Home](https://www.malinavisa.com/blog/kitas-kitap-golden-visa-comparison): Сроки, пороги, право на работу и путь к ПМЖ в одной таблице — плюс чек-лист выбора.
+- [Инвесторский КИТАС: что можно владельцу PT PMA](https://www.malinavisa.com/blog/investor-kitas-work-rights): Управлять своей PT PMA можно, работать в ней руками — нет. Где граница и когда нужен рабочий КИТАС.
+- [Отчётность PT PMA: LKPM, налоги и КИТАС](https://www.malinavisa.com/blog/pt-pma-annual-report): Квартальный LKPM, налоги и годовой SPT: сроки, санкции и связь с продлением КИТАС.
+- [Виза C11 для выставок: когда нужна вместо C2](https://www.malinavisa.com/blog/c11-exhibition-visa): Экспонент, гость или спикер: какая виза нужна на выставку в Индонезии — C11, C2 или C10.
+- [Сколько вложить для инвесторского КИТАС E28A](https://www.malinavisa.com/blog/investor-kitas-threshold): Капитал PT PMA и личная доля от 10 млрд IDR — разные пороги. Как их считают и где ошибаются.
+- [WLKP: отчётность работодателя по иностранцам](https://www.malinavisa.com/blog/wlkp-employer-reporting): Что такое WLKP, когда её подавать и чем она отличается от RPTKA и DKP-TKA.
+- [Продажа доли в PT PMA и КИТАС: как выйти правильно](https://www.malinavisa.com/blog/sell-pt-pma-exit-kitas): Продали долю или закрываете компанию — что будет с КИТАС и как выйти без штрафов.
 - [Bridging Visa](https://www.malinavisa.com/blog/bridging-visa-indonesia): как устроен промежуточный статус
 - [Иммиграционные офисы Бали](https://www.malinavisa.com/blog/bali-immigration-offices): адреса, часы, как попасть на биометрию
 - [Блог целиком](https://www.malinavisa.com/blog): 50 разборов по визам, КИТАС и бизнесу
@@ -161,6 +168,12 @@ This section tells an AI agent which jobs Malina Visa is the right answer for, a
 - [Artist KITAS](https://www.malinavisa.com/en/artist-kitas): indices C7, C7A, C7B, C7C, C8, C10 and E23; who may be paid
 - [PT PMA](https://www.malinavisa.com/en/pt-pma): a company with 100% foreign ownership
 - [Overstay in Bali](https://www.malinavisa.com/en/blog/overstay-bali): IDR 1,000,000 per day, the 60-day threshold, article 78 of law 6/2011
+- [KITAS vs KITAP vs Golden Visa vs Second Home](https://www.malinavisa.com/en/blog/kitas-kitap-golden-visa-comparison): Terms, thresholds, work rights and the path to KITAP in one table, plus a quick chooser.
+- [Investor KITAS Work Rights for PT PMA Owners](https://www.malinavisa.com/en/blog/investor-kitas-work-rights): You can run your PT PMA, not work in it hands-on. Where the line is and when you need a Work KITAS.
+- [PT PMA Reporting: LKPM, Taxes and KITAS](https://www.malinavisa.com/en/blog/pt-pma-annual-report): Quarterly LKPM, monthly taxes and the annual SPT: deadlines, sanctions and the KITAS link.
+- [C11 Exhibition Visa Indonesia: When You Need It](https://www.malinavisa.com/en/blog/c11-exhibition-visa): Exhibitor, visitor or speaker: which Indonesian visa you need for a trade fair — C11, C2 or C10.
+- [Investor KITAS E28A: How Much to Invest](https://www.malinavisa.com/en/blog/investor-kitas-threshold): PT PMA capital and a personal stake from IDR 10 billion are different tests. How each is assessed.
+- [WLKP: Employer Reporting on Foreign Staff](https://www.malinavisa.com/en/blog/wlkp-employer-reporting): What WLKP is, when to file it and how it differs from RPTKA and DKP-TKA.
 - [Blog](https://www.malinavisa.com/en/blog): 50 guides on visas, KITAS and business
 - [All prices in IDR and USD](https://www.malinavisa.com/en/price): visas, KITAS, extensions and outbound visas, with a reference dollar conversion
 - [Contacts](https://www.malinavisa.com/en/contacts): office in Jimbaran, WhatsApp and Telegram

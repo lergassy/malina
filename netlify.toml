@@ -4,6 +4,44 @@
   functions = "netlify/functions"
   edge_functions = "netlify/edge-functions"
 
+# v114: технические домены Netlify -> основной домен (чтобы копия сайта не попала в поиск)
+[[redirects]]
+  from = "https://malinavisa.netlify.app/*"
+  to = "https://www.malinavisa.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://main--malinavisa.netlify.app/*"
+  to = "https://www.malinavisa.com/:splat"
+  status = 301
+  force = true
+
+# v114: склейка дублей статей (старые версии -> актуальные)
+[[redirects]]
+  from = "/blog/investor-kitas-work-limits"
+  to = "/blog/investor-kitas-work-rights"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/investor-kitas-work-limits"
+  to = "/en/blog/investor-kitas-work-rights"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/long-stay-compare"
+  to = "/blog/kitas-kitap-golden-visa-comparison"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/long-stay-compare"
+  to = "/en/blog/kitas-kitap-golden-visa-comparison"
+  status = 301
+  force = true
+
 # Лента отзывов: та же функция, что была на Vercel
 [[redirects]]
   from = "/api/reviews"
