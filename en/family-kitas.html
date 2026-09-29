@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
 <meta name="yandex-verification" content="cac7f5155e0c6af0" />
-<meta name="build" content="v113-services-hub">
+<meta name="build" content="v117-visas-menu">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -281,6 +281,7 @@ body.lang-en main.en{display:block}
 .tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
 .tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
 @media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
+.nav>a,.nav-drop>button{white-space:nowrap}.nav{gap:18px;font-size:13.5px}@media(max-width:1240px){.nav{gap:12px;font-size:13px}}@media(max-width:1180px){.nav{display:none}.burger{display:flex}}.footer-grid>*{min-width:0}.footer-col a,.footer-col p{overflow-wrap:anywhere}@media(max-width:560px){.footer-grid{grid-template-columns:1fr}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.malinavisa.com/en"}, {"@type": "ListItem", "position": 2, "name": "Visas to Indonesia", "item": "https://www.malinavisa.com/en/visas"}, {"@type": "ListItem", "position": 3, "name": "Family KITAS"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Who can sponsor a Family KITAS?", "acceptedAnswer": {"@type": "Answer", "text": "An Indonesian spouse — for a foreign husband/wife and their children, or a foreigner holding a valid KITAS or KITAP — for their own spouse and children. The sponsor type determines the permit’s duration."}}, {"@type": "Question", "name": "Can I work on a Family KITAS?", "acceptedAnswer": {"@type": "Answer", "text": "No — it does not permit employment. Working requires a Work KITAS through an employer. You can, however, live, open a bank account, get a driving licence and send children to school."}}, {"@type": "Question", "name": "Do I have to leave the country to renew?", "acceptedAnswer": {"@type": "Answer", "text": "No — the annual renewal happens inside Indonesia. Start the process roughly 30 days before the current term expires."}}, {"@type": "Question", "name": "What happens in case of divorce or the sponsor’s death?", "acceptedAnswer": {"@type": "Answer", "text": "The status is tied to the sponsor, so a sponsor change or a switch to another visa type is needed. It is solvable but takes time — reach out early and we’ll plan the transition."}}, {"@type": "Question", "name": "When can I get a KITAP (permanent residence)?", "acceptedAnswer": {"@type": "Answer", "text": "Spouses of Indonesian citizens — typically after 2 years of registered marriage; holders of other KITAS types — usually after 5 years. We’ll map your scenario in a consultation."}}]}</script>
@@ -314,25 +315,39 @@ body.lang-en main.en{display:block}
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div class="drop-menu">
-          <a href="/en/tourist-visa" data-nav="d_tourist">Tourist Visa C1</a>
           <a href="/en/visa-on-arrival" data-nav="d_voa">eVOA · Visa on Arrival</a>
+          <a href="/en/tourist-visa" data-nav="d_tourist">Tourist Visa C1</a>
+          <a href="/en/pre-investment-d12" data-nav="d_d12">Pre-Investment D12 / C12</a>
+          <a href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
+          <a href="/en/visa-comparison" data-nav="d_compare">Compare popular visas</a>
           <a href="/en/business-visa" data-nav="d_business">Business Visa C2</a>
           <a href="/en/multiple-visa" data-nav="d_multiple">Multiple-entry D1 / D2</a>
-          <a href="/en/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
           <a href="/en/c18-visa" data-nav="d_c18">Candidate Visa C18</a>
-          <a href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
           <a href="/en/visa-by-nationality" data-nav="d_bynat">Visa by nationality</a>
-          <a href="/en/visa-extension" data-nav="d_ext">Visa Extension</a>
-          <a href="/en/visa-extension/evoa" class="sub2" data-nav="d_ext_voa">— eVOA extension</a>
-          <a href="/en/visa-extension/tourist-c1" class="sub2" data-nav="d_ext_c1">— C1 / 211A extension</a>
-          <a href="/en/visa-extension/multiple-d1-d2" class="sub2" data-nav="d_ext_d">— D1 / D2 extension</a>
-          <a href="/en/visa-extension/kitas-e33g" class="sub2" data-nav="d_ext_e33g">— E33G KITAS extension</a>
           <a href="/en/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
           <a href="/en/epo" data-nav="d_epo">EPO — closing a KITAS</a>
           <a href="/en/erp" data-nav="d_erp">ERP — closing remotely</a>
           <a href="/en/visas-from-indonesia" data-nav="d_outbound">Visas from Indonesia</a>
           <a href="/en/price" data-nav="d_price">All prices</a>
           <a href="/en/visas" class="drop-all" data-nav="d_all">All visa types →</a>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <button type="button" aria-haspopup="true"><span data-nav="ext">Extensions</span>
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="drop-menu">
+          <a href="/en/visa-extension/evoa" data-nav="e_voa">eVOA extension</a>
+          <a href="/en/visa-extension/tourist-c1" data-nav="e_c1">C1 / 211A extension</a>
+          <a href="/en/visa-extension/business-c2" data-nav="e_c2">C2 extension</a>
+          <a href="/en/visa-extension/multiple-d1-d2" data-nav="e_d">D1 / D2 extension</a>
+          <a href="/en/visa-extension/d12" data-nav="e_d12">D12 extension</a>
+          <a href="/en/visa-extension/kitas-e33g" data-nav="e_e33g">E33G KITAS extension</a>
+          <a href="/en/visa-extension/work-kitas" data-nav="e_work">Work KITAS extension</a>
+          <a href="/en/visa-extension/investor-kitas" data-nav="e_inv">Investor KITAS extension</a>
+          <a href="/en/visa-extension/retirement-kitas" data-nav="e_ret">Retirement KITAS extension</a>
+          <a href="/en/visa-extension/family-kitas" data-nav="e_fam">Family KITAS extension</a>
+          <a href="/en/visa-extension" class="drop-all" data-nav="e_all">All extensions →</a>
         </div>
       </div>
       <div class="nav-drop">
@@ -382,25 +397,31 @@ body.lang-en main.en{display:block}
   <a class="sub" href="/en/accounting" data-nav="acc">Accounting</a>
   <a class="sub" href="/en/company-closure" data-nav="b_close">Company Closure</a>
   <a href="/en/visas" data-nav="visas">Visas</a>
-  <a class="sub" href="/en/tourist-visa" data-nav="d_tourist">Tourist Visa C1</a>
   <a class="sub" href="/en/visa-on-arrival" data-nav="d_voa">eVOA · Visa on Arrival</a>
+  <a class="sub" href="/en/tourist-visa" data-nav="d_tourist">Tourist Visa C1</a>
+  <a class="sub" href="/en/pre-investment-d12" data-nav="d_d12">Pre-Investment D12 / C12</a>
+  <a class="sub" href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
+  <a class="sub" href="/en/visa-comparison" data-nav="d_compare">Compare popular visas</a>
   <a class="sub" href="/en/business-visa" data-nav="d_business">Business Visa C2</a>
   <a class="sub" href="/en/multiple-visa" data-nav="d_multiple">Multiple-entry D1 / D2</a>
-  <a class="sub" href="/en/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="/en/c18-visa" data-nav="d_c18">Candidate Visa C18</a>
-  <a class="sub" href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
   <a class="sub" href="/en/visa-by-nationality" data-nav="d_bynat">Visa by nationality</a>
-  <a class="sub" href="/en/visa-extension" data-nav="d_ext">Visa Extension</a>
-  <a class="sub" href="/en/visa-extension/evoa" data-nav="d_ext_voa">— eVOA extension</a>
-  <a class="sub" href="/en/visa-extension/tourist-c1" data-nav="d_ext_c1">— C1 / 211A extension</a>
-  <a class="sub" href="/en/visa-extension/multiple-d1-d2" data-nav="d_ext_d">— D1 / D2 extension</a>
-  <a class="sub" href="/en/visa-extension/kitas-e33g" data-nav="d_ext_e33g">— E33G KITAS extension</a>
   <a class="sub" href="/en/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
   <a class="sub" href="/en/epo" data-nav="d_epo">EPO — closing a KITAS</a>
   <a class="sub" href="/en/erp" data-nav="d_erp">ERP — closing remotely</a>
   <a class="sub" href="/en/visas-from-indonesia" data-nav="d_outbound">Visas from Indonesia</a>
   <a class="sub" href="/en/price" data-nav="d_price">All prices</a>
-  
+  <a href="/en/visa-extension" data-nav="ext">Extensions</a>
+  <a class="sub" href="/en/visa-extension/evoa" data-nav="e_voa">eVOA extension</a>
+  <a class="sub" href="/en/visa-extension/tourist-c1" data-nav="e_c1">C1 / 211A extension</a>
+  <a class="sub" href="/en/visa-extension/business-c2" data-nav="e_c2">C2 extension</a>
+  <a class="sub" href="/en/visa-extension/multiple-d1-d2" data-nav="e_d">D1 / D2 extension</a>
+  <a class="sub" href="/en/visa-extension/d12" data-nav="e_d12">D12 extension</a>
+  <a class="sub" href="/en/visa-extension/kitas-e33g" data-nav="e_e33g">E33G KITAS extension</a>
+  <a class="sub" href="/en/visa-extension/work-kitas" data-nav="e_work">Work KITAS extension</a>
+  <a class="sub" href="/en/visa-extension/investor-kitas" data-nav="e_inv">Investor KITAS extension</a>
+  <a class="sub" href="/en/visa-extension/retirement-kitas" data-nav="e_ret">Retirement KITAS extension</a>
+  <a class="sub" href="/en/visa-extension/family-kitas" data-nav="e_fam">Family KITAS extension</a>
   <a href="/en/kitas-kitap" data-nav="kitas">KITAS &amp; Residence</a>
   <a class="sub" href="/en/remote-worker-kitas" data-nav="d_e33g">Remote Worker E33G</a>
   <a class="sub" href="/en/work-kitas" data-nav="d_work">Work KITAS E23</a>
@@ -537,12 +558,12 @@ body.lang-en main.en{display:block}
 const NAV = {
   en: { calc:"Calculators", c_visa:"Visa Finder", c_over:"Overstay Calculator", business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", kitas:"KITAS & Residence", d_bynat:"Visa by nationality", d_outbound:"Visas from Indonesia", d_investor:"Investor KITAS E28A", d_retire:"Retirement KITAS E33F", d_silver:"Silver Hair E33E", d_second:"Second Home E33", d_artist:"Artist KITAS", d_kitap:"KITAP — permanent residence", about:"About Us", blog:"Blog", contacts:"Contacts",
         d_tourist:"Tourist Visa C1", d_voa:"eVOA · Visa on Arrival", d_business:"Business Visa C2",
-        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
-        d_ext:"Visa Extension", d_ext_voa:"— eVOA extension", d_ext_c1:"— C1 / 211A extension", d_ext_d:"— D1 / D2 extension", d_ext_e33g:"— E33G KITAS extension", d_bridge:"Bridging Visa", d_epo:"EPO — closing a KITAS", d_erp:"ERP — closing remotely", d_kitas:"Compare all KITAS →", d_family:"Family KITAS E31", d_work:"Work KITAS E23", d_price:"All prices", d_all:"All visa types →" },
+        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12 / C12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
+        d_ext:"Visa Extension", d_ext_voa:"— eVOA extension", d_ext_c1:"— C1 / 211A extension", d_ext_d:"— D1 / D2 extension", d_ext_e33g:"— E33G KITAS extension", d_bridge:"Bridging Visa", d_epo:"EPO — closing a KITAS", d_erp:"ERP — closing remotely", d_kitas:"Compare all KITAS →", d_family:"Family KITAS E31", d_work:"Work KITAS E23", d_price:"All prices", d_all:"All visa types →", d_compare:"Compare popular visas", ext:"Extensions", e_voa:"eVOA extension", e_c1:"C1 / 211A extension", e_c2:"C2 extension", e_d:"D1 / D2 extension", e_d12:"D12 extension", e_e33g:"E33G KITAS extension", e_work:"Work KITAS extension", e_inv:"Investor KITAS extension", e_ret:"Retirement KITAS extension", e_fam:"Family KITAS extension", e_all:"All extensions →" },
   ru: { calc:"Калькуляторы", c_visa:"Подбор визы", c_over:"Калькулятор оверстея", business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", kitas:"КИТАС и ВНЖ", d_bynat:"Виза по гражданству", d_outbound:"Визы в другие страны", d_investor:"Инвесторский КИТАС E28A", d_retire:"Пенсионный КИТАС E33F", d_silver:"Silver Hair E33E", d_second:"Second Home E33", d_artist:"КИТАС артиста", d_kitap:"KITAP — ВНЖ", about:"О нас", blog:"Блог", contacts:"Контакты",
         d_tourist:"Туристическая виза C1", d_voa:"eVOA — виза по прибытии", d_business:"Бизнес-виза C2",
-        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
-        d_ext:"Продление визы", d_ext_voa:"— продление eVOA", d_ext_c1:"— продление C1 / 211A", d_ext_d:"— продление D1 / D2", d_ext_e33g:"— продление КИТАС E33G", d_bridge:"Bridging Visa", d_epo:"EPO — закрытие КИТАС", d_erp:"ERP — закрытие дистанционно", d_kitas:"Сравнить все КИТАС →", d_family:"Семейный КИТАС E31", d_work:"Рабочий КИТАС E23", d_price:"Цены на всё", d_all:"Все типы виз →" }
+        d_multiple:"Многократная D1 / D2", d_d12:"Прединвестиционная D12 / C12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
+        d_ext:"Продление визы", d_ext_voa:"— продление eVOA", d_ext_c1:"— продление C1 / 211A", d_ext_d:"— продление D1 / D2", d_ext_e33g:"— продление КИТАС E33G", d_bridge:"Bridging Visa", d_epo:"EPO — закрытие КИТАС", d_erp:"ERP — закрытие дистанционно", d_kitas:"Сравнить все КИТАС →", d_family:"Семейный КИТАС E31", d_work:"Рабочий КИТАС E23", d_price:"Цены на всё", d_all:"Все типы виз →", d_compare:"Сравнение популярных виз", ext:"Продление", e_voa:"Продление eVOA", e_c1:"Продление C1 / 211A", e_c2:"Продление C2", e_d:"Продление D1 / D2", e_d12:"Продление D12", e_e33g:"Продление КИТАС E33G", e_work:"Продление рабочего КИТАС", e_inv:"Продление инвесторского КИТАС", e_ret:"Продление пенсионного КИТАС", e_fam:"Продление семейного КИТАС", e_all:"Все продления →" }
 };
 const FOOT = {
   en: { f_services:"All services", f_calc:"Visa Finder", f_over:"Overstay Calculator", tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
