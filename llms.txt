@@ -83,7 +83,8 @@ This section tells an AI agent which jobs Malina Visa is the right answer for, a
 - [Туристическая виза C1](https://www.malinavisa.com/tourist-visa): 60 дней, продление дважды по 60, до 180 дней суммарно
 - [Бизнес-виза C2](https://www.malinavisa.com/business-visa): 60 дней для встреч и переговоров, работать нельзя
 - [Многократные визы D1/D2](https://www.malinavisa.com/multiple-visa): 1–2 года, до 180 дней за визит, выезд визу не гасит
-- [Виза D12 Pre-Investment](https://www.malinavisa.com/pre-investment-d12): 180 дней за визит на подготовку бизнеса, продление ещё на 180
+- [Прединвестиционные визы D12 и C12](https://www.malinavisa.com/pre-investment-d12): D12 — мультивъезд на 1–2 года, 180 дней при каждом въезде, от 7 500 000 IDR; C12 — один въезд на 180 дней, от 6 800 000 IDR
+- [Сравнение популярных виз](https://www.malinavisa.com/visa-comparison): eVOA, C1, D1, D12/C12, КИТАС E33G в одной таблице с ценами; маршрут eVOA → Bridging Visa → КИТАС
 - [Виза кандидата C18](https://www.malinavisa.com/c18-visa): мост к рабочему КИТАС, конвертация без вылета
 - [Виза по гражданству](https://www.malinavisa.com/visa-po-grazhdanstvu): что доступно вашему паспорту: безвиз, eVOA или виза заранее
 
@@ -174,6 +175,8 @@ This section tells an AI agent which jobs Malina Visa is the right answer for, a
 - [C11 Exhibition Visa Indonesia: When You Need It](https://www.malinavisa.com/en/blog/c11-exhibition-visa): Exhibitor, visitor or speaker: which Indonesian visa you need for a trade fair — C11, C2 or C10.
 - [Investor KITAS E28A: How Much to Invest](https://www.malinavisa.com/en/blog/investor-kitas-threshold): PT PMA capital and a personal stake from IDR 10 billion are different tests. How each is assessed.
 - [WLKP: Employer Reporting on Foreign Staff](https://www.malinavisa.com/en/blog/wlkp-employer-reporting): What WLKP is, when to file it and how it differs from RPTKA and DKP-TKA.
+- [Popular visas compared](https://www.malinavisa.com/en/visa-comparison): eVOA, C1, D1, D12/C12 and E33G KITAS side by side with prices
+- [Pre-investment visas D12 and C12](https://www.malinavisa.com/en/pre-investment-d12): D12 multiple entry 1–2 years, 180 days per entry; C12 single entry, 180 days, from IDR 6,800,000
 - [Blog](https://www.malinavisa.com/en/blog): 50 guides on visas, KITAS and business
 - [All prices in IDR and USD](https://www.malinavisa.com/en/price): visas, KITAS, extensions and outbound visas, with a reference dollar conversion
 - [Contacts](https://www.malinavisa.com/en/contacts): office in Jimbaran, WhatsApp and Telegram

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="kzPZ5XG7AG7yS6NjGnndTCnl_QdIn2D48G4BSGYeYRg" />
 <meta name="yandex-verification" content="cac7f5155e0c6af0" />
-<meta name="build" content="v113-services-hub">
+<meta name="build" content="v117-visas-menu">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
@@ -281,6 +281,7 @@ body.lang-en main.en{display:block}
 .tbl tr.hl td:first-child{color:var(--sand);font-weight:600;box-shadow:inset 2px 0 0 var(--gold)}
 .tbl-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.55}
 @media(max-width:720px){.tbl{font-size:13.5px}.tbl th,.tbl td{padding:11px 14px}}
+.nav>a,.nav-drop>button{white-space:nowrap}.nav{gap:18px;font-size:13.5px}@media(max-width:1240px){.nav{gap:12px;font-size:13px}}@media(max-width:1180px){.nav{display:none}.burger{display:flex}}.footer-grid>*{min-width:0}.footer-col a,.footer-col p{overflow-wrap:anywhere}@media(max-width:560px){.footer-grid{grid-template-columns:1fr}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://www.malinavisa.com/"}, {"@type": "ListItem", "position": 2, "name": "Визы в Индонезию", "item": "https://www.malinavisa.com/visas"}, {"@type": "ListItem", "position": 3, "name": "Многократная D1 / D2"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем D1 отличается от D2?", "acceptedAnswer": {"@type": "Answer", "text": "Только целью: D1 — туризм и личные поездки, D2 — деловая активность (встречи, переговоры, конференции). Механика сроков одинаковая."}}, {"@type": "Question", "name": "Что происходит со сроком при выезде?", "acceptedAnswer": {"@type": "Answer", "text": "Счётчик сбрасывается: следующий прилёт открывает новые 60 дней. Продления действуют внутри одного визита."}}, {"@type": "Question", "name": "Можно ли просидеть в стране весь срок визы без выезда?", "acceptedAnswer": {"@type": "Answer", "text": "Нет — за один визит максимум 180 дней (60 + два продления). Дальше нужно выехать; вернуться можно хоть на следующий день, пока действует виза."}}, {"@type": "Question", "name": "Кому выгоднее D1/D2, а кому C1?", "acceptedAnswer": {"@type": "Answer", "text": "Если вы летаете в Индонезию несколько раз в год — многократная избавит от оформления визы под каждую поездку. Если план — один длинный визит без выездов, достаточно C1."}}]}</script>
@@ -314,25 +315,39 @@ body.lang-en main.en{display:block}
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div class="drop-menu">
-          <a href="/tourist-visa" data-nav="d_tourist">Туристическая виза C1</a>
           <a href="/visa-on-arrival" data-nav="d_voa">eVOA — виза по прибытии</a>
+          <a href="/tourist-visa" data-nav="d_tourist">Туристическая виза C1</a>
+          <a href="/pre-investment-d12" data-nav="d_d12">Прединвестиционная D12 / C12</a>
+          <a href="/remote-worker-kitas" data-nav="d_e33g">КИТАС удалёнщика E33G</a>
+          <a href="/visa-comparison" data-nav="d_compare">Сравнение популярных виз</a>
           <a href="/business-visa" data-nav="d_business">Бизнес-виза C2</a>
           <a href="/multiple-visa" data-nav="d_multiple">Многократная D1 / D2</a>
-          <a href="/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
           <a href="/c18-visa" data-nav="d_c18">Виза кандидата C18</a>
-          <a href="/remote-worker-kitas" data-nav="d_e33g">КИТАС удалёнщика E33G</a>
           <a href="/visa-po-grazhdanstvu" data-nav="d_bynat">Виза по гражданству</a>
-          <a href="/visa-extension" data-nav="d_ext">Продление визы</a>
-          <a href="/visa-extension/evoa" class="sub2" data-nav="d_ext_voa">— продление eVOA</a>
-          <a href="/visa-extension/tourist-c1" class="sub2" data-nav="d_ext_c1">— продление C1 / 211A</a>
-          <a href="/visa-extension/multiple-d1-d2" class="sub2" data-nav="d_ext_d">— продление D1 / D2</a>
-          <a href="/visa-extension/kitas-e33g" class="sub2" data-nav="d_ext_e33g">— продление КИТАС E33G</a>
           <a href="/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
           <a href="/epo" data-nav="d_epo">EPO — закрытие КИТАС</a>
           <a href="/erp" data-nav="d_erp">ERP — закрытие дистанционно</a>
           <a href="/vizy-iz-indonezii" data-nav="d_outbound">Визы в другие страны</a>
           <a href="/price" data-nav="d_price">Цены на всё</a>
           <a href="/visas" class="drop-all" data-nav="d_all">Все типы виз →</a>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <button type="button" aria-haspopup="true"><span data-nav="ext">Продление</span>
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="m3 6 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="drop-menu">
+          <a href="/visa-extension/evoa" data-nav="e_voa">Продление eVOA</a>
+          <a href="/visa-extension/tourist-c1" data-nav="e_c1">Продление C1 / 211A</a>
+          <a href="/visa-extension/business-c2" data-nav="e_c2">Продление C2</a>
+          <a href="/visa-extension/multiple-d1-d2" data-nav="e_d">Продление D1 / D2</a>
+          <a href="/visa-extension/d12" data-nav="e_d12">Продление D12</a>
+          <a href="/visa-extension/kitas-e33g" data-nav="e_e33g">Продление КИТАС E33G</a>
+          <a href="/visa-extension/work-kitas" data-nav="e_work">Продление рабочего КИТАС</a>
+          <a href="/visa-extension/investor-kitas" data-nav="e_inv">Продление инвесторского КИТАС</a>
+          <a href="/visa-extension/retirement-kitas" data-nav="e_ret">Продление пенсионного КИТАС</a>
+          <a href="/visa-extension/family-kitas" data-nav="e_fam">Продление семейного КИТАС</a>
+          <a href="/visa-extension" class="drop-all" data-nav="e_all">Все продления →</a>
         </div>
       </div>
       <div class="nav-drop">
@@ -382,25 +397,31 @@ body.lang-en main.en{display:block}
   <a class="sub" href="/accounting" data-nav="acc">Бухгалтерия</a>
   <a class="sub" href="/company-closure" data-nav="b_close">Закрытие компании</a>
   <a href="/visas" data-nav="visas">Визы</a>
-  <a class="sub" href="/tourist-visa" data-nav="d_tourist">Туристическая виза C1</a>
   <a class="sub" href="/visa-on-arrival" data-nav="d_voa">eVOA — виза по прибытии</a>
+  <a class="sub" href="/tourist-visa" data-nav="d_tourist">Туристическая виза C1</a>
+  <a class="sub" href="/pre-investment-d12" data-nav="d_d12">Прединвестиционная D12 / C12</a>
+  <a class="sub" href="/remote-worker-kitas" data-nav="d_e33g">КИТАС удалёнщика E33G</a>
+  <a class="sub" href="/visa-comparison" data-nav="d_compare">Сравнение популярных виз</a>
   <a class="sub" href="/business-visa" data-nav="d_business">Бизнес-виза C2</a>
   <a class="sub" href="/multiple-visa" data-nav="d_multiple">Многократная D1 / D2</a>
-  <a class="sub" href="/pre-investment-d12" data-nav="d_d12">Pre-Investment D12</a>
   <a class="sub" href="/c18-visa" data-nav="d_c18">Виза кандидата C18</a>
-  <a class="sub" href="/remote-worker-kitas" data-nav="d_e33g">КИТАС удалёнщика E33G</a>
   <a class="sub" href="/visa-po-grazhdanstvu" data-nav="d_bynat">Виза по гражданству</a>
-  <a class="sub" href="/visa-extension" data-nav="d_ext">Продление визы</a>
-  <a class="sub" href="/visa-extension/evoa" data-nav="d_ext_voa">— продление eVOA</a>
-  <a class="sub" href="/visa-extension/tourist-c1" data-nav="d_ext_c1">— продление C1 / 211A</a>
-  <a class="sub" href="/visa-extension/multiple-d1-d2" data-nav="d_ext_d">— продление D1 / D2</a>
-  <a class="sub" href="/visa-extension/kitas-e33g" data-nav="d_ext_e33g">— продление КИТАС E33G</a>
   <a class="sub" href="/bridging-visa" data-nav="d_bridge">Bridging Visa</a>
   <a class="sub" href="/epo" data-nav="d_epo">EPO — закрытие КИТАС</a>
   <a class="sub" href="/erp" data-nav="d_erp">ERP — закрытие дистанционно</a>
   <a class="sub" href="/vizy-iz-indonezii" data-nav="d_outbound">Визы в другие страны</a>
   <a class="sub" href="/price" data-nav="d_price">Цены на всё</a>
-  
+  <a href="/visa-extension" data-nav="ext">Продление</a>
+  <a class="sub" href="/visa-extension/evoa" data-nav="e_voa">Продление eVOA</a>
+  <a class="sub" href="/visa-extension/tourist-c1" data-nav="e_c1">Продление C1 / 211A</a>
+  <a class="sub" href="/visa-extension/business-c2" data-nav="e_c2">Продление C2</a>
+  <a class="sub" href="/visa-extension/multiple-d1-d2" data-nav="e_d">Продление D1 / D2</a>
+  <a class="sub" href="/visa-extension/d12" data-nav="e_d12">Продление D12</a>
+  <a class="sub" href="/visa-extension/kitas-e33g" data-nav="e_e33g">Продление КИТАС E33G</a>
+  <a class="sub" href="/visa-extension/work-kitas" data-nav="e_work">Продление рабочего КИТАС</a>
+  <a class="sub" href="/visa-extension/investor-kitas" data-nav="e_inv">Продление инвесторского КИТАС</a>
+  <a class="sub" href="/visa-extension/retirement-kitas" data-nav="e_ret">Продление пенсионного КИТАС</a>
+  <a class="sub" href="/visa-extension/family-kitas" data-nav="e_fam">Продление семейного КИТАС</a>
   <a href="/kitas-kitap" data-nav="kitas">КИТАС и ВНЖ</a>
   <a class="sub" href="/remote-worker-kitas" data-nav="d_e33g">КИТАС удалёнщика E33G</a>
   <a class="sub" href="/work-kitas" data-nav="d_work">Рабочий КИТАС E23</a>
@@ -437,10 +458,10 @@ body.lang-en main.en{display:block}
     <div class="section-block"><h2>Стоимость и сроки</h2>
 <h3 style="margin:6px 0 14px;font-size:19px">D1 — туристическая</h3>
 <div class="price-grid"><div class="price-card"><div class="p-name">Пакет Minimal · 1 год</div><div class="p-sum">5 000 000 IDR</div><div class="p-term">Срок оформления — 10 рабочих дней</div><ul><li>Все налоги и сборы включены</li><li>Спонсорство компании</li><li>Электронная виза (e-Visa)</li><li>Подготовка и подача всех документов</li></ul></div><div class="price-card featured"><div class="p-name">Пакет Regular · 1 год</div><div class="p-sum">6 500 000 IDR</div><div class="p-term">Срок оформления — 5–6 рабочих дней</div><ul><li>Все налоги и сборы включены</li><li>Спонсорство компании</li><li>Электронная виза (e-Visa)</li><li>Подготовка и подача всех документов</li></ul></div></div>
-<p style="margin-top:14px;color:var(--muted)">Виза на 2 года: Minimal — 9 000 000 IDR, Regular — 11 000 000 IDR.</p>
+<p style="margin-top:14px;color:var(--muted)">Виза на 2 года: Minimal — 9 000 000 IDR, Regular — 10 500 000 IDR.</p>
 <h3 style="margin:26px 0 14px;font-size:19px">D2 — бизнес</h3>
 <div class="price-grid"><div class="price-card"><div class="p-name">Пакет Minimal · 1 год</div><div class="p-sum">5 500 000 IDR</div><div class="p-term">Срок оформления — до 10 рабочих дней</div><ul><li>Все налоги и сборы включены</li><li>Спонсорство компании</li><li>Электронная виза (e-Visa)</li><li>Подготовка и подача всех документов</li></ul></div><div class="price-card featured"><div class="p-name">Пакет Regular · 1 год</div><div class="p-sum">7 000 000 IDR</div><div class="p-term">Срок оформления — 5–6 рабочих дней</div><ul><li>Все налоги и сборы включены</li><li>Спонсорство компании</li><li>Электронная виза (e-Visa)</li><li>Подготовка и подача всех документов</li></ul></div></div>
-<p style="margin-top:14px;color:var(--muted)">Виза на 2 года: Minimal — 9 000 000 IDR, Regular — 11 000 000 IDR.</p>
+<p style="margin-top:14px;color:var(--muted)">Виза на 2 года: Minimal — 9 000 000 IDR, Regular — 10 500 000 IDR.</p>
 <div class="note" style="margin-top:22px"><b>Продление на месте (60 дней):</b> 2 600 000 IDR при заявке за 6+ рабочих дней до конца срока; 3 100 000 IDR — менее чем за 6 дней. Bali Levy (туристический сбор) оплачивается отдельно.</div>
 </div>
     <div class="section-block"><h2>Как проходит оформление</h2><div class="steps">
@@ -544,12 +565,12 @@ body.lang-en main.en{display:block}
 const NAV = {
   en: { calc:"Calculators", c_visa:"Visa Finder", c_over:"Overstay Calculator", business:"Business Services", acc:"Accounting", b_setup:"Company Registration", b_pma:"PT PMA Company", b_local:"Local PT (PMDN)", b_close:"Company Closure", b_all:"All business services →", legal:"Legal Services", visas:"Visas", kitas:"KITAS & Residence", d_bynat:"Visa by nationality", d_outbound:"Visas from Indonesia", d_investor:"Investor KITAS E28A", d_retire:"Retirement KITAS E33F", d_silver:"Silver Hair E33E", d_second:"Second Home E33", d_artist:"Artist KITAS", d_kitap:"KITAP — permanent residence", about:"About Us", blog:"Blog", contacts:"Contacts",
         d_tourist:"Tourist Visa C1", d_voa:"eVOA · Visa on Arrival", d_business:"Business Visa C2",
-        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
-        d_ext:"Visa Extension", d_ext_voa:"— eVOA extension", d_ext_c1:"— C1 / 211A extension", d_ext_d:"— D1 / D2 extension", d_ext_e33g:"— E33G KITAS extension", d_bridge:"Bridging Visa", d_epo:"EPO — closing a KITAS", d_erp:"ERP — closing remotely", d_kitas:"Compare all KITAS →", d_family:"Family KITAS E31", d_work:"Work KITAS E23", d_price:"All prices", d_all:"All visa types →" },
+        d_multiple:"Multiple-entry D1 / D2", d_d12:"Pre-Investment D12 / C12", d_c18:"Candidate Visa C18", d_e33g:"Remote Worker E33G",
+        d_ext:"Visa Extension", d_ext_voa:"— eVOA extension", d_ext_c1:"— C1 / 211A extension", d_ext_d:"— D1 / D2 extension", d_ext_e33g:"— E33G KITAS extension", d_bridge:"Bridging Visa", d_epo:"EPO — closing a KITAS", d_erp:"ERP — closing remotely", d_kitas:"Compare all KITAS →", d_family:"Family KITAS E31", d_work:"Work KITAS E23", d_price:"All prices", d_all:"All visa types →", d_compare:"Compare popular visas", ext:"Extensions", e_voa:"eVOA extension", e_c1:"C1 / 211A extension", e_c2:"C2 extension", e_d:"D1 / D2 extension", e_d12:"D12 extension", e_e33g:"E33G KITAS extension", e_work:"Work KITAS extension", e_inv:"Investor KITAS extension", e_ret:"Retirement KITAS extension", e_fam:"Family KITAS extension", e_all:"All extensions →" },
   ru: { calc:"Калькуляторы", c_visa:"Подбор визы", c_over:"Калькулятор оверстея", business:"Бизнес-услуги", acc:"Бухгалтерия", b_setup:"Регистрация компаний", b_pma:"Компания PT PMA", b_local:"Local PT (PMDN)", b_close:"Закрытие компании", b_all:"Все бизнес-услуги →", legal:"Юридические услуги", visas:"Визы", kitas:"КИТАС и ВНЖ", d_bynat:"Виза по гражданству", d_outbound:"Визы в другие страны", d_investor:"Инвесторский КИТАС E28A", d_retire:"Пенсионный КИТАС E33F", d_silver:"Silver Hair E33E", d_second:"Second Home E33", d_artist:"КИТАС артиста", d_kitap:"KITAP — ВНЖ", about:"О нас", blog:"Блог", contacts:"Контакты",
         d_tourist:"Туристическая виза C1", d_voa:"eVOA — виза по прибытии", d_business:"Бизнес-виза C2",
-        d_multiple:"Многократная D1 / D2", d_d12:"Pre-Investment D12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
-        d_ext:"Продление визы", d_ext_voa:"— продление eVOA", d_ext_c1:"— продление C1 / 211A", d_ext_d:"— продление D1 / D2", d_ext_e33g:"— продление КИТАС E33G", d_bridge:"Bridging Visa", d_epo:"EPO — закрытие КИТАС", d_erp:"ERP — закрытие дистанционно", d_kitas:"Сравнить все КИТАС →", d_family:"Семейный КИТАС E31", d_work:"Рабочий КИТАС E23", d_price:"Цены на всё", d_all:"Все типы виз →" }
+        d_multiple:"Многократная D1 / D2", d_d12:"Прединвестиционная D12 / C12", d_c18:"Виза кандидата C18", d_e33g:"КИТАС удалёнщика E33G",
+        d_ext:"Продление визы", d_ext_voa:"— продление eVOA", d_ext_c1:"— продление C1 / 211A", d_ext_d:"— продление D1 / D2", d_ext_e33g:"— продление КИТАС E33G", d_bridge:"Bridging Visa", d_epo:"EPO — закрытие КИТАС", d_erp:"ERP — закрытие дистанционно", d_kitas:"Сравнить все КИТАС →", d_family:"Семейный КИТАС E31", d_work:"Рабочий КИТАС E23", d_price:"Цены на всё", d_all:"Все типы виз →", d_compare:"Сравнение популярных виз", ext:"Продление", e_voa:"Продление eVOA", e_c1:"Продление C1 / 211A", e_c2:"Продление C2", e_d:"Продление D1 / D2", e_d12:"Продление D12", e_e33g:"Продление КИТАС E33G", e_work:"Продление рабочего КИТАС", e_inv:"Продление инвесторского КИТАС", e_ret:"Продление пенсионного КИТАС", e_fam:"Продление семейного КИТАС", e_all:"Все продления →" }
 };
 const FOOT = {
   en: { f_services:"All services", f_calc:"Visa Finder", f_over:"Overstay Calculator", tag:"Visas, business and legal support in Bali and across Indonesia — handled end to end.",
